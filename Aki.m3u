@@ -5,7 +5,7 @@
 
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 
-#EXTINF:-1 tvg-id="0-9-aajtak" group-title="NXTT " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
+#EXTINF:-1 tvg-id="0-9-aajtak" group-title="NXT " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://ze5.vodep39240327.workers.dev/channel/Aaj%20Tak.m3u8
 
@@ -595,10 +595,749 @@ https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1335|Origin="https://www.
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1406|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
 
-#EXTINF:-1 tvg-id="156" tvg-name="Star Gold HD" tvg-language="Unknown" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png" group-title="JMovies" group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw", Star Gold HD
+
+#EXTINF:-1 group-title="News" tvg-id="0-9-aajtak"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aaj%20Tak.m3u8
+
+#EXTINF:-1 group-title="News" tvg-id="0-9-zeenews"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_News.png",Zee News
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20News.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-indiatoday"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/India_Today.png",India Today
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/India%20Today.m3u8
+
+#EXTINF:-1 group-title="News" tvg-id="0-9-255"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Good News_Today.png",Good News Today
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Good%20News%20Today.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5543514"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Prive_HD.png",&Prive HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/&Prive%20HD.m3u8
+
+#EXTINF:-1 group-title="Punjabi" tvg-id="0-9-zeepunjabharyanahima"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Punjab_Haryana_Himachal_Pradesh.png",Zee Punjab Haryana Himachal Pradesh
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Punjab%20Haryana%20Himachal%20Pradesh.m3u8
+
+#EXTINF:-1 group-title="News" tvg-id="0-9-zeebusiness"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Business.png",Zee Business
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Business.m3u8
+
+#EXTINF:-1 group-title="Gujarati" tvg-id="0-9-zee24kalak"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_24_Kalak.png",Zee 24 Kalak
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%2024%20Kalak.m3u8
+
+#EXTINF:-1 group-title="Marathi" tvg-id="0-9-zee24taas"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_24_Taas.png",Zee 24 Taas
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%2024%20Taas.m3u8
+
+#EXTINF:-1 group-title="News" tvg-id="0-9-wion"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/WION.png",WION
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/WION.m3u8
+
+#EXTINF:-1 group-title="News" tvg-id="0-9-zeehindustan"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bharat.png",Zee Bharat
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Bharat.m3u8
+
+#EXTINF:-1 group-title="Hindi" tvg-id="0-9-zeebiharjharkhand"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bihar_Jharkhand.png",Zee Bihar Jharkhand
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Bihar%20Jharkhand.m3u8
+
+#EXTINF:-1 group-title="Bengali" tvg-id="0-9-24ghantatv"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/24_Ghanta_TV.png",Zee 24 Ghanta
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%2024%20Ghanta.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeekalinganews"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Delhi_NCR_Haryana.png",Zee Delhi NCR
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36 Haryana
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Delhi%20NCR%20Haryana.m3u8
+
+#EXTINF:-1 group-title="Hindi" tvg-id="0-9-zeerajasthannews"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Rajasthan_News.png",Zee Rajasthan News
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Rajasthan%20News.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeemadhyapradeshchat"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Madhya_Pradesh_Chhattisgarh.png",Zee Madhya Pradesh Chhattisgarh
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Madhya%20Pradesh%20Chhattisgarh.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-id="0-9-bigmagic_1786965389"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Big_Magic.png",Big Magic
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Big%20Magic.m3u8
+
+#EXTINF:-1 group-title="Music" tvg-id="0-9-zing"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zing.png",Zing
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zing.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-id="0-9-zeetvhd"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV_HD.png",Zee TV HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20TV%20HD.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-tvhd_0"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_TV_HD.png",&TV HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/&TV%20HD.m3u8
+
+#EXTINF:-1 group-title="Marathi" tvg-id="0-9-zeemarathi"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Marathi_HD.png",Zee Marathi HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Marathi%20HD.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeeyuva"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Yuva.png",Zee Yuva
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Yuva.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeecafehd"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cafe_HD.png",Zee CafÃ© HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20CafC3A9%20HD.m3u8
+
+#EXTINF:-1 group-title="Hindi" tvg-id="0-9-bigganga"  tvg-logo="https://akamaividz2.zee5.com/image/upload/w_1755,h_987,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/list_clean/1170x658b1a857ea78b747b4a6256dd13b3828fd.png",Zee Anmol Cinema 2
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Anmol%20Cinema%202.m3u8
+
+#EXTINF:-1 group-title="Tamil" tvg-id="0-9-zeetamil"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil_HD.png",Zee Tamil HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Tamil%20HD.m3u8
+
+#EXTINF:-1 group-title="Telugu" tvg-id="0-9-zeetelugu"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Telugu_HD.png",Zee Telugu HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Telugu%20HD.m3u8
+
+#EXTINF:-1 group-title="Kannada" tvg-id="0-9-zeekannada"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kannada_HD.png",Zee Kannada HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Kannada%20HD.m3u8
+
+#EXTINF:-1 group-title="Malayalam" tvg-id="0-9-129"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Keralam_HD.png",Zee Keralam HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Keralam%20HD.m3u8
+
+#EXTINF:-1 group-title="Bengali" tvg-id="0-9-zeebangla"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla_HD.png",Zee Bangla HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Bangla%20HD.m3u8
+
+#EXTINF:-1 group-title="Entertainment" tvg-id="0-9-zeeanmol"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol.png",Zee Anmol
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Anmol.m3u8
+
+#EXTINF:-1 group-title="Movies" tvg-id="0-9-zeecinemahd"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png",Zee Cinema HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Cinema%20HD.m3u8
+
+#EXTINF:-1 group-title="Telugu" tvg-id="0-9-zeecinemalu"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinemalu_HD.png",Zee Cinemalu HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Cinemalu%20HD.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-tvpictureshd"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures_HD.png",&Pictures HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/&Pictures%20HD.m3u8
+
+#EXTINF:-1 group-title="Marathi" tvg-id="0-9-zeetalkies"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies_HD.png",Zee Talkies HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Talkies%20HD.m3u8
+
+#EXTINF:-1 group-title="Bengali" tvg-id="0-9-zeebanglacinema"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla_Cinema.png",Zee Bangla Cinema
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Bangla%20Cinema.m3u8
+
+#EXTINF:-1 group-title="Punjabi" tvg-id="0-9-215"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Punjabi.png",Zee Punjabi
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Punjabi.m3u8
+
+#EXTINF:-1 group-title="Movies" tvg-id="0-9-zeeanmolcinema"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Anmol_Cinema.png",Zee Anmol Cinema
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Anmol%20Cinema.m3u8
+
+#EXTINF:-1 group-title="Movies" tvg-id="0-9-zeeclassic"  tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Classic.png",Zee Bollywood
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Bollywood.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-pictures"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures.png",&Pictures
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/&Pictures.m3u8
+
+#EXTINF:-1 group-title="Movies" tvg-id="0-9-zeecinema"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinema.png",Zee Cinema
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Cinema.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeeaction"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Action.png",Zee Action
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Action.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-channel_2105335046"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Flix_HD.png",&flix HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/&flix%20HD.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-channel_1144658965"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sanskar.png",Sanskar TV
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Sanskar%20TV.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeetv"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_TV.png",Zee TV
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20TV.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-zeesalaam"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Salaam.png",Zee Salaam
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Salaam.m3u8
+
+#EXTINF:-1 group-title="Odia" tvg-id="0-9-sarthaktv"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Sarthak.png",Zee Sarthak
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Sarthak.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-channel_265145625"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_News_Uttar_Pradesh_Uttrakhand.png",Zee News Uttar Pradesh Uttrakhand
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20News%20Uttar%20Pradesh%20Uttrakhand.m3u8
+
+#EXTINF:-1 group-title="Movies" tvg-id="0-9-176"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Classic.png",Zee Classic
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Classic.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-%209"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Xplore_HD.png",&xplorHD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/&xplorHD.m3u8
+
+#EXTINF:-1 group-title="Hindi" tvg-id="0-9-216"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bioskope_SD.png",Zee Biskope
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Biskope.m3u8
+
+#EXTINF:-1 group-title="Tamil" tvg-id="0-9-224"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Thirai.png",Zee Thirai
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Thirai.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-348"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Zest_HD.png",Zee Zest HD
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Zest%20HD.m3u8
+
+#EXTINF:-1 group-title="Kannada" tvg-id="0-9-241"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Picchar_SD.png",Zee Picchar
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Picchar.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-394"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Chitramandir.png",Zee Chitramandir
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Chitramandir.m3u8
+
+#EXTINF:-1 group-title="Kannada" tvg-id="0-9-9z5383466"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Kannada.png",Zee Kannada
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Kannada.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5383484"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Bangla.png",Zee Bangla
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Bangla.m3u8
+
+#EXTINF:-1 group-title="Telugu" tvg-id="0-9-9z5383485"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Telugu.png",Zee Telugu
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Telugu.m3u8
+
+#EXTINF:-1 tvg-id="336" tvg-name="Star Pravah HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah_HD.png" group-title="Marathi" group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Pravah HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ac5fe0f7b01659a9aba3475523f71ae1&key=b2e3f3af283a309e24eabe6b8681282e
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=336|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Marathi" tvg-id="0-9-9z5383486"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Marathi.png",Zee Marathi
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Marathi.m3u8
+
+#EXTINF:-1 group-title="Tamil" tvg-id="0-9-9z5383487"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Tamil.png",Zee Tamil
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Tamil.m3u8
+
+#EXTINF:-1 group-title="Telugu" tvg-id="0-9-9z5383488"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cinemalu.png",Zee Cinemalu
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Zee%20Cinemalu.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5398768"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Telugu.png",Aastha Telugu
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aastha%20Telugu.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5398770"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Tamil.png",Aastha Tamil
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aastha%20Tamil.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5398771"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Kannada.png",Aastha Kannada
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aastha%20Kannada.m3u8
+
+#EXTINF:-1 group-title="Gujarati" tvg-id="0-9-9z5398791"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Tamil.png",Aastha Gujarati
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aastha%20Gujarati.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5398792"  tvg-logo="https://akamaividz.NXT 5.com/resources/0-9-9z5398792/list/270x152/1170x658c79674cf57ac4de48addad4284053d8e.png",Dharm Sandesh
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Dharm%20Sandesh.m3u8
+
+#EXTINF:-1 group-title="Spiritual" tvg-id="0-9-9z5398793"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Bhajan.png",Aastha Bhajan
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aastha%20Bhajan.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="0-9-9z5383489"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/NXT _Talkies.png",NXT  Talkies
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/NXT %20Talkies.m3u8
+
+#EXTINF:-1 group-title="Spiritual" tvg-id="0-9-9z5398761"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha.png",Aastha
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://ze5.vodep39240327.workers.dev/channel/Aastha.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-logo="https://c.evidon.com/pub_logos/2796-2021122219404475.png" , Sony Kal
+
+https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Entertainment" tvg-id="1000009246" tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" , SET HD
+
+https://dai.google.com/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8 
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009248" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20SAB20HD_WHITE.png" , Sony SAB HD
+
+https://dai.google.com/ssai/event/UI4QFJ_uRk6aLxIcADqa_A/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009273" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20PAL.png" , Sony PAL
+
+https://dai.google.com/ssai/event/rPzF28qORbKZkhci_04fdQ/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000001971" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20YAY.png" , Sony YAY
+
+https://dai.google.com/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009255" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20AATH.png" , Sony AATH
+
+https://dai.google.com/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8
+#EXTINF:-1 group-title="Marathi" tvg-id="1000009259" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" , Sony Marathi
+
+https://dai.google.com/ssai/event/-_w3Jbq3QoW-mFCM2YIzxA/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009252" tvg-logo="https://sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" , Sony BBC Earth HD
+
+https://dai.google.com/ssai/event/V73ovbgASP-xGvQQOukwTQ/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009258" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX20HD_WHITE.png" , Sony PIX HD
+
+https://dai.google.com/ssai/event/8FR5Q-WfRWCkbMq_GxZ77w/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009253" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_WAH.png" , Sony WAH
+
+https://dai.google.com/ssai/event/H_ZvXWqHRGKpHcdDE5RcDA/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009249" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX.png" , Sony MAX
+
+https://dai.google.com/ssai/event/oJ-TGgVFSgSMBUoTkauvFQ/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009247" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" , Sony MAX HD
+
+https://dai.google.com/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000044878" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX2.png" , Sony MAX2
+
+https://dai.google.com/ssai/event/4Jcu195QTpCNBXGnpw2I6g/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009280" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" , Sony TEN 1
+
+https://dai.google.com/ssai/event/4_pnLi2QTe6bRGvvahRbfg/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009279" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" , Sony TEN 2
+
+https://dai.google.com/ssai/event/nspQRqO5RmC06VmlPrTwkQ/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009283" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png" , Sony TEN 3
+
+https://dai.google.com/ssai/event/9kocjiLUSf-erlSrv3d4Mw/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000119187" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" , Sony TEN 4
+
+https://dai.google.com/ssai/event/hInaEKUJSziZAGv9boOdjg/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009281" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" , Sony TEN 5
+
+https://dai.google.com/ssai/event/S-q8I27RRzmkb-OIdoaiAw/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009276" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" , Sony TEN 1 HD
+
+https://dai.google.com/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009277" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" , Sony TEN 2 HD
+
+https://dai.google.com/ssai/event/Syu8F41-R1y_JmQ7x0oNxQ/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009278" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" , Sony TEN 3 HD
+
+https://dai.google.com/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000119186" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" , Sony TEN 4 HD
+
+https://dai.google.com/ssai/event/x4LxWUcVSIiDaq1VCM7DSA/master.m3u8
+#EXTINF:-1 group-title="Unknown" tvg-id="1000009275" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" , Sony TEN 5 HD
+
+
+https://dai.google.com/ssai/event/DD7fA-HgSUaLyZp9AjRYxQ/master.m3u8
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1373" tvg-name="Disney Channel" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Channel.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Disney Channel
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=5181d3e6698055578cedc5bfc86b3e56&key=3dca7917d8cf9bb7095dc72b48bdcd3c
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1373|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Kids" tvg-id="1374" tvg-name="Disney Junior" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Disney Junior
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=1b1f9702f7d853c1b198495f64924311&key=40e11e60a12dd6c154dfea0ffbd5bda8
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1374|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1375" tvg-name="Disney International HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_International_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Disney International HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=d0e021aa91c65e68a7028c2a6a762eca&key=d50822403365e360d12840251cecee84
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1375|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1391" tvg-name="Hungama" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Hungama.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Hungama
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=454f8353caac500d95d641e0c7cfe048&key=0aaca46ea0f5096335598781fbe590e4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1391|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Kids" tvg-id="1392" tvg-name="Super Hungama" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Super_Hungama.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Super Hungama
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=7a450f0820c4589690eb336c29f18da6&key=820e84119563b56d6e6f0bf514cbdc3c
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1392|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1132" tvg-name="Star Plus HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Plus HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=6f7b7241b2935a909d389fe318e5baaa&key=65783311644973348f359dc154bb41db
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1132|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1116" tvg-name="Star Plus" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Plus.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Plus
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=3bba2ffaf08b501796c5d9eb431460a4&key=7a62074c4c46f3b153259526481c02bf
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1116|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="156" tvg-name="Star Gold HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ec7ad3786d9e5efa9e0c4aeb3e58c7b7&key=907509ccae7e68b30ae75b5d09fe60ef
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=156|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1151" tvg-name="Star Gold Romance" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Romance.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold Romance
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=0d8e857858fe5e8facd51b10a39e641d&key=f6058b29e8a5017e16ab5baad78ea004
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1151|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1153" tvg-name="Star Gold Thrills" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Thrills.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold Thrills
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ca83419dfa1b56f794032b271b8f2c84&key=d592520eea361507a63c94bff799dfb6
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1153|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1154" tvg-name="Star Gold 2" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_2.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold 2
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=2db0cd9cb0685309b48e322c83192bda&key=e13bf7a33eb2e19a8f19568dd383ba6d
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1154|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1155" tvg-name="Star Gold 2 HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_2_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold 2 HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=e6afa4754bc15dd28ab6806f417d319d&key=6a74ef2884813547109ee96098610387
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1155|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Entertainment" tvg-id="931" tvg-name="Star Bharat HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Bharat HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=701524f373c55b2785ac49aab0bdc4a6&key=9de42eedb40f6c243848eb8aa8103e32
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=931|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1127" tvg-name="Star Bharat" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Bharat.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Bharat
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=687cfa6d31645a91ba3c38a9acdfac7c&key=c035ca584ac0a2170b96e2fa4523f3be
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1127|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1125" tvg-name="Star Gold" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=940a0a4080f553cab03ec23a2e80cf7c&key=b162354170b54cb588182eb75681cac0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1125|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1104" tvg-name="Star Movies HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Movies HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=6ac6943751e558b181da32727f03dff7&key=f36e5cd48252bcd0fcda2bfe21f5b365
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1104|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1115" tvg-name="Star Movies" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Movies
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=e705c9330a935a119021d97c7677ce62&key=dd306a57de1715b0e1256d5c1737f485
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1115|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1110" tvg-name="Star Movies Select HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Movies_Select_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Movies Select HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=b55393cd147a54debaf2b0f2d82b5d9f&key=6b168db49241a78c1b423ab9a29409ef
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1110|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1113" tvg-name="Star Gold Select HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Select_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold Select HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=2cb38dd5e6235bd9936ad7a29bc7ffd8&key=281d7b329be4e22d4e0e3e1d508ba2a4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1113|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1120" tvg-name="Star Jalsha Movies HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Jalsha_Movies.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Jalsha Movies HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=940a0a4080f553cab03ec23a2e80cf7c&key=b162354170b54cb588182eb75681cac0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1120|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1142" tvg-name="Star Sports 1" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports 1
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=df20894ec30954d3b28097c138f4cfda&key=ff9b6292b1cddbd11a046029cb314634
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1142|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1141" tvg-name="Star Sports 2" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_2.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports 2
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=fc3aafe80845584199a637249fad2ffa&key=ca4474972fdb4bf8ecb164482853c692
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1141|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Sports" tvg-id="173" tvg-name="Star Sports 1 Hindi HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_HD1_Hindi.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports 1 Hindi HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=609ace1518f15ee2bcee407f5e435fed&key=533464a6d57d3e40b61b8fa8c4fe6627
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=173|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1123" tvg-name="Star Sports Select 1" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_1.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports Select 1
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ea7985dacbb95f1c9d62e5a1675142e5&key=39d5910ca04841b5f32bf24623cdae58
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1123|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Sports" tvg-id="300" tvg-name="Star Sports Select 1 HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports Select 1 HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=c2c048e439d65316beeda6ef64d5d0f8&key=e2fdc132cbdee65501b845ce414fce39
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=300|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1114" tvg-name="Star Sports Select 2" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_2.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports Select 2
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ec7d009d07aa5cbc81a441880530dfa5&key=8147983ad7402ebfc222d28b667a196f
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1114|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Sports" tvg-id="301" tvg-name="Star Sports Select 2 HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_2.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports Select 2 HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=6017d0514d425fa38f6e80ba6dcc852f&key=0018944b00adf2078f62386f30c68b74
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=301|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1124" tvg-name="Star Sports 1 Tamil" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Sports_1_Tamil.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Sports 1 Tamil
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=d0d750ebd52b5756aa7fb833f61ceece&key=4ae62a20c030c918aad24193c1dda229
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1124|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1136" tvg-name="Star Utsav Movies" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Utsav_Movies.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Utsav Movies
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=1faf9c42dfe45669a70c470359886145&key=5a229a5f6f270c880b24014bf3cd6ee7
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1136|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Kannada" tvg-id="1140" tvg-name="Star Suvarna Plus" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Suvarna.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Suvarna Plus
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=843e1658f5915fdda0a5ecc5bd3dd726&key=88f0fd96990a66b1307094eaf4998119
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1140|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1143" tvg-name="Star Utsav" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Utsav.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Utsav
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=63456f11b1bf599a93a6a4b9a76db2bf&key=b47756e4d8fb938dcbcb72d6d877fbc3
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1143|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="336" tvg-name="Star Pravah HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Pravah HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ac5fe0f7b01659a9aba3475523f71ae1&key=b2e3f3af283a309e24eabe6b8681282e
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=336|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Telugu" tvg-id="1111" tvg-name="Star Maa Movies HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maa_Movies_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Maa Movies HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=6dff9a2c741754c1b75312c53bc83d92&key=b75a65f46065ee70de75a88fed692846
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1111|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1112" tvg-name="Star Maa HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maa_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Maa HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=6c4b78251e865fc2a23a000374c8e725&key=983ecd2ffe60cdcf2e5e76ae229a5cb8
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1112|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1129" tvg-name="Star Maa Music" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maa_Music.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Maa Music
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=80cfb1a6a4b251dd9b9ae92782a35917&key=b4cd88f5d71fe94993dd3476cdd63f33
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1129|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Tamil" tvg-id="368" tvg-name="Star Vijay HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Vijay HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=849d6b062b645abea937ec7f2b6b1686&key=1f65503420b88d11a16d4a4eacd95f0f
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=368|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="370" tvg-name="Suvarna HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Suvarna_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Suvarna HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=9065757e265f5f53a8f06a9c9c931d02&key=6fd7b25773ad2f9641ab5f65a1b18e42
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=370|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1117" tvg-name="Suvarna" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Suvarna.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Suvarna
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=fc71d871cbf45818a5b3eb3652d75387&key=added6a0df4d0eab8758b0ed9f54ecf2
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1117|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1119" tvg-name="Star Gold Select" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Select.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Gold Select
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=09706397be655eb6a26c6ba99b65e6d5&key=acb1ebe04e2a29fe098d532d7a506846
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1119|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1121" tvg-name="Star Pravah" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Pravah.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Pravah
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=3fb941b7c6fe54fb8f66b19804eff952&key=c1b742ed7b6d4eca1c6bdcb9041d9b80
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1121|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1130" tvg-name="Star Vijay" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Vijay.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Star Vijay
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=c5f2861efbc7552ba802dcae4e160359&key=4ea32867828280a4d6f36ea8fbbe38eb
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1130|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="1131" tvg-name="Vijay Super" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Vijay_Super.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Vijay Super
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=737e9cc83a8a5a55a002fa3ca457244c&key=a0285e3041ff5f4efae5361e12f759db
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1131|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Knowledge" tvg-id="1332" tvg-name="Nat Geo Wild HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",Nat Geo Wild HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=45fc661aa1af51c98950c43329391d18&key=c2677c874886e78d24b3fb656c5734e0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1332|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Knowledge" tvg-id="1335" tvg-name="National Geographic HD" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/National_Geographic_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",National Geographic HD
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=4b006dd7965e5777a7fa33dd636c2e5d&key=179f796bdf11b750bebd469a3aeae1d0
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1335|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Knowledge" tvg-id="1406" tvg-name="National Geographic" tvg-language="Unknown" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/National_Geographic.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw",National Geographic
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=053d3a1f8d5e5d759a7cbaa5b9ca7a0d&key=020e466407e9be52f1884697ef9d9ec9
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1406|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
+#EXTINF:-1 group-title="Unknown" tvg-id="156" tvg-name="Star Gold HD" tvg-language="Unknown" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png"  group-logo="https://play-lh.googleusercontent.com/nB9r04Z3hpl-iA4dChI2ontKxsJKjPi1N-WsXrMngMRH3Js31M3lKpdO0gZqvfsIQK-x=w480-h960-rw", Star Gold HD
+
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ec7ad3786d9e5efa9e0c4aeb3e58c7b7&key=907509ccae7e68b30ae75b5d09fe60ef
 https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_HD_BTS/output/index.mpd|User-Agent=plaYtv/7.1.5 (Linux;Android 12) ExoPlayerLib/2.11.7&Origin=https://www.jiotv.com&Referer=https://www.jiotv.com/
+
+
+
+
+
 
 
 
