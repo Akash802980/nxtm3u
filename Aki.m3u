@@ -594,13 +594,147 @@ https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1335|Origin="https://www.
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1406|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
 
+#EXTINF:-1 tvg-id="52" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20HD.png", Colors HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20HD.m3u8
 
+#EXTINF:-1 tvg-id="543" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors.png", Colors SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20SD.m3u8
 
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz" 
+#EXTINF:-1 tvg-id="438" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors_Rishtey-logo_%2000_X_1125_Tranpharent.png", Rishtey
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Rishtey.m3u8
 
-#EXTM3U x-tvg-url="https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
+#EXTINF:-1 tvg-id="305" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors-B_Logo-new-_HD-transparent.png", Colors Bengla HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Bengla%20HD.m3u8
 
-#EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
+#EXTINF:-1 tvg-id="26" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors-B_Logo-new-_SD-transparent.png", Colors Bengla
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Bengla.m3u8
+
+#EXTINF:-1 tvg-id="612" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Kannada%20HD.png", Colors Kannada HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Kannada%20HD.m3u8
+
+#EXTINF:-1 tvg-id="108" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Kannada.png", Colors Kannada
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Kannada.m3u8
+
+#EXTINF:-1 tvg-id="308" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors-Marathi-HD-WB-Transparent.png", Colors Marathi HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Marathi%20HD.m3u8
+
+#EXTINF:-1 tvg-id="134" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors-Marathi-WB-Transparent.png", Colors Marathi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Marathi.m3u8
+
+#EXTINF:-1 tvg-id="674" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Tamil%20HD.png", Colors Tamil HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Tamil%20HD.m3u8
+
+#EXTINF:-1 tvg-id="418" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Tamil.png", Colors Tamil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Tamil.m3u8
+
+#EXTINF:-1 tvg-id="107" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/COLORS-Guajarati-logo_%2000_X_1125_Transpharent.png", Colors Gujarati
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Gujarati.m3u8
+
+#EXTINF:-1 tvg-id="187" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Infinity%20HD.png", Colors Infinity HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Infinity%20HD.m3u8
+
+#EXTINF:-1 tvg-id="544" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Infinity.png", Colors Infinity SD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Infinity%20SD.m3u8
+
+#EXTINF:-1 tvg-id="533" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20SUPER.png", Colors Super
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Super.m3u8
+
+#EXTINF:-1 tvg-id="61" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Cineplex%20HD.png", Colors Cineplex HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex%20HD.m3u8
+
+#EXTINF:-1 tvg-id="53" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Cineplex.png", Colors Cineplex
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex.m3u8
+
+#EXTINF:-1 tvg-id="ts372" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors-Cineplex-SuperHits-WB-Transparent.png", Colors Cineplex Superhit
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex%20Superhit.m3u8
+
+#EXTINF:-1 tvg-id="1000" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors-Cineplex-Bollywood-Transparent.png", Colors Cineplex Bollywood
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Cineplex%20Bollywood.m3u8
+
+#EXTINF:-1 tvg-id="667" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Colors%20Kannada%20Cinema.png", Colors Kannada Cinema
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Kannada%20Cinema.m3u8
+
+#EXTINF:-1 tvg-id="896" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CBC-Logo_%2000_X_1125_Transpharent.png", Colors Bangla Cinema
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Bangla%20Cinema.m3u8
+
+#EXTINF:-1 tvg-id="692" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/CGUC_Poster.png", Colors Gujarati Cinema
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Colors%20Gujarati%20Cinema.m3u8
+
+#EXTINF:-1 tvg-id="ts806" group-title="NXT Colors" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4d/Logo_mtv_plus.png", MTV HD Plus
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/MTV%20HD%20Plus.m3u8
+
+#EXTINF:-1 tvg-id="406" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/MTV-HD-WB-Transparent.png", MTV HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/MTV%20HD.m3u8
+
+#EXTINF:-1 tvg-id="103" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/MTV-WB-Transparent.png", MTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/MTV.m3u8
+
+#EXTINF:-1 tvg-id="329" group-title="NXT Colors" tvg-logo="https://www.decodedmagazine.com/wp-content/uploads/%2018/12/clubbintv-700x450-672x372.jpg", Clubbing
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Clubbing.m3u8
+
+#EXTINF:-1 tvg-id="433" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Nick%20HDPlus.png", Nick HD+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Nick%20HD2B.m3u8
+
+#EXTINF:-1 tvg-id="138" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Nick.png", Nick
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Nick.m3u8
+
+#EXTINF:-1 tvg-id="118" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Nick%20Jr.png", Nick Junior
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Nick%20Junior.m3u8
+
+#EXTINF:-1 tvg-id="127" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Sonic%20Nickelodeon.png", Sonic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Sonic.m3u8
+
+#EXTINF:-1 tvg-id="1033" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/Star%20Sports%202%20Hindi%20HD_Transparent_e52b47df-25a0-4c06-a422-ae6e75100f06.png", Star Sports 2 Hindi HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Star%20Sports%202%20Hindi HD.m3u8
+
+#EXTINF:-1 tvg-id="980" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/Star%20Sports%202%20Hindi_Transparent_9d9a0f49-7727-4e1e-aec5-b3e665b23dda.png", Star Sports 2 Hindi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Star%20Sports%202%20Hindi.m3u8
+
+#EXTINF:-1 tvg-id="1494" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSportsKhel_Transparent_616df7dc-b5fd-4d4c-b94f-51012cdc318c.png", Star Sports Khel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Star%20Sports%20Khel.m3u8
+
+#EXTINF:-1 tvg-id="1187" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Tamil_Thumbnail_e7cd4a37-6a50-45c4-8222-050ff5326b65.png", Star Sports 2 Tamil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Star%20Sports%202%20Tamil.m3u8
+
+#EXTINF:-1 tvg-id="1186" group-title="NXT Colors" tvg-logo="https://mediaready.videoready.tv/tatasky/image/fetch/f_auto,fl_lossy,q_auto,dpr_2/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Telugu_Thumbnail_1fbdf427-a065-46df-8e7a-174e34f76f44.png", Star Sports 2 Telugu
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://vot1.vodep39240327.workers.dev/channel/Star%20Sports%202%20Telugu.m3u8
+
+__CATAGORIES
 
 #EXTINF:-1 group-title="News" tvg-id="0-9-aajtak"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
 
@@ -1327,6 +1461,7 @@ https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1335|Origin="https://www.
 #KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=053d3a1f8d5e5d759a7cbaa5b9ca7a0d&key=020e466407e9be52f1884697ef9d9ec9
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 https://jiotvplus.iptv07india.workers.dev/index.mpd?id=1406|Origin="https://www.jiotv.com"&Referer="https://www.jiotv.com/"
+
 
 
 
