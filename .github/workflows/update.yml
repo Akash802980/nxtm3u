@@ -27,14 +27,14 @@ jobs:
         run: python nxt.py
 
       
-- name: Push changes
-  run: |
-    git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Push changes
+        run: |
+     git config --global user.email "github-actions[bot]@users.noreply.github.com"
     git config --global user.name "github-actions"
     git add Aki.m3u
     git commit -m "Auto update playlist" || echo "No changes to commit"
     git pull origin main --rebase || true
     git push origin main --force
     
-  env:
-     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
