@@ -36,5 +36,5 @@ jobs:
     git pull origin main --rebase || true
     git push origin main --force
     
-   env:
+  env:
      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
