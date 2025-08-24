@@ -1638,8 +1638,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Utsav_BTS/output/index.mpd?__hdnea__
 #KODIPROP:inputstream.adaptive.license_key=ac5fe0f7b01659a9aba3475523f71ae1:b2e3f3af283a309e24eabe6b8681282e
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1756001296~exp=1756087696~acl=/*~hmac=e766269a7ac9f5f3cced11619c27e2ead66145368ee6be37202ade8da281dee4"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Pravah_HD_BTS/output/index.mpd?__hdnea__=st=1756001296~exp=1756087696~acl=/*~hmac=e766269a7ac9f5f3cced11619c27e2ead66145368ee6be37202ade8da281dee4&xxx=%7Ccookie=__hdnea__=st=1756001296~exp=1756087696~acl=/*~hmac=e766269a7ac9f5f3cced11619c27e2ead66145368ee6be37202ade8da281dee4
-
+https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Pravah_HD_BTS/output/index.mpd
 #EXTINF:-1 tvg-id="1111" group-title="NXT STAR" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maa_Movies_HD.png",Star Maa Movies HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6dff9a2c741754c1b75312c53bc83d92:b75a65f46065ee70de75a88fed692846
@@ -1730,5 +1729,6 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/output/index.m
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1756001296~exp=1756087696~acl=/*~hmac=e766269a7ac9f5f3cced11619c27e2ead66145368ee6be37202ade8da281dee4"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/National_Geographic_BTS/output/index.mpd?__hdnea__=st=1756001296~exp=1756087696~acl=/*~hmac=e766269a7ac9f5f3cced11619c27e2ead66145368ee6be37202ade8da281dee4&xxx=%7Ccookie=__hdnea__=st=1756001296~exp=1756087696~acl=/*~hmac=e766269a7ac9f5f3cced11619c27e2ead66145368ee6be37202ade8da281dee4
+
 
 
