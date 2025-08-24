@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
 
       - name: Run update script
-        run: python update.py
+        run: python nxtm3u/update.py
 
       - name: Commit & Push changes
         run: |
