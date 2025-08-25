@@ -1730,6 +1730,263 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/output/index.m
 #EXTHTTP:{"cookie":"__hdnea__=st=1756034305~exp=1756120705~acl=/*~hmac=ef2829ca981b3ca9718c4dbfda99f89078d9d0b4f43ff2a5413aef3a7675b826"
 https://jiotvmblive.cdn.jio.com/bpk-tv/National_Geographic_BTS/output/index.mpd?__hdnea__=st=1756034305~exp=1756120705~acl=/*~hmac=ef2829ca981b3ca9718c4dbfda99f89078d9d0b4f43ff2a5413aef3a7675b826
 
+#EXTM3U
+#EXTINF:-1 tvg-id="156" tvg-logo="https://img.media.jio.com/tvpimages/65/42/301971_1748031087472_p_medium.jpg" group-title="Movies", Star Gold HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=156&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=156&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=156
+#EXTINF:-1 tvg-id="173" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png" group-title="News", Aaj Tak
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=173&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=173&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=173
+#EXTINF:-1 tvg-id="336" tvg-logo="https://img.media.jio.com/tvpimages/32/30/302091_1748609101687_p_medium.jpg" group-title="Marathi", Star Pravah HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=336&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=336&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=336
+#EXTINF:-1 tvg-id="368" tvg-logo="https://img.media.jio.com/tvpimages/41/51/302085_1748604618768_p_medium.jpg" group-title="Tamil", Star Vijay HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=368&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=368&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=368
+#EXTINF:-1 tvg-id="370" tvg-logo="https://img.media.jio.com/tvpimages/81/94/301974_1748031668590_p_medium.jpg" group-title="Infotainment", Suvarna HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=370&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=370&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=370
+#EXTINF:-1 tvg-id="931" tvg-logo="https://img.media.jio.com/tvpimages/60/42/302087_1748607230846_p_medium.jpg" group-title="Entertainment", Star Bharat HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=931&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=931&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=931
+#EXTINF:-1 tvg-id="1104" tvg-logo="https://img.media.jio.com/tvpimages/57/79/301980_1748032659080_p_medium.jpg" group-title="Movies", Star Movies HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1104&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1104&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1104
+#EXTINF:-1 tvg-id="1110" tvg-logo="https://img.media.jio.com/tvpimages/79/1/301984_1748033447385_p_medium.jpg" group-title="Movies", Star Movies Select HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1110&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1110&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1110
+#EXTINF:-1 tvg-id="1113" tvg-logo="https://img.media.jio.com/tvpimages/90/90/301988_1748034257405_p_medium.jpg" group-title="Movies", Star Gold Select HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1113&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1113&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1113
+#EXTINF:-1 tvg-id="1115" tvg-logo="https://img.media.jio.com/tvpimages/30/15/301990_1748034621355_p_medium.jpg" group-title="Movies", Star Movies
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1115&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1115&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1115
+#EXTINF:-1 tvg-id="1116" tvg-logo="https://img.media.jio.com/tvpimages/66/40/302084_1748604142189_p_medium.jpg" group-title="Entertainment", Star Plus
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1116&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1116&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1116
+#EXTINF:-1 tvg-id="1117" tvg-logo="https://img.media.jio.com/tvpimages/87/78/302080_1748602850758_p_medium.jpg" group-title="Entertainment", Suvarna
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1117&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1117&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1117
+#EXTINF:-1 tvg-id="1119" tvg-logo="https://img.media.jio.com/tvpimages/81/53/302078_1748602072194_p_medium.jpg" group-title="Movies", Star Gold Select
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1119&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1119&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1119
+#EXTINF:-1 tvg-id="1121" tvg-logo="https://img.media.jio.com/tvpimages/80/61/302090_1748608156239_p_medium.jpg" group-title="Entertainment", Star Pravah
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1121&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1121&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1121
+#EXTINF:-1 tvg-id="1125" tvg-logo="https://img.media.jio.com/tvpimages/11/79/302083_1748603965472_p_medium.jpg" group-title="Movies", Star Gold
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1125&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1125&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1125
+#EXTINF:-1 tvg-id="1127" tvg-logo="https://img.media.jio.com/tvpimages/49/44/302082_1748603759590_p_medium.jpg" group-title="Entertainment", Star Bharat
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1127&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1127&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1127
+#EXTINF:-1 tvg-id="1130" tvg-logo="https://img.media.jio.com/tvpimages/1/40/302093_1748609653405_p_medium.jpg" group-title="Entertainment", Star Vijay
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1130&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1130&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1130
+#EXTINF:-1 tvg-id="1131" tvg-logo="https://img.media.jio.com/tvpimages/33/63/301997_1748035837565_p_medium.jpg" group-title="Entertainment", Vijay Super
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1131&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1131&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1131
+#EXTINF:-1 tvg-id="1132" tvg-logo="https://img.media.jio.com/tvpimages/79/39/301998_1748035952545_p_medium.jpg" group-title="Entertainment", Star Plus HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1132&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1132&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1132
+#EXTINF:-1 tvg-id="1136" tvg-logo="https://img.media.jio.com/tvpimages/59/51/302000_1748036129461_p_medium.jpg" group-title="Movies", Star Utsav Movies
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1136&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1136&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1136
+#EXTINF:-1 tvg-id="1140" tvg-logo="https://img.media.jio.com/tvpimages/82/94/302081_1748603077826_p_medium.jpg" group-title="Kannada", Star Suvarna Plus
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1140&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1140&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1140
+#EXTINF:-1 tvg-id="1143" tvg-logo="https://img.media.jio.com/tvpimages/34/40/302086_1748605272609_p_medium.jpg" group-title="Entertainment", Star Utsav
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1143&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1143&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1143
+#EXTINF:-1 tvg-id="1151" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Rangamanch.png" group-title="Entertainment", Rangamanch
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1151&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1151&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1151
+#EXTINF:-1 tvg-id="1154" tvg-logo="https://img.media.jio.com/tvpimages/87/52/302077_1748601853695_p_medium.jpg" group-title="Movies", Star Gold 2
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1154&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1154&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1154
+#EXTINF:-1 tvg-id="1332" tvg-logo="https://img.media.jio.com/tvpimages/45/25/302089_1748607898091_p_medium.jpg" group-title="Knowledge", Nat Geo Wild HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1332&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1332&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1332
+#EXTINF:-1 tvg-id="1335" tvg-logo="https://img.media.jio.com/tvpimages/23/80/302076_1748601517779_p_medium.jpg" group-title="Knowledge", National Geographic HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1335&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1335&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1335
+#EXTINF:-1 tvg-id="1373" tvg-logo="https://img.media.jio.com/tvpimages/1/35/302071_1748600420905_p_medium.jpg" group-title="Kids", Disney Channel
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1373&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1373&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1373
+#EXTINF:-1 tvg-id="1374" tvg-logo="https://img.media.jio.com/tvpimages/42/95/302074_1748601126318_p_medium.jpg" group-title="Kids", Disney Junior
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1374&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1374&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1374
+#EXTINF:-1 tvg-id="1375" tvg-logo="https://img.media.jio.com/tvpimages/21/80/302088_1748607720475_p_medium.jpg" group-title="Infotainment", Disney International HD
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1375&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1375&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1375
+#EXTINF:-1 tvg-id="1391" tvg-logo="https://img.media.jio.com/tvpimages/86/46/302072_1748600771557_p_medium.jpg" group-title="Kids", Hungama
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1391&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1391&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1391
+#EXTINF:-1 tvg-id="1392" tvg-logo="https://img.media.jio.com/tvpimages/49/37/302079_1748602524577_p_medium.jpg" group-title="Kids", Super Hungama
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1392&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1392&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1392
+#EXTINF:-1 tvg-id="1406" tvg-logo="https://img.media.jio.com/tvpimages/18/25/302075_1748601371559_p_medium.jpg" group-title="Knowledge", National Geographic
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1406&format=base64
+#KODIPROP:inputstream.adaptive.drm_legacy=https://dev.stream.tg-iptv.site/jio/key?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1406&format=base64
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+https://dev.stream.tg-iptv.site/jio/ch.mpd?tk=0198e18e-9e43-7ccc-adca-1ebac27ff510&id=1406
 
 
 
