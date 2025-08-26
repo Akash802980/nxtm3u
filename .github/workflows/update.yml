@@ -2,9 +2,8 @@ name: Run nxt.py every night
 
 on:
   schedule:
-    # Har raat 1 baje (UTC) run hoga
-    - cron: "0 19 * * *"   # 1:00 AM IST = 19:00 UTC
-  workflow_dispatch:       # manually run karne ke liye bhi option
+    - cron: "0 19 * * *"   # 1:00 AM IST
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -21,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt || true
+          pip install requests
 
       - name: Run script
         run: |
