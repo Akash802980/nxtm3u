@@ -1,10 +1,13 @@
-import requests
+import cloudscraper
 import re
 
 json_url = "https://allinonereborn.fun/jstrweb2/index.php"
 m3u_file = "Aki.m3u"
 
-resp = requests.get(json_url, headers={"User-Agent": "Mozilla/5.0"})
+# cloudscraper client banate hai
+scraper = cloudscraper.create_scraper(browser={"browser":"chrome","platform":"android","mobile":True})
+resp = scraper.get(json_url)
+
 data = resp.json()
 new_token = data[0]["token"]
 
