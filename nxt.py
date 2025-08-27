@@ -5,9 +5,24 @@ import json
 json_url = "https://allinonereborn.fun/jstrweb2/index.php"
 m3u_file = "Aki.m3u"
 
-# Cloudflare bypass scraper
-scraper = cloudscraper.create_scraper(browser={"browser":"chrome","platform":"windows","mobile":False})
-resp = scraper.get(json_url)
+# cloudscraper with browser emulation
+scraper = cloudscraper.create_scraper(
+    browser={"browser": "chrome", "platform": "windows", "mobile": False}
+)
+
+headers = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/116.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json,text/html;q=0.9,*/*;q=0.8",
+    "Referer": "https://allinonereborn.fun/",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive",
+}
+
+resp = scraper.get(json_url, headers=headers)
 
 try:
     data = resp.json()
