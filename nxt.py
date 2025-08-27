@@ -1,15 +1,22 @@
 import cloudscraper
 import re
+import json
 
 json_url = "https://allinonereborn.fun/jstrweb2/index.php"
 m3u_file = "Aki.m3u"
 
-# cloudscraper client banate hai
-scraper = cloudscraper.create_scraper(browser={"browser":"chrome","platform":"android","mobile":True})
+# Cloudflare bypass scraper
+scraper = cloudscraper.create_scraper(browser={"browser":"chrome","platform":"windows","mobile":False})
 resp = scraper.get(json_url)
 
-data = resp.json()
-new_token = data[0]["token"]
+try:
+    data = resp.json()
+    new_token = data[0]["token"]
+except Exception as e:
+    print("❌ JSON parse error:", e)
+    print("Status code:", resp.status_code)
+    print("Response text (first 300 chars):", resp.text[:300])
+    raise SystemExit(1)
 
 with open(m3u_file, "r", encoding="utf-8") as f:
     content = f.read()
