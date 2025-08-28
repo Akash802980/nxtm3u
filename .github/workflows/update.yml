@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '43 6 * * *'   # 12:13 PM IST = 06:43 UTC
   workflow_dispatch:        # manually bhi run kar sakte ho
+  
+permissions:
+  contents: write
 
 jobs:
   update:
