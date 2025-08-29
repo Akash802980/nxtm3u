@@ -2,7 +2,7 @@ name: Auto Update M3U
 
 on:
   schedule:
-    - cron: '30 19 * * *'   # 1:00 AM IST = 19:30 UTC
+    - cron: "0 */6 * * *"   # Har 6 ghante UTC pe run hoga (00:00, 06:00, 12:00, 18:00)
   workflow_dispatch:        # manually bhi run kar sakte ho
 
 jobs:
@@ -18,8 +18,8 @@ jobs:
           python-version: '3.x'
 
       - name: Install deps
-        run: pip install requests
-        run: pip install requests cloudscraper
+        run: |
+          pip install requests cloudscraper
 
       - name: Run update script
         run: python nxt.py
@@ -29,6 +29,5 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add Aki.m3u
-          git commit -m "Auto update playlist"
           git commit -m "Auto update playlist" || echo "No changes to commit"
           git push
