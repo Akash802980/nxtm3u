@@ -3,7 +3,7 @@ import re
 import json
 
 json_url = "https://allinonereborn.fun/jstrweb2/index.php"
-m3u_file = "Aki.m3u"
+m3u_file = "backend.m3u"
 
 # cloudscraper with browser emulation
 scraper = cloudscraper.create_scraper(
