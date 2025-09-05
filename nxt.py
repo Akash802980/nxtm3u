@@ -3,7 +3,7 @@ import re
 from urllib.parse import urlparse, parse_qs
 
 # Sources
-json_url = "https://allinonereborn.fun/jstrweb2/index.php"
+json_url = "https://allinonereborn.fun/"
 redirect_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 m3u_file = "backend.m3u"
 
