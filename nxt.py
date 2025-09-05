@@ -1,59 +1,62 @@
-import cloudscraper
+import requests
 import re
-import json
+from urllib.parse import urlparse, parse_qs
 
+# Sources
 json_url = "https://allinonereborn.fun/jstrweb2/index.php"
+redirect_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 m3u_file = "backend.m3u"
 
-# cloudscraper with browser emulation
-scraper = cloudscraper.create_scraper(
-    browser={"browser": "chrome", "platform": "windows", "mobile": False}
-)
+def get_token_from_json():
+    try:
+        data = requests.get(json_url, timeout=5).json()
+        return data[0]["token"]
+    except Exception as e:
+        print("⚠️ JSON source failed:", e)
+        return None
 
-headers = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/116.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json,text/html;q=0.9,*/*;q=0.8",
-    "Referer": "https://allinonereborn.fun/",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Connection": "keep-alive",
-}
+def get_token_from_redirect():
+    headers = {"User-Agent": "Denver1769"}
+    resp = requests.get(redirect_url, headers=headers, allow_redirects=True, timeout=5)
+    final_url = resp.url
+    parsed = urlparse(final_url)
+    query_params = parse_qs(parsed.query)
+    return query_params.get("__hdnea__", [""])[0]
 
-resp = scraper.get(json_url, headers=headers)
+# 1. Try JSON first
+token = get_token_from_json()
 
-try:
-    data = resp.json()
-    new_token = data[0]["token"]
-except Exception as e:
-    print("❌ JSON parse error:", e)
-    print("Status code:", resp.status_code)
-    print("Response text (first 300 chars):", resp.text[:300])
-    raise SystemExit(1)
+# 2. If JSON fails, fallback to redirect method
+if not token:
+    print("➡️ Falling back to redirect method...")
+    token = get_token_from_redirect()
 
+if not token:
+    raise Exception("❌ Could not retrieve token from any source")
+
+# Update playlist
 with open(m3u_file, "r", encoding="utf-8") as f:
     content = f.read()
 
-# remove old token from mpd URLs
+# Remove old token
 content = re.sub(r"\?__hdnea__=.*", "", content)
 
-# add new token to mpd URLs
+# Add new token to .mpd URLs
 content = re.sub(
     r"(https://jiotvmblive\.cdn\.jio\.com[^\s]+?\.mpd)",
-    rf"\1?{new_token}",
+    rf"\1?__hdnea__={token}",
     content
 )
 
-# update token in #EXTHTTP cookie line
+# Replace token in #EXTHTTP
 content = re.sub(
     r'(#EXTHTTP:{"cookie":")__hdnea__=.*?"}',
-    rf'\1{new_token}"',
+    rf'\1__hdnea__={token}"',
     content
 )
 
+# Save back
 with open(m3u_file, "w", encoding="utf-8") as f:
     f.write(content)
 
-print("✅ Playlist updated with token:", new_token)
+print("✅ Playlist updated with token:", token)
