@@ -7,7 +7,7 @@ json_url = "https://allinonereborn.fun/jstrweb2/index.php"
 backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 
 # Playlist file
-m3u_file = "jio all1.m3u"
+m3u_file = "backend.m3u"
 
 def get_token_from_json():
     try:
