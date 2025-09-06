@@ -7,13 +7,22 @@ json_url = "https://allinonereborn.fun/jstrweb2/index.php"
 backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 
 # Playlist file
-m3u_file = "backend.m3u"
+m3u_file = "backend.m3u" 
+
+def normalize_token(raw):
+    """Ensure token always starts with __hdnea__= (but no double)."""
+    if not raw:
+        return None
+    raw = raw.strip()
+    if raw.startswith("__hdnea__="):
+        return raw
+    return "__hdnea__=" + raw
 
 def get_token_from_json():
     try:
         data = requests.get(json_url, timeout=5).json()
-        raw = data[0]["token"]  # e.g. st=...~exp=...~hmac=...
-        return f"__hdnea__={raw}"
+        raw = data[0]["token"]  # sometimes "st=..." OR "__hdnea__=st=..."
+        return normalize_token(raw)
     except Exception as e:
         print("⚠️ JSON method failed:", e)
         return None
@@ -25,10 +34,8 @@ def get_token_from_redirect():
         final_url = resp.url
         parsed = urlparse(final_url)
         query_params = parse_qs(parsed.query)
-        token_val = query_params.get("__hdnea__", [""])[0]
-        if token_val:
-            return f"__hdnea__={token_val}"
-        return None
+        raw = query_params.get("__hdnea__", [""])[0]  # always "st=..."
+        return normalize_token(raw)
     except Exception as e:
         print("⚠️ Redirect method failed:", e)
         return None
