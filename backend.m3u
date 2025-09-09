@@ -8326,3 +8326,17 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Kiran_BTS/output/index.mpd?__hdnea__
 #EXTINF:-1 tvg-id="41659" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nat_Geo_Wild.png" group-title="English",Nat Geo Wild
 #EXTVLCOPT:http-user-agent=Denver1769
 https://jiotvmblive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_BTS/output/index.mpd?__hdnea__=st=1757347244~exp=1757433644~acl=/*~hmac=56469a4f2e254a24e48908ef9fdd1abe358c542f24fbcf2d85036479b602855a
+#EXTINF:-1 tvg-id="441" tvg-name="9x Jhakaas" tvg-type="Music" group-title="Music" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9x_Jhakaas.png",9x Jhakaas
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_441.m3u8
+#EXTINF:-1 tvg-id="422" tvg-name="In Goa 24x7" tvg-type="Infotainment" group-title="Infotainment" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/InGoa24x7.png",In Goa 24x7
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_422.m3u8
+#EXTINF:-1 tvg-id="232" tvg-name="News18 Lokmat" tvg-type="News" group-title="News" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/IBN_Lokmat.png",News18 Lokmat
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_232.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TV9 Maharashtra" tvg-type="News" group-title="News" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Maharashtra.png",TV9 Maharashtra
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_617.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TV9 Maharashtra" tvg-type="News" group-title="News" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Maharashtra.png",TV9 Maharashtra
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_617.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TV9 Maharashtra" tvg-type="News" group-title="News" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Maharashtra.png",TV9 Maharashtra
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_617.m3u8
+#EXTINF:-1 tvg-id="442" tvg-name="Zee 24 Taas" tvg-type="News" group-title="News" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_24_Taas.png",Zee 24 Taas
+https://mini.allinonereborn.online/jiotv-in/app/ts_live_442.m3u8
