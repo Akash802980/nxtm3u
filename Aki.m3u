@@ -8331,3 +8331,19 @@ https://young-king-f7a1.1akiytb4.workers.dev/41659.mpd
 #KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=63456f11b1bf599a93a6a4b9a76db2bf&key=b47756e4d8fb938dcbcb72d6d877fbc3
 #EXTINF:-1 tvg-id="0-9-zeecafehd" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Cafe_HD.png" group-title="Entertainment",Zee Cafe HD
 https://young-king-f7a1.1akiytb4.workers.dev/0-9-zeecafehd.m3u8
+
+#EXTM3U
+#EXTINF:-1 tvg-id="441" tvg-name="9x Jhakaas" tvg-type="Music" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9x_Jhakaas.png",9x Jhakaas
+https://young-king-f7a1.1akiytb4.workers.dev/441.m3u8
+#EXTINF:-1 tvg-id="422" tvg-name="In Goa 24x7" tvg-type="Infotainment" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/InGoa24x7.png",In Goa 24x7
+https://young-king-f7a1.1akiytb4.workers.dev/422.m3u8
+#EXTINF:-1 tvg-id="232" tvg-name="News18 Lokmat" tvg-type="News" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/IBN_Lokmat.png",News18 Lokmat
+https://young-king-f7a1.1akiytb4.workers.dev/232.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TV9 Maharashtra" tvg-type="News" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Maharashtra.png",TV9 Maharashtra
+https://young-king-f7a1.1akiytb4.workers.dev/617.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TV9 Maharashtra" tvg-type="News" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Maharashtra.png",TV9 Maharashtra
+https://young-king-f7a1.1akiytb4.workers.dev/617.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TV9 Maharashtra" tvg-type="News" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV9_Maharashtra.png",TV9 Maharashtra
+https://young-king-f7a1.1akiytb4.workers.dev/617.m3u8
+#EXTINF:-1 tvg-id="442" tvg-name="Zee 24 Taas" tvg-type="News" group-title="Marathi" tvg-language="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_24_Taas.png",Zee 24 Taas
+https://young-king-f7a1.1akiytb4.workers.dev/442.m3u8
