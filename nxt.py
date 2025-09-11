@@ -5,12 +5,12 @@ from urllib.parse import urlparse, parse_qs
 # Sources
 json_url = "https://allinonereborn.fun/jstrweb2/index.php"
 backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
+zee_m3u_url = "https://raw.githubusercontent.com/Ashpro0minecraft/JTV/refs/heads/main/z5.m3u"
 
 # Playlist file
-m3u_file = "backend.m3u" 
+m3u_file = "backend.m3u"
 
-def normalize_token(raw):
-    """Ensure token always starts with __hdnea__= (but no double)."""
+def normalize_jio_token(raw):
     if not raw:
         return None
     raw = raw.strip()
@@ -18,62 +18,90 @@ def normalize_token(raw):
         return raw
     return "__hdnea__=" + raw
 
-def get_token_from_json():
+def get_jio_token_from_json():
     try:
         data = requests.get(json_url, timeout=5).json()
-        raw = data[0]["token"]  # sometimes "st=..." OR "__hdnea__=st=..."
-        return normalize_token(raw)
+        raw = data[0]["token"]
+        return normalize_jio_token(raw)
     except Exception as e:
-        print("⚠️ JSON method failed:", e)
+        print("⚠️ Jio JSON method failed:", e)
         return None
 
-def get_token_from_redirect():
+def get_jio_token_from_redirect():
     try:
         headers = {"User-Agent": "Denver1769"}
         resp = requests.get(backup_url, headers=headers, allow_redirects=True, timeout=5)
         final_url = resp.url
         parsed = urlparse(final_url)
         query_params = parse_qs(parsed.query)
-        raw = query_params.get("__hdnea__", [""])[0]  # always "st=..."
-        return normalize_token(raw)
+        raw = query_params.get("__hdnea__", [""])[0]
+        return normalize_jio_token(raw)
     except Exception as e:
-        print("⚠️ Redirect method failed:", e)
+        print("⚠️ Jio Redirect method failed:", e)
         return None
 
-# 1. Try JSON first
-new_token = get_token_from_json()
+def get_zee_token():
+    try:
+        resp = requests.get(zee_m3u_url, timeout=5)
+        resp.raise_for_status()
+        text = resp.text
+        # Find first occurrence of "?hdntl=" in the file, extract until a whitespace or line break
+        match = re.search(r"\?hdntl=[^\s\"']+", text)
+        if match:
+            token_part = match.group(0).lstrip("?")  # e.g. "hdntl=exp=...~acl=...~hmac=..."
+            return token_part
+        else:
+            print("⚠️ No hdntl token found in Zee m3u source.")
+            return None
+    except Exception as e:
+        print("⚠️ Zee token fetch failed:", e)
+        return None
 
-# 2. If failed, fallback to redirect
-if not new_token:
-    print("➡️ Falling back to redirect method...")
-    new_token = get_token_from_redirect()
+def update_playlist(jio_token, zee_token):
+    with open(m3u_file, "r", encoding="utf-8") as f:
+        content = f.read()
 
-if not new_token:
-    raise Exception("❌ Could not fetch token from either method")
+    # Remove old tokens
+    content = re.sub(r"\?__hdnea__=[^\s\"]+", "", content)
+    content = re.sub(r"\?hdntl=[^\s\"]+", "", content)
 
-# --- Update Playlist ---
-with open(m3u_file, "r", encoding="utf-8") as f:
-    content = f.read()
+    # Add new Jio token
+    if jio_token:
+        content = re.sub(
+            r"(https://jiotvmblive\.cdn\.jio\.com[^\s\"']+?\.mpd)",
+            rf"\1?{jio_token}",
+            content
+        )
 
-# Remove old token
-content = re.sub(r"\?__hdnea__=.*", "", content)
+    # Add new Zee token
+    if zee_token:
+        content = re.sub(
+            r"(https://z5ak-cmaflive\.zee5\.com[^\s\"']+?\.m3u8)",
+            rf"\1?{zee_token}",
+            content
+        )
 
-# Add new token to .mpd URLs
-content = re.sub(
-    r"(https://jiotvmblive\.cdn\.jio\.com[^\s]+?\.mpd)",
-    rf"\1?{new_token}",
-    content
-)
+    with open(m3u_file, "w", encoding="utf-8") as f:
+        f.write(content)
 
-# Replace in #EXTHTTP
-content = re.sub(
-    r'(#EXTHTTP:{"cookie":").*?"}',
-    rf'\1{new_token}"',
-    content
-)
+    print("✅ Playlist updated.")
+    if jio_token:
+        print("   Jio token:", jio_token)
+    if zee_token:
+        print("   Zee token:", zee_token)
 
-# Save back
-with open(m3u_file, "w", encoding="utf-8") as f:
-    f.write(content)
+def main():
+    # Fetch tokens
+    jio_token = get_jio_token_from_json() or get_jio_token_from_redirect()
+    if not jio_token:
+        raise Exception("❌ Could not fetch Jio token")
 
-print("✅ Playlist updated with token:", new_token)
+    zee_token = get_zee_token()
+    if not zee_token:
+        raise Exception("❌ Could not fetch Zee token")
+
+    # Update playlist
+    update_playlist(jio_token, zee_token)
+
+if __name__ == "__main__":
+    main()
