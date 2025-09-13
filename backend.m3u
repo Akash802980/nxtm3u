@@ -284,7 +284,7 @@ ___________________SONY___________________________
 
 https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="1000009246" tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="NXT Sony ", SET HD
-https://dai.google.com/ssai/event/HgaB-u6rSpGx3mo4Xu3sLw/master.m3u8 
+https://sony247channels.akamaized.net/hls/live/2011671-b/SETHD/master.m3u8?hdnea=st=1757757284~exp=1757757584~acl=*~id=509a8a65-8f5a-4156-a87f-ed9d3aecba0e~hmac=ce2b31e93783596a9ab9c851aec7af347c10c3acba3eeaad81e3ecfe8ad04b64&originpath=/linear/hls/pb/event/HgaB-u6rSpGx3mo4Xu3sLw/stream/768345c8-2182-4c82-a7df-fee17e55fd19:SIN2/master.m3u8
 #EXTINF:-1 tvg-id="1000009248" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20SAB20HD_WHITE.png" group-title="NXT Sony ", Sony SAB HD
 https://dai.google.com/ssai/event/UI4QFJ_uRk6aLxIcADqa_A/master.m3u8
 #EXTINF:-1 tvg-id="1000009273" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20PAL.png" group-title="NXT Sony ", Sony PAL
