@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 
 # Sources
-json_url = "https://allinonereborn.fun/jstrweb2/index.php"
+json_url = "https://alinonereborn.fun/jstrweb2/index.php"
 new_backup_url = "https://jt.drmlive.net/jiotvplus/156.mpd"
 backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 zee_m3u_url = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u"
@@ -24,7 +24,7 @@ def get_jio_token_from_json():
     try:
         data = requests.get(json_url, timeout=5).json()
         raw = data[0]["token"]
-        return normalize_jio_token(raw), data[0]["mpd"].split("/")[2]  # token + domain
+        return normalize_jio_token(raw), data[0]["mpd"].split("/")[2]  
     except Exception as e:
         print("⚠️ Jio JSON method failed:", e)
         return None, None
