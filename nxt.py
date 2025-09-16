@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Sources
 json_url = "https://alinonereborn.fun/jstrweb2/index.php"
-new_backup_url = "https://jt.drmlive.net/jiotvplus/156.mpd"
+new_backup_url = "https://jt.rmlive.net/jiotvplus/156.mpd"
 backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 zee_m3u_url = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u"
 
