@@ -4,8 +4,9 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 
 # Sources
-json_url = "https://ainonereborn.fun/jstrweb2/index.php"
-backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
+json_url = "https://alinonereborn.fun/jstrweb2/index.php"
+new_backup_url = "https://jt.drmlive.net/jiotvplus/156.mpd"
+backup_url = "https://game.enver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 zee_m3u_url = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u"
 
 # Playlist file
@@ -30,17 +31,27 @@ def get_jio_token_from_json():
 
 def get_jio_token_from_redirect():
     try:
-        headers = {"User-Agent": "Denver1769"}
-        resp = requests.get(backup_url, headers=headers, allow_redirects=True, timeout=5)
-        final_url = resp.url
-        parsed = urlparse(final_url)
+        headers = {"User-Agent": "TiviMate/5.1.0 (Android 13)"}
+        resp = requests.get(new_backup_url, headers=headers, allow_redirects=True, timeout=5)
+        parsed = urlparse(resp.url)
         query_params = parse_qs(parsed.query)
         raw = query_params.get("__hdnea__", [""])[0]
-        domain = parsed.netloc
-        return normalize_jio_token(raw), domain
+        return {"domain": "jiotvvplive.cdn.jio.com", "token": normalize_jio_token(raw)}
     except Exception as e:
         print("⚠️ Jio Redirect method failed:", e)
-        return None, None
+        return None
+        
+def get_jio_token_from_redirects():
+    try:
+        headers = {"User-Agent": "Denver1769"}
+        resp = requests.get(backup_url, headers=headers, allow_redirects=True, timeout=5)
+        parsed = urlparse(resp.url)
+        query_params = parse_qs(parsed.query)
+        raw = query_params.get("__hdnea__", [""])[0]
+        return {"domain": "jiotvmblive.cdn.jio.com", "token": normalize_jio_token(raw)}
+    except Exception as e:
+        print("⚠️ Jio Redirect method and drm failed:", e)
+        return None
 
 def get_zee_token():
     try:
