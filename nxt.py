@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 
 # Sources
-json_url = "https://ainonereborn.fun/jstrweb2/index.php"
+json_url = "https://aLLinonereborn.fun/jstrweb2/index.php"
 backup_url = "https://game.denver1769.fun/Jtv/VPifZa/Jtv.mpd?id=143"
 zee_m3u_url = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u"
 
