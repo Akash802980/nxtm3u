@@ -1123,6 +1123,8 @@ https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5383489.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5398761.m3u8
+
+
 #EXTINF:-1 tvg-id="10000" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SONY HD
 #KODIPROP:inputstream.adaptive.manifest_type=hls
 https://young-king-f7a1.1akiytb4.workers.dev/10000.m3u8
@@ -1133,17 +1135,17 @@ https://young-king-f7a1.1akiytb4.workers.dev/10001.m3u8
 #EXTINF:-1 tvg-id="10002" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
 https://young-king-f7a1.1akiytb4.workers.dev/10002.m3u8
 
-#EXTINF:-1 tvg-id="10003" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movie",SONY WAH
+#EXTINF:-1 tvg-id="10003" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies",SONY WAH
 https://young-king-f7a1.1akiytb4.workers.dev/10003.m3u8
 
-#EXTINF:-1 tvg-id="10004" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movie",SONY MAX
+#EXTINF:-1 tvg-id="10004" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movies",SONY MAX
 https://young-king-f7a1.1akiytb4.workers.dev/10004.m3u8
 
-#EXTINF:-1 tvg-id="10005" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movie",SONY MAX HD
+#EXTINF:-1 tvg-id="10005" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Moviess",SONY MAX HD
 https://young-king-f7a1.1akiytb4.workers.dev/10005.m3u8
 
 #EXTM3U
-#EXTINF:-1 tvg-id="10006" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movie",SONY MAX2
+#EXTINF:-1 tvg-id="10006" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Moviess",SONY MAX2
 https://young-king-f7a1.1akiytb4.workers.dev/10006.m3u8
 
 #EXTINF:-1 tvg-id="10007" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",SONY TEN 1
@@ -1182,7 +1184,7 @@ https://young-king-f7a1.1akiytb4.workers.dev/10017.m3u8
 #EXTINF:-1 tvg-id="10018" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",SONY YAY
 https://young-king-f7a1.1akiytb4.workers.dev/10018.m3u8
 
-#EXTINF:-1 tvg-id="10019" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Movies",SONY PIX HD
+#EXTINF:-1 tvg-id="10019" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Moviesss",SONY PIX HD
 https://young-king-f7a1.1akiytb4.workers.dev/10019.m3u8
 
 #EXTINF:-1 tvg-id="10020" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Entertainment",SONY MARATHI
@@ -1190,6 +1192,7 @@ https://young-king-f7a1.1akiytb4.workers.dev/10020.m3u8
 
 #EXTINF:-1 tvg-id="10021" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH 
 https://young-king-f7a1.1akiytb4.workers.dev/10021.m3u8
+
 
 #EXTINF:-1 tvg-id="144" tvg-name="Colors HD" tvg-type="Entertainment" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_HD.png",Colors HD
 https://young-king-f7a1.1akiytb4.workers.dev/144.m3u8
