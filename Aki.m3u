@@ -284,52 +284,74 @@ https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5398761.m3u8
 
 ___________________SONY___________________________
 
-#EXTINF:-1 tvg-logo="https://c.evidon.com/pub_logos/2796-2021122219404475.png" group-title="NXT Sony ", Sony Kal
-https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="1000009246" tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="NXT Sony ", SET HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009246.m3u8
-#EXTINF:-1 tvg-id="1000009248" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20SAB20HD_WHITE.png" group-title="NXT Sony ", Sony SAB HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009248.m3u8
-#EXTINF:-1 tvg-id="1000009273" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20PAL.png" group-title="NXT Sony ", Sony PAL
-https://young-king-f7a1.1akiytb4.workers.dev/1000009273.m3u8
-#EXTINF:-1 tvg-id="1000001971" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20YAY.png" group-title="NXT Sony ", Sony YAY
-https://young-king-f7a1.1akiytb4.workers.dev/1000001971.m3u8
-#EXTINF:-1 tvg-id="1000009255" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20AATH.png" group-title="NXT Sony ", Sony AATH
-https://young-king-f7a1.1akiytb4.workers.dev/1000009255.m3u8
-#EXTINF:-1 tvg-id="1000009259" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="NXT Sony ", Sony Marathi
-https://young-king-f7a1.1akiytb4.workers.dev/1000009259.m3u8
-#EXTINF:-1 tvg-id="1000009252" tvg-logo="https://sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="NXT Sony ", Sony BBC Earth HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009252.m3u8
-#EXTINF:-1 tvg-id="1000009258" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX20HD_WHITE.png" group-title="NXT Sony ", Sony PIX HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009258.m3u8
-#EXTINF:-1 tvg-id="1000009253" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="NXT Sony ", Sony WAH
-https://young-king-f7a1.1akiytb4.workers.dev/1000009253.m3u8
-#EXTINF:-1 tvg-id="1000009249" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="NXT Sony ", Sony MAX
-https://young-king-f7a1.1akiytb4.workers.dev/1000009249.m3u8
-#EXTINF:-1 tvg-id="1000009247" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="NXT Sony ", Sony MAX HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009247.m3u8
-#EXTINF:-1 tvg-id="1000044878" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="NXT Sony ", Sony MAX2
-https://young-king-f7a1.1akiytb4.workers.dev/1000044878.m3u8
-#EXTINF:-1 tvg-id="1000009280" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 1
-https://young-king-f7a1.1akiytb4.workers.dev/1000009280.m3u8
-#EXTINF:-1 tvg-id="1000009279" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 2
-https://young-king-f7a1.1akiytb4.workers.dev/1000009279.m3u8
-#EXTINF:-1 tvg-id="1000009283" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 3
-https://young-king-f7a1.1akiytb4.workers.dev/1000009283.m3u8
-#EXTINF:-1 tvg-id="1000119187" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 4
-https://young-king-f7a1.1akiytb4.workers.dev/1000119187.m3u8
-#EXTINF:-1 tvg-id="1000009281" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 5
-https://young-king-f7a1.1akiytb4.workers.dev/1000009281.m3u8
-#EXTINF:-1 tvg-id="1000009276" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 1 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009276.m3u8
-#EXTINF:-1 tvg-id="1000009277" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 2 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009277.m3u8
-#EXTINF:-1 tvg-id="1000009278" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 3 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009278.m3u8
-#EXTINF:-1 tvg-id="1000119186" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 4 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000119186.m3u8
-#EXTINF:-1 tvg-id="1000009275" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="NXT Sony ", Sony TEN 5 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009275.m3u8
+#EXTINF:-1 tvg-id="10000" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="NXT SONY",SONY HD
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://young-king-f7a1.1akiytb4.workers.dev/10000.m3u8
+
+#EXTINF:-1 tvg-id="10001" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="NXT SONY",SONY SAB HD
+https://young-king-f7a1.1akiytb4.workers.dev/10001.m3u8
+
+#EXTINF:-1 tvg-id="10002" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="NXT SONY",SONY PAL
+https://young-king-f7a1.1akiytb4.workers.dev/10002.m3u8
+
+#EXTINF:-1 tvg-id="10003" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="NXT SONY",SONY WAH
+https://young-king-f7a1.1akiytb4.workers.dev/10003.m3u8
+
+#EXTINF:-1 tvg-id="10004" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="NXT SONY",SONY MAX
+https://young-king-f7a1.1akiytb4.workers.dev/10004.m3u8
+
+#EXTINF:-1 tvg-id="10005" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="NXT SONY",SONY MAX HD
+https://young-king-f7a1.1akiytb4.workers.dev/10005.m3u8
+
+#EXTM3U
+#EXTINF:-1 tvg-id="10006" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="NXT SONY",SONY MAX2
+https://young-king-f7a1.1akiytb4.workers.dev/10006.m3u8
+
+#EXTINF:-1 tvg-id="10007" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="NXT SONY",SONY TEN 1
+https://young-king-f7a1.1akiytb4.workers.dev/10007.m3u8
+
+#EXTINF:-1 tvg-id="10008" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="NXT SONY",SONY TEN 2
+https://young-king-f7a1.1akiytb4.workers.dev/10008.m3u8
+
+#EXTINF:-1 tvg-id="10009" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="NXT SONY",SONY TEN 3
+https://young-king-f7a1.1akiytb4.workers.dev/10009.m3u8
+
+#EXTINF:-1 tvg-id="10010" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="NXT SONY",SONY TEN 4 
+https://young-king-f7a1.1akiytb4.workers.dev/10010.m3u8
+
+#EXTINF:-1 tvg-id="10011" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="NXT SONY",SONY TEN 5 
+https://young-king-f7a1.1akiytb4.workers.dev/10011.m3u8
+
+#EXTINF:-1 tvg-id="10012" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="NXT SONY",SONY TEN 1 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10012.m3u8
+
+#EXTINF:-1 tvg-id="10013" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="NXT SONY",SONY TEN 2 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10013.m3u8
+
+#EXTINF:-1 tvg-id="10014" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="NXT SONY",SONY TEN 3 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10014.m3u8
+
+#EXTINF:-1 tvg-id="10015" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="NXT SONY",SONY TEN 4 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10015.m3u8
+
+#EXTINF:-1 tvg-id="10016" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="NXT SONY",SONY TEN 5 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10016.m3u8
+
+#EXTINF:-1 tvg-id="10017" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="NXT SONY",SONY BBC EARTH
+https://young-king-f7a1.1akiytb4.workers.dev/10017.m3u8
+
+#EXTINF:-1 tvg-id="10018" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="NXT SONY",SONY YAY
+https://young-king-f7a1.1akiytb4.workers.dev/10018.m3u8
+
+#EXTINF:-1 tvg-id="10019" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="NXT SONY",SONY PIX HD
+https://young-king-f7a1.1akiytb4.workers.dev/10019.m3u8
+
+#EXTINF:-1 tvg-id="10020" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="NXT SONY",SONY MARATHI
+https://young-king-f7a1.1akiytb4.workers.dev/10020.m3u8
+
+#EXTINF:-1 tvg-id="10021" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="NXT SONY",SONY AATH 
+https://young-king-f7a1.1akiytb4.workers.dev/10021.m3u8
+
 
 
 
@@ -1101,74 +1123,73 @@ https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5383489.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5398761.m3u8
+#EXTINF:-1 tvg-id="10000" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SONY HD
+#KODIPROP:inputstream.adaptive.manifest_type=hls
+https://young-king-f7a1.1akiytb4.workers.dev/10000.m3u8
 
-#EXTINF:-1 group-title="Unknown" tvg-logo="https://c.evidon.com/pub_logos/2796-2021122219404475.png" , Sony Kal
+#EXTINF:-1 tvg-id="10001" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",SONY SAB HD
+https://young-king-f7a1.1akiytb4.workers.dev/10001.m3u8
 
-https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-id="1000009246" tvg-logo="https://sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" , SET HD
+#EXTINF:-1 tvg-id="10002" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
+https://young-king-f7a1.1akiytb4.workers.dev/10002.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009246.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-id="1000009248" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20SAB20HD_WHITE.png" , Sony SAB HD
+#EXTINF:-1 tvg-id="10003" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movie",SONY WAH
+https://young-king-f7a1.1akiytb4.workers.dev/10003.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009248.m3u8
-#EXTINF:-1 group-title="Entertainment" tvg-id="1000009273" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20PAL.png" , Sony PAL
+#EXTINF:-1 tvg-id="10004" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movie",SONY MAX
+https://young-king-f7a1.1akiytb4.workers.dev/10004.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009273.m3u8
-#EXTINF:-1 group-title="Kids" tvg-id="1000001971" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20YAY.png" , Sony YAY
+#EXTINF:-1 tvg-id="10005" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movie",SONY MAX HD
+https://young-king-f7a1.1akiytb4.workers.dev/10005.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000001971.m3u8
-#EXTINF:-1 group-title="Unknown" tvg-id="1000009255" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY20AATH.png" , Sony AATH
+#EXTM3U
+#EXTINF:-1 tvg-id="10006" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movie",SONY MAX2
+https://young-king-f7a1.1akiytb4.workers.dev/10006.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009255.m3u8
-#EXTINF:-1 group-title="Marathi" tvg-id="1000009259" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" , Sony Marathi
+#EXTINF:-1 tvg-id="10007" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",SONY TEN 1
+https://young-king-f7a1.1akiytb4.workers.dev/10007.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009259.m3u8
-#EXTINF:-1 group-title="Knowledge" tvg-id="1000009252" tvg-logo="https://sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" , Sony BBC Earth HD
+#EXTINF:-1 tvg-id="10008" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",SONY TEN 2
+https://young-king-f7a1.1akiytb4.workers.dev/10008.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009252.m3u8
-#EXTINF:-1 group-title="Unknown" tvg-id="1000009258" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX20HD_WHITE.png" , Sony PIX HD
+#EXTINF:-1 tvg-id="10009" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",SONY TEN 3
+https://young-king-f7a1.1akiytb4.workers.dev/10009.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009258.m3u8
-#EXTINF:-1 group-title="Movies" tvg-id="1000009253" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_WAH.png" , Sony WAH
+#EXTINF:-1 tvg-id="10010" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="Sports",SONY TEN 4 
+https://young-king-f7a1.1akiytb4.workers.dev/10010.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009253.m3u8
-#EXTINF:-1 group-title="Movies" tvg-id="1000009249" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX.png" , Sony MAX
+#EXTINF:-1 tvg-id="10011" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",SONY TEN 5 
+https://young-king-f7a1.1akiytb4.workers.dev/10011.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009249.m3u8
-#EXTINF:-1 group-title="Movies" tvg-id="1000009247" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" , Sony MAX HD
+#EXTINF:-1 tvg-id="10012" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10012.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009247.m3u8
-#EXTINF:-1 group-title="Movies" tvg-id="1000044878" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_MAX2.png" , Sony MAX2
+#EXTINF:-1 tvg-id="10013" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",SONY TEN 2 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10013.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000044878.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009280" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" , Sony TEN 1
+#EXTINF:-1 tvg-id="10014" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",SONY TEN 3 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10014.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009280.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009279" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" , Sony TEN 2
+#EXTINF:-1 tvg-id="10015" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10015.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009279.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009283" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png" , Sony TEN 3
+#EXTINF:-1 tvg-id="10016" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5 HD
+https://young-king-f7a1.1akiytb4.workers.dev/10016.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009283.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000119187" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" , Sony TEN 4
+#EXTINF:-1 tvg-id="10017" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Documentary",SONY BBC EARTH
+https://young-king-f7a1.1akiytb4.workers.dev/10017.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000119187.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009281" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" , Sony TEN 5
+#EXTINF:-1 tvg-id="10018" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",SONY YAY
+https://young-king-f7a1.1akiytb4.workers.dev/10018.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009281.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009276" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" , Sony TEN 1 HD
+#EXTINF:-1 tvg-id="10019" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Movies",SONY PIX HD
+https://young-king-f7a1.1akiytb4.workers.dev/10019.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009276.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009277" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" , Sony TEN 2 HD
+#EXTINF:-1 tvg-id="10020" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Entertainment",SONY MARATHI
+https://young-king-f7a1.1akiytb4.workers.dev/10020.m3u8
 
-https://young-king-f7a1.1akiytb4.workers.dev/1000009277.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009278" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" , Sony TEN 3 HD
-
-https://young-king-f7a1.1akiytb4.workers.dev/1000009278.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000119186" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" , Sony TEN 4 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000119186.m3u8
-#EXTINF:-1 group-title="Sports" tvg-id="1000009275" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" , Sony TEN 5 HD
-https://young-king-f7a1.1akiytb4.workers.dev/1000009275.m3u8
+#EXTINF:-1 tvg-id="10021" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH 
+https://young-king-f7a1.1akiytb4.workers.dev/10021.m3u8
 
 #EXTINF:-1 tvg-id="144" tvg-name="Colors HD" tvg-type="Entertainment" group-title="Entertainment" tvg-language="Hindi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_HD.png",Colors HD
 https://young-king-f7a1.1akiytb4.workers.dev/144.m3u8
