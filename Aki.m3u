@@ -358,7 +358,6 @@ https://young-king-f7a1.1akiytb4.workers.dev/10021.m3u8
 
 
 ____________________VOOT ____________________________
-#EXTM3U
 
 #EXTINF:-1 tvg-id="20000"  group-title="NXT Colors" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Colors_HD.png",Colors HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
