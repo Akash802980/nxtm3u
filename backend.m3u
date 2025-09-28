@@ -70,14 +70,14 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_HD_BTS/output/index.mpd?__hdnea
 
 #EXTINF:-1 tvg-id="1151" group-title="NXT STAR" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Romance.png",Star Gold Romance
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=0d8e857858fe5e8facd51b10a39e641d&key=f6058b29e8a5017e16ab5baad78ea004
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ee6e9f18a6c155e3855700b34fa8436f&key=b670c81b0e4f7f19f1fbeac0eaa7fba8
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1756034305~exp=1756120705~acl=/*~hmac=ef2829ca981b3ca9718c4dbfda99f89078d9d0b4f43ff2a5413aef3a7675b826"
-https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Romance_BTS/output/index.mpd?__hdnea__=st=1759020374~exp=1759106774~acl=/*~hmac=7d03b8c9449f988d7661808f5e1ef50886114129872a48902718249e900643ea
+https://jiotvbpkmob.cdn.jio.com/bpk-tv/Star_Gold_Romance_BTS/output/index.mpd?__hdnea__=st=1759020374~exp=1759106774~acl=/*~hmac=7d03b8c9449f988d7661808f5e1ef50886114129872a48902718249e900643ea
 
 #EXTINF:-1 tvg-id="1153" group-title="NXT STAR" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Star_Gold_Thrills.png",Star Gold Thrills
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=ca83419dfa1b56f794032b271b8f2c84&key=d592520eea361507a63c94bff799dfb6
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=189ccd629ff25ec1adc2e34d49b186eb&key=fd102ddbd3844b55b70c6aa23dbd212b
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie":"__hdnea__=st=1756034305~exp=1756120705~acl=/*~hmac=ef2829ca981b3ca9718c4dbfda99f89078d9d0b4f43ff2a5413aef3a7675b826"
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_Thrills_BTS/output/index.mpd?__hdnea__=st=1759020374~exp=1759106774~acl=/*~hmac=7d03b8c9449f988d7661808f5e1ef50886114129872a48902718249e900643ea
