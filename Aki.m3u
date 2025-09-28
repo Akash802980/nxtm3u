@@ -6,6 +6,10 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
   #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
+#EXTINF:-1 tvg-id="0-9-aajtak" group-title="Cricket Live 24*7 " tvg-logo="https://jiotvg",IND VS PAK FINAL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://liveakmt-p.slivcdn.com/hls/live/2119921/cricacc12809/HIN/std_lrh-800300010.m3u8?hdnea=exp=1759089609~acl=/*~id=a88ff9f315df41c0b0e544b818e0bcff-1759046374156~hmac=976cab410fc062600091d85418074f631685f51ccb59e9d2914b0d7c3647a8ed
+
 
   _______ZEEE_____________________
   
