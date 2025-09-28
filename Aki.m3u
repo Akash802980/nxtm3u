@@ -1794,7 +1794,7 @@ https://dishmt.slivcdn.com/hls/live/2011746-b/SonyYaySD/serve.key?/master.m3u8?h
 #EXTINF:-1 tvg-id="10019" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Moviess",SONY PIX HD
 https://dishmt.slivcdn.com/hls/live/2011748-b/PIXHD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
 
-#EXTINF:-1 tvg-id="10020" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Entertainment",SONY MARATHI
+#EXTINF:-1 tvg-id="10020" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Marathi",SONY MARATHI
 https://dishmt.slivcdn.com/hls/live/2011740-b/SonyMarathi/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
 
 #EXTINF:-1 tvg-id="10021" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH 
