@@ -1880,74 +1880,101 @@ https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5383489.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://young-king-f7a1.1akiytb4.workers.dev/0-9-9z5398761.m3u8
 
+
 ====sony cat==================
-#EXTINF:-1 tvg-id="10000" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SONY HD
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
 
-#EXTINF:-1 tvg-id="10001" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",SONY SAB HD
-https://dishmt.slivcdn.com/hls/live/2011749-b/SABHD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="1" tvg-name="SET HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", SET HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/1.m3u8
 
-#EXTINF:-1 tvg-id="10002" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
-https://dishmt.slivcdn.com/hls/live/2011741-b/SonyPalSD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="2" tvg-name="Sony SAB HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony SAB HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/2.m3u8
 
-#EXTINF:-1 tvg-id="10003" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Moviess",SONY WAH
-https://dishmt.slivcdn.com/hls/live/2011906-b/SonyWah/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="3" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="Marathi" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Marathi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/3.m3u8
 
-#EXTINF:-1 tvg-id="10004" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/SET_MAX.png" group-title="Movies",SONY MAX
-https://dishmt.slivcdn.com/hls/live/2011745-b/SonyMaxSD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="4" tvg-name="Sony Pal" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Pal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/4.m3u8
 
-#EXTINF:-1 tvg-id="10005" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies",SONY MAX HD
-https://dishmt.slivcdn.com/hls/live/2011670-b/SonyMaxhd/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="5" tvg-name="Sony Kal" tvg-language="Hindi" tvg-logo="https://i.ibb.co/JFrTDg2k/275853749-1027757541419082-8885487251764233689-n.jpg" group-title="Entertainment" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Kal
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/5.m3u8
 
-#EXTM3U
-#EXTINF:-1 tvg-id="10006" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies",SONY MAX2
-https://dishmt.slivcdn.com/hls/live/2011908-b/MAX2/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="6" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Other" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Aath
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/6.m3u8
 
-#EXTINF:-1 tvg-id="10007" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png" group-title="Sports",SONY TEN 1
-https://dishmt.slivcdn.com/hls/live/2011739-b/TEN1SD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="7" tvg-name="Sony Yay" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Yay
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/7.m3u8
 
-#EXTINF:-1 tvg-id="10008" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",SONY TEN 2
-https://dishmt.slivcdn.com/hls/live/2020590-b/TEN2SD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="8" tvg-name="Sony MAX HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="Movies" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony MAX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/8.m3u8
 
-#EXTINF:-1 tvg-id="10009" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",SONY TEN 3
-https://dishmt.slivcdn.com/hls/live/2020592-b/TEN3SD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="9" tvg-name="Sony MAX" tvg-language="Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png" group-title="Movies" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony MAX
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/9.m3u8
 
-#EXTINF:-1 tvg-id="10010" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_SD_Logo_CLR.png" group-title="Sports",SONY TEN 4 
-https://dishmt.slivcdn.com/hls/live/2020437-b/ten4sd/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="10" tvg-name="Sony MAX 2" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="Movies" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony MAX 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/10.m3u8
 
-#EXTINF:-1 tvg-id="10011" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports",SONY TEN 5 
-https://dishmt.slivcdn.com/hls/live/2020594-b/SONYSIXSD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="11" tvg-name="Sony WAH" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony WAH
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/11.m3u8
 
-#EXTINF:-1 tvg-id="10012" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1 HD
-https://dishmt.slivcdn.com/hls/live/2011747-b/TEN1HD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="12" tvg-name="Sony PIX HD" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony PIX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/12.m3u8
 
-#EXTINF:-1 tvg-id="10013" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",SONY TEN 2 HD
-https://dishmt.slivcdn.com/hls/live/2020434-b/TEN2HD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="13" tvg-name="Sony BBC Earth HD" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="Infotainment" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony BBC Earth HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/13.m3u8
 
-#EXTINF:-1 tvg-id="10014" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",SONY TEN 3 HD
-https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="14" tvg-name="Sony Sports Ten 1" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/14.m3u8
 
-#EXTINF:-1 tvg-id="10015" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4 HD
-https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="15" tvg-name="Sony Sports Ten 2" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/15.m3u8
 
-#EXTINF:-1 tvg-id="10016" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5 HD
-https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="16" tvg-name="Sony Sports Ten 3" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen3_SD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 3
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/16.m3u8
 
-#EXTINF:-1 tvg-id="10017" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Documentary",SONY BBC EARTH
-https://dishmt.slivcdn.com/hls/live/2011907-b/SonyBBCEarthHD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="17" tvg-name="Sony Sports Ten 4" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 4
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/17.m3u8
 
-#EXTINF:-1 tvg-id="10018" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",SONY YAY
-https://dishmt.slivcdn.com/hls/live/2011746-b/SonyYaySD/serve.key?/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="18" tvg-name="Sony Sports Ten 5" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/18.m3u8
 
-#EXTINF:-1 tvg-id="10019" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="ENG Moviess",SONY PIX HD
-https://dishmt.slivcdn.com/hls/live/2011748-b/PIXHD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="19" tvg-name="Sony Sports Ten 1 HD" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 1 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/19.m3u8
 
-#EXTINF:-1 tvg-id="10020" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Marathi",SONY MARATHI
-https://dishmt.slivcdn.com/hls/live/2011740-b/SonyMarathi/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="20" tvg-name="Sony Sports Ten 2 HD" tvg-language="English" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 2 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/20.m3u8
 
-#EXTINF:-1 tvg-id="10021" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH 
-https://dishmt.slivcdn.com/hls/live/2011641-b/SonyAathSD/master.m3u8?hdnea=exp=1759095027~acl=/*~id=51649953139860562441304744105848~hmac=4ed5f29b18ae05ce3d9013c1c697f3645bf5da249493565892b05cfc946a73ad
+#EXTINF:-1 tvg-id="21" tvg-name="Sony Sports Ten 3 HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen3_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 3 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/21.m3u8
+
+#EXTINF:-1 tvg-id="22" tvg-name="Sony Sports Ten 4 HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 4 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/22.m3u8
+
+#EXTINF:-1 tvg-id="23" tvg-name="Sony Sports Ten 5 HD" tvg-language="Hindi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports" group-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_LIV.png", Sony Sports Ten 5 HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+https://young-king-f7a1.1akiytb4.workers.dev/23.m3u8
+
 
 voot======================================== 
 
