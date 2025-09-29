@@ -1091,6 +1091,10 @@ https://cdn-2.pishow.tv/live/1461/master.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://cdn-2.pishow.tv/live/1460/master.m3u8
 
+#EXTINF:-1 tvg-id="sabin" group-title="Movies " tvg-logo="https://1000logos.net/wp-content/uploads/2023/01/Sony-SAB-logo.png",Sony Sab
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://freelivtv.xyz/proxy/m3u8.php?url=https://restream-bay.vercel.app/?id=221256&e=.m3u8
+
 
 #EXTINF:-1 tvg-id="1374" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
 #KODIPROP:inputstream.adaptive.license_type=clearkey
