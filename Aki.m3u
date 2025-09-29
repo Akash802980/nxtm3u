@@ -10,9 +10,6 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://liveakmt-p-web.slivcdn.com/hls/live/2119921/cricacc12809/HIN/std_lrh-800300010.m3u8?hdnea=exp=1759116160~acl=/*~id=77259800088723949116205136098909~hmac=28c0a108385f589838df4574cd9df81c29ebf132a539f3abc44a8e806ae9119f
 
-#EXTINF:-1 tvg-id="Golemin" group-title="Movies " tvg-logo="https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png",Goldmines
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://cdn-2.pishow.tv/live/1461/master.m3u8
 
   _______ZEEE_____________________
   
@@ -1086,6 +1083,10 @@ https://young-king-f7a1.1akiytb4.workers.dev/1406.mpd
 
 ==================CATAGORIES===========================
 
+
+#EXTINF:-1 tvg-id="Golemin" group-title="Movies " tvg-logo="https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png",Goldmines
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://cdn-2.pishow.tv/live/1461/master.m3u8
 
 
 #EXTINF:-1 tvg-id="1374" group-title="Kids" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Disney_Junior.png",Disney Junior
