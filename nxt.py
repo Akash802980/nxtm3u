@@ -156,42 +156,5 @@ def main():
     update_backend_status(old_jio, jio_token, old_zee, zee_token)
 
 if __name__ == "__main__":
-    main()            content
-        )
-
-    # Add new Zee token
-    if zee_token:
-        content = re.sub(
-            r"(https://z5ak-cmaflive\.zee5\.com[^\s\"']+?\.m3u8)",
-            rf"\1?{zee_token}",
-            content
-        )
-
-    with open(m3u_file, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    print("✅ Playlist updated.")
-
-def main():
-    old_jio, old_zee = extract_old_tokens()
-
-    # Fetch Jio token
-    jio_token, jio_domain = get_jio_token_from_json()
-    if not jio_token:
-        jio_token, jio_domain = get_jio_token_from_redirect()
-    if not jio_token:
-        raise Exception("❌ Could not fetch Jio token")
-
-    # Fetch Zee token
-    zee_token = get_zee_token()
-    if not zee_token:
-        raise Exception("❌ Could not fetch Zee token")
-
-    # Update playlist
-    update_playlist(jio_token, jio_domain, zee_token)
-
-    # Update backend status line
-    update_backend_status(old_jio, jio_token, old_zee, zee_token)
-
-if __name__ == "__main__":
     main()
+    
