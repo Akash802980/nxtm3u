@@ -1091,16 +1091,6 @@ https://jolly-union-48aa.1akiytb4.workers.dev/456.m3u8
 #EXTINF:-1 tvg-id="No details available" tvg-name="HINDI ENG DUB MOVIES HD" tvg-logo="" group-title="NXT 24 Movies",HINDI ENG DUB MOVIES HD
 https://jolly-union-48aa.1akiytb4.workers.dev/2858.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="COLORS Marathi US" tvg-logo="" group-title="Marathi",COLORS Marathi US
-https://jolly-union-48aa.1akiytb4.workers.dev/442.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="COLORS Marathi UK" tvg-logo="" group-title="Marathi",COLORS Marathi UK
-https://jolly-union-48aa.1akiytb4.workers.dev/443.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="STAR PRAVAH HD INDIA" tvg-logo="" group-title="Marathi",STAR PRAVAH HD INDIA
-https://jolly-union-48aa.1akiytb4.workers.dev/2309.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="STAR PRAVAH HD US" tvg-logo="" group-title="Marathi",STAR PRAVAH HD US
-https://jolly-union-48aa.1akiytb4.workers.dev/438.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="SONY Marathi HD US" tvg-logo="" group-title="Marathi",SONY Marathi HD US
-https://jolly-union-48aa.1akiytb4.workers.dev/2764.m3u8
 
 #EXTINF:-1 tvg-id="Golemin" group-title="Movies " tvg-logo="https://static.wikia.nocookie.net/jhmovie/images/7/7b/Goldmines_logo.png",Goldmines
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
@@ -2326,6 +2316,17 @@ https://gtvaki.1akiytb4.workers.dev/20051.mpd
 
 https://gtvaki.1akiytb4.workers.dev/20052.mpd
 
+====stalker maathi ======
+#EXTINF:-1 tvg-id="" tvg-name="COLORS Marathi US" tvg-logo="https://en.m.wikipedia.org/wiki/File:Colors_Marathi_logo.png" group-title="Marathi",COLORS Marathi US
+https://jolly-union-48aa.1akiytb4.workers.dev/442.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="COLORS Marathi UK" tvg-logo="https://en.m.wikipedia.org/wiki/File:Colors_Marathi_logo.png" group-title="Marathi",COLORS Marathi UK
+https://jolly-union-48aa.1akiytb4.workers.dev/443.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STAR PRAVAH HD INDIA" tvg-logo="https://www.pikpng.com/pngl/b/327-3278517_tv-channel-logo-png.png" group-title="Marathi",STAR PRAVAH HD INDIA
+https://jolly-union-48aa.1akiytb4.workers.dev/2309.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="STAR PRAVAH HD US" tvg-logo="https://www.pikpng.com/pngl/b/327-3278517_tv-channel-logo-png.png" group-title="Marathi",STAR PRAVAH HD US
+https://jolly-union-48aa.1akiytb4.workers.dev/438.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="SONY Marathi HD US" tvg-logo="" group-title="Marathi",SONY Marathi HD US
+https://jolly-union-48aa.1akiytb4.workers.dev/2764.m3u8
 
 
 
