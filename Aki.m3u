@@ -1062,7 +1062,7 @@ https://gtvaki.1akiytb4.workers.dev/1406.mpd
 
 
 ==================CATAGORIES===========================
-#EXTINF:-1 tvg-id="1090492387" tvg-name="Taarak Mehta Ka Ooltah Chashmah" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/bolt_assets/landscape_thumb/1760480819531_1760463937929343_TMKOC_Channel_14oct_landscape_thumb.jpg" tvg-language="HINDI" group-title="Entertainment"
+#EXTINF:-1 tvg-id="1090492387" tvg-name="Taarak Mehta Ka Ooltah Chashmah" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/bolt_assets/landscape_thumb/1760480819531_1760463937929343_TMKOC_Channel_14oct_landscape_thumb.jpg" tvg-language="HINDI" group-title="Entertainment" TMKOC
 https://my-worker.1akiytb4.workers.dev/1090492387.m3u8 |User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; 4K DATV-Z; Build/RTK4.241026.054)
 #EXTINF:-1 tvg-id="No details available" tvg-name="BFLIX ALL DAY HD" tvg-logo="" group-title="NXT 24 Movies",BFLIX ALL DAY HD
 https://jolly-union-48aa.1akiytb4.workers.dev/3643.m3u8
