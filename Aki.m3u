@@ -1063,7 +1063,7 @@ https://gtvaki.1akiytb4.workers.dev/1406.mpd
 
 ==================CATAGORIES===========================
 #EXTINF:-1 tvg-id="1090492387" tvg-name="BHD" tvg-logo="" group-title="Entertainment",TMKOC
-https://my-worker.1akiytb4.workers.dev/1090492387.m3u8 |User-Agent=com.sonyliv/6.22.4 (Android 11; en_GB; 4K DATV-Z; Build/RTK4.241026.054)
+https://my-worker.1akiytb4.workers.dev/1090492387.m3u8
 #EXTINF:-1 tvg-id="No details available" tvg-name="BFLIX ALL DAY HD" tvg-logo="" group-title="NXT 24 Movies",BFLIX ALL DAY HD
 https://jolly-union-48aa.1akiytb4.workers.dev/3643.m3u8
 #EXTINF:-1 tvg-id="No details available" tvg-name="BFLIX LATEST MOVIES 1 HD" tvg-logo="" group-title="NXT 24 Movies",BFLIX LATEST MOVIES 1 HD
