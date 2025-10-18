@@ -186,20 +186,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd
 
-
-#EXTINF:-1 tvg-id="0-9-zeemarathi" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Marathi_HD.png",Zee Marathi HD
-https://jolly-union-48aa.1akiytb4.workers.dev/2311.m3u8
-
-
-#EXTINF:-1 tvg-id="0-9-zeeyuva" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Yuva.png",Zee Yuva
-https://jolly-union-48aa.1akiytb4.workers.dev/2338.m3u8
-
-#EXTINF:-1 tvg-id="0-9-zeetalkies" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies_HD.png",Zee Talkies HD
-https://jolly-union-48aa.1akiytb4.workers.dev/2312.m3u8
-
-#EXTINF:-1 tvg-id="0-9-pictures" group-title="NXT Zee " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures.png",&Pictures
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://jolly-union-48aa.1akiytb4.workers.dev/1121.m3u8
 ___________________SONY___________________________
 #EXTM3U
 
@@ -1637,6 +1623,20 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd
 
 
 
+#EXTINF:-1 tvg-id="0-9-zeemarathi" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Marathi_HD.png",Zee Marathi HD
+https://jolly-union-48aa.1akiytb4.workers.dev/2311.m3u8
+
+
+#EXTINF:-1 tvg-id="0-9-zeeyuva" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Yuva.png",Zee Yuva
+https://jolly-union-48aa.1akiytb4.workers.dev/2338.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeetalkies" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies_HD.png",Zee Talkies HD
+https://jolly-union-48aa.1akiytb4.workers.dev/2312.m3u8
+
+#EXTINF:-1 tvg-id="0-9-pictures" group-title="NXT Zee " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures.png",&Pictures
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
+https://jolly-union-48aa.1akiytb4.workers.dev/1121.m3u8
+
 
 ====sony cat==================
 #EXTM3U
@@ -1707,8 +1707,6 @@ https://my-worker.1akiytb4.workers.dev/sonysportsten4hd.m3u8
 #EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", Sony TEN 5 HD
 https://my-worker.1akiytb4.workers.dev/sonysportsten5hd.m3u8
 
-#EXTINF:-1 tvg-id="sonykal" tvg-name="Sony Kal" tvg-logo="https://upload.wikimedia.org/wikipedia/hi/6/6e/Sony_Kal_Logo.jpeg?20240118073607" group-title="Entertainment", Sony Kal
-https://mac.tgaadi.workers.dev/476720.m3u8
 
 
 voot======================================== 
