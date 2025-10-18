@@ -6,15 +6,11 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
   #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
-#EXTINF:-1 tvg-id="-aajtak" group-title="Cricket Live 24*7 " ,IND VS PAK FINAL
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
-https://liveakmt-p-web.slivcdn.com/hls/live/2119921/cricacc12809/HIN/std_lrh-800300010.m3u8?hdnea=exp=1759116160~acl=/*~id=77259800088723949116205136098909~hmac=28c0a108385f589838df4574cd9df81c29ebf132a539f3abc44a8e806ae9119f
-
 #EXTINF:-1 tvg-id="NXT ZEE-and-pictures" tvg-name="&PICTURES" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/xdksem.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", &PICTURES
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jepTLKv-T3G6IPYjEOeUnw","k":"eiFKl05PTR2btmNk1fDLkg"}],"type":"temporary"}
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/manifest.mpd
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
 
 #EXTINF:-1 tvg-id="NXT ZEE-and-tv" tvg-name="&TV" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ipckcm.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", &TV
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
