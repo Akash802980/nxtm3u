@@ -10,6 +10,186 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://liveakmt-p-web.slivcdn.com/hls/live/2119921/cricacc12809/HIN/std_lrh-800300010.m3u8?hdnea=exp=1759116160~acl=/*~id=77259800088723949116205136098909~hmac=28c0a108385f589838df4574cd9df81c29ebf132a539f3abc44a8e806ae9119f
 
+#EXTINF:-1 tvg-id="NXT ZEE-and-pictures" tvg-name="&PICTURES" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/xdksem.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", &PICTURES
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"jepTLKv-T3G6IPYjEOeUnw","k":"eiFKl05PTR2btmNk1fDLkg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-and-tv" tvg-name="&TV" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ipckcm.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", &TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Jt-G7uuwTX-8RclI926B_Q","k":"Xzoj8ac8TJarq85f_-ewaw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtv/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-24-ghanta" tvg-name="24 GHANTA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ivdstd.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", 24 GHANTA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"yiGqzuVxR1CMDDb1b4wnUQ","k":"u99UZeR7TAy6xb04u24rIw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/24ghanta2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-discovery-channel" tvg-name="DISCOVERY CHANNEL" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/nddhwf.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", DISCOVERY CHANNEL
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"twqM-UUMTWSEtKxNPGdhwA","k":"CQi-hEJgQJy6wYC_AYHaQA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-discovery-kids" tvg-name="DISCOVERY KIDS" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/uzbawq.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", DISCOVERY KIDS
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"YB9Y1LcJTSuveMhdHZy2yQ","k":"YJ4MwDGYRV-jb9LMPn-UDQ"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverykids2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-discovery-science" tvg-name="DISCOVERY SCIENCE" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/poifwx.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", DISCOVERY SCIENCE
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"VFj0Xv7bTW-Kpqx2yFtiGw","k":"2_igowamRSW6MBL9IlNwwA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-discovery-turbo" tvg-name="DISCOVERY TURBO" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/fdkzmc.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", DISCOVERY TURBO
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"wBFSWWnkS5moYFnbs8306A","k":"ZwCl2TIDQXuFhffefdGgmw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryturbo2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-investigation-discovery" tvg-name="INVESTIGATION DISCOVERY" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/jqwcyr.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", INVESTIGATION DISCOVERY
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"KCjqb2qYRQWwRU2gwD9ouQ","k":"XTtxlQhlRMKAeqjBVE5zeQ"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Investigationdiscovery2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-mtv-beats" tvg-name="MTV BEATS" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/lrcznw.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", MTV BEATS
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"KkV6algYQjS6m_ppFs6AEw","k":"7z3YCJR3RDCjPsvJEI6R1w"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Mtvbeats2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-ndtv-india" tvg-name="NDTV INDIA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/iqfloc.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", NDTV INDIA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"14wBYlw_TtmJEmCXmSmFRA","k":"uRu4gvliSHKtphJQBv5ccw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ndtvindia2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-tlc" tvg-name="TLC" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/pjpqmt.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", TLC
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"5I5zc9a-R-yrg6IISfaCPg","k":"UTzgei7iT_2-Zn7_Wp1GqA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Tlc2/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-anmol" tvg-name="ZEE ANMOL" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/odeyvg.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE ANMOL
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"QCNhNFd3TL63GmLDOZcOYw","k":"HD6fzl8BRUK-nNH3SRgSBA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-anmol-cinema" tvg-name="ZEE ANMOL CINEMA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ysgmdh.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE ANMOL CINEMA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"gSQRy6i8QseesrGc14rT8w","k":"RooLjT1dQtilxBu4dTkKdA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmolcinema/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-bangla" tvg-name="ZEE BANGLA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/ralgkp.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE BANGLA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Hfg-BYuGTaiWySiO72OxEw","k":"_DLyYjkFS1aqtIIlMFWY_g"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-bangla-cinema" tvg-name="ZEE BANGLA CINEMA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/brmfgr.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE BANGLA CINEMA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"-7_Zzku-TYGLFt99_onwWw","k":"HpbQ-I73QOmC1vYQVyHIvA"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglacinema/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-hindustan" tvg-name="ZEE BHARAT" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/jvpitr.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE BHARAT
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"EGFtfEvuQfGCW9gFxilRcg","k":"3IXyES9jR3-zn8FJSTxJvg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-bihar-jharkhand" tvg-name="ZEE BIHAR JHARKHAND" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/phhexz.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE BIHAR JHARKHAND
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"4exgmLUBSseq4LN_ctXoXg","k":"wElQ8l2OQQepboKOeRHlOw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebiharjharkhand/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-bollywood" tvg-name="ZEE BOLLYWOOD" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zee-bollywood.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE BOLLYWOOD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"5hUjJgxhR0ayW5pVI_6aOQ","k":"ct2_N_dvSay7jhQOcnnnoQ"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-business" tvg-name="ZEE BUSINESS" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/yyggwd.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE BUSINESS
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"vvh4kuWMRG2JOxaoSHA7cA","k":"UZWfy8j-QJG1cLolS_dJrg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebusiness/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-cinema" tvg-name="ZEE CINEMA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/bklqmv.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE CINEMA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Q1E7E_S1QuOckmWSHfwXJg","k":"sLJni80nTDe4iKbJh9UC7Q"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net//bpk-tv//Zeecinema/default//manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-cinema-hd" tvg-name="ZEE CINEMA HD" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/eqrpdx.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE CINEMA HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"9WvqrJ8SRhaHLHQcnOT6Tg","k":"XUCpAyOPStmKu-0Yd9Tj0Q"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net//bpk-tv//Zeecinemahd/default//manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-cinemalu" tvg-name="ZEE CINEMALU" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/mzmazx.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE CINEMALU
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"0nvAcmANQx-qfQyEQaX7Qw","k":"O2H2Ttx5SX2dox1hKoj46g"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net//bpk-tv//Zeecinemalu/default//manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-kannada" tvg-name="ZEE KANNADA" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/bhqvrx.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE KANNADA
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"UOcUtl6tRTy_q5sgvtXHnQ","k":"vAjhCLnuT2W5nLna2VMvPw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeekannada/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-marathi" tvg-name="ZEE MARATHI" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/iojqpq.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE MARATHI
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Ko1sk46mRySPehDu3Dnwlw","k":"fYH-uE7YS9iP3Fyp3jwW2g"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeemarathi/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-sarthak" tvg-name="ZEE SARTHAK" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zee-sarthak.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE SARTHAK
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"7K0LCXtXQHikob3iS_2y5Q","k":"VouxPQTbS3OIZPbISUdM1Q"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeesarthak/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-talkies" tvg-name="ZEE TALKIES" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/yhleum.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE TALKIES
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"8IHzJ1Y3TD2CZeGh4ClhTg","k":"NWo6bYzjTUmoStRksgsaPg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkies/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-telugu" tvg-name="ZEE TELUGU" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/tpzyfx.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE TELUGU
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"HOXNdaatRKOKfRuNuvnDMA","k":"ZX_I59UzRWywZE_gNFiksg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetelgu/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zee-tv" tvg-name="ZEE TV" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/qsrytm.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZEE TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"7QaM-E8GQMy8fA45XAonLg","k":"u3IhkPK7RGORAgQRp9CCiw"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zing" tvg-name="ZING" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/zing.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZING
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"8PsU7r5HSmq3TIMB1VpyJA","k":"-fiy4wcERYuNuESihc4yvg"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zing/default/manifest.mpd
+
+#EXTINF:-1 tvg-id="NXT ZEE-zoom" tvg-name="ZOOM" tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/fcnotp.png" group-logo="https://play-lh.googleusercontent.com/x9RWkBOe44DmEidEj5qWRs5H2gOCgRycQenIlcr0kO098rTVn1Nl-IM3JFB_vfuTRg" group-title="NXT ZEE", ZOOM
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"hu3snjt9QEKk1KHKFPhH7g","k":"ne9DFfAAQBmjcFvLPPMMow"}],"type":"temporary"}
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd
+
 
   _______ZEEE_____________________
   
