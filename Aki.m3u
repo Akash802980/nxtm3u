@@ -1633,7 +1633,7 @@ https://jolly-union-48aa.1akiytb4.workers.dev/2338.m3u8
 #EXTINF:-1 tvg-id="0-9-zeetalkies" group-title="Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Zee_Talkies_HD.png",Zee Talkies HD
 https://jolly-union-48aa.1akiytb4.workers.dev/2312.m3u8
 
-#EXTINF:-1 tvg-id="0-9-pictures" group-title="NXT Zee " tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures.png",&Pictures
+#EXTINF:-1 tvg-id="0-9-pictures" group-title="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/And_Pictures.png",&Pictures
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://jolly-union-48aa.1akiytb4.workers.dev/1121.m3u8
 
