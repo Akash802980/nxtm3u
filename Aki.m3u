@@ -1723,6 +1723,13 @@ https://gtvaki.1akiytb4.workers.dev/76.mpd
 https://gtvaki.1akiytb4.workers.dev/77.mpd
 
 
+#EXTINF:-1 tvg-id="217" group-title="Marathi News" tvg-logo="https://img.media.jio.com/imagespublic/61/54/SaamTv_1574695258106_tv.jpg",Saam TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=a31f36ff78425c23b2c106a2059af000&key=106809f67f899736e3321303b007ccf3
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1761740999~exp=1761827399~acl=/*~hmac=e62856e588b42ddc9711255664381a9c123d6a55b0559e30de3e3d930392be18"}
+https://gtvaki.1akiytb4.workers.dev/217.mpd
+
 
 zee===============================
 #EXTINF:-1 group-title="News" tvg-id="0-9-aajtak"  tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak
@@ -2971,13 +2978,6 @@ https://gtvaki.1akiytb4.workers.dev/215.mpd
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
 #EXTHTTP:{"cookie": "__hdnea__=st=1761740999~exp=1761827399~acl=/*~hmac=e62856e588b42ddc9711255664381a9c123d6a55b0559e30de3e3d930392be18"}
 https://gtvaki.1akiytb4.workers.dev/216.mpd
-
-#EXTINF:-1 tvg-id="217" group-title="Marathi News" tvg-logo="https://img.media.jio.com/imagespublic/61/54/SaamTv_1574695258106_tv.jpg",Saam TV
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=a31f36ff78425c23b2c106a2059af000&key=106809f67f899736e3321303b007ccf3
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-#EXTHTTP:{"cookie": "__hdnea__=st=1761740999~exp=1761827399~acl=/*~hmac=e62856e588b42ddc9711255664381a9c123d6a55b0559e30de3e3d930392be18"}
-https://gtvaki.1akiytb4.workers.dev/217.mpd
 
 #EXTINF:-1 tvg-id="218" group-title="Entertainment" tvg-logo="https://img.media.jio.com/imagespublic/11/30/DDSahayadri_1579505085078_tv.jpg",DD Sahayadri
 #KODIPROP:inputstream.adaptive.license_type=clearkey
