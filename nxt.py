@@ -26,20 +26,21 @@ def get_jio_token_from_json():
     except Exception as e:
         print("⚠️ Jio JSON method failed:", e)
         return None, None
-
-def get_jio_token_from_redirect():
+def get_jio_token_from_json():
     try:
-        headers = {"User-Agent": "Denver1769"}
-        resp = requests.get(backup_url, headers=headers, allow_redirects=True, timeout=5)
-        final_url = resp.url
-        parsed = urlparse(final_url)
-        query_params = parse_qs(parsed.query)
-        raw = query_params.get("__hdnea__", [""])[0]
-        domain = parsed.netloc
-        return normalize_jio_token(raw), domain
-    except Exception as e:
-        print("⚠️ Jio Redirect method failed:", e)
+        data = requests.get(json_url, timeout=5).json()
+        for item in data:
+            raw = item.get("token", "")
+            if raw:  # found non-empty token
+                mpd = item.get("mpd", "")
+                domain = mpd.split("/")[2] if "/" in mpd else ""
+                return normalize_jio_token(raw), domain
+        print("⚠️ No valid token found in JSON list.")
         return None, None
+    except Exception as e:
+        print("⚠️ Jio JSON method failed:", e)
+        return None, None
+
 
 def get_zee_token():
     try:
