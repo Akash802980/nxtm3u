@@ -4,7 +4,7 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime, timezone, timedelta
 
 # Sources
-json_url = "https://allinonereborn.xyz/jstrweb2/jio.php"
+json_url = "https://allinonereborn.online/jstrweb2/jstr.php"
 backup_url = "https://game.denver1769.fun/Jtv/xVFuuG/Jtv.mpd?id=143"
 zee_m3u_url = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u"
 # Playlist file
