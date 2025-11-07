@@ -954,6 +954,7 @@ http://38.127.8.116/OPPLEX2/play.php?id=221256&
 #EXTINF:-1 tvg-id="001" group-title="Entertainment" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",Sony Sab
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clearkey.joker-verse.workers.dev/license
+#EXTVLCOPT:http-user-agent=third-party
 https://mix.drmlive.net/mix/airtel-126.mpd
 
 
