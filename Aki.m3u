@@ -951,11 +951,12 @@ https://cdn-2.pishow.tv/live/1460/master.m3u8
 #EXTVLCOPT:http-user-agent=RANAPK
 http://38.127.8.116/OPPLEX2/play.php?id=221256&
 
-#EXTINF:-1 tvg-id="001" group-title="Entertainment" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SAB/images/LOGO_HD/image.png",Sony Sab
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clearkey.joker-verse.workers.dev/license
-#EXTVLCOPT:http-user-agent=third-party
-https://mix.drmlive.net/mix/airtel-126.mpd
+#KODIPROP:inputstream.adaptive.license_key=49275a5eddfd38abb2ad95e90c75b2a0:1d523581670d2f288391d91ca43b87e2
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/657978a09d8fb452ad919b3e/images/36221101.webp" group-title="Entertainment", SONY SAB
+#EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1761441473:KeyName=iptv-prod-media-cdn-keys:Signature=drt7DiQA1BKA1Ya36PKeaiGvbmK6CCd7eZVbtFba6f4iaK5f3HIqbQvIvORLxuAgYq4QQd2bbWUt0BwjpiwHAA=="}
+#EXTVLCOPT:http-user-agent=tv.accedo.airtel.wynk/1.97.1 (Linux;Android 11) ExoPlayerLib/2.19.1
+https://companion-live-play1.streamready.in/live/med14-2/sony_sab/ndashd/sony_sab.mpd
 
 
 ==========JTV MAIN CHANNEL=====================
