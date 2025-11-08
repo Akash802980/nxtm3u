@@ -2,7 +2,7 @@ import re
 import requests
 
 # --- CONFIG ---
-M3U_FILE = "input.m3u"  # Apni M3U file ka naam yahan likh
+M3U_FILE = "Aki.m3u"  # Apni M3U file ka naam yahan likh
 REMOTE_URL = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u"
 
 def extract_cookie_from_remote(url):
