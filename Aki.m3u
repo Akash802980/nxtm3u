@@ -954,7 +954,7 @@ http://38.127.8.116/OPPLEX2/play.php?id=221256&
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=49275a5eddfd38abb2ad95e90c75b2a0:1d523581670d2f288391d91ca43b87e2
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/657978a09d8fb452ad919b3e/images/36221101.webp" group-title="Entertainment", SONY SAB SD
-#EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1762749012:KeyName=iptv-prod-media-cdn-keys:Signature=XmXKGrCsdvi78ZMKW_10l4AZxQ22j_Kk8FvpSU8_2FekGoOu7aMbA4icGLB_2S5d9SpbVW1k4K8y8WG7w3yICQ=="}
+#EXTHTTP:{"cookie":"Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9jb21wYW5pb24tbGl2ZS1wbGF5MS5zdHJlYW1yZWFkeS5pbi9saXZlL21lZDE0LTIvc29ueV9zYWIvbmRhc2hkLw==:Expires=1762785010:KeyName=iptv-prod-media-cdn-keys:Signature=Bv-KH5wQygedbwOD1SOpZZhF_mjfPKz4G7e41qVYCtATxecZnDxjIOuOpirgmZCcOfJCfDxLOzKTH-67qFS4Dg=="}
 #EXTVLCOPT:http-user-agent=tv.accedo.airtel.wynk/1.97.1 (Linux;Android 13) ExoPlayerLib/2.19.1
 https://companion-live-play1.streamready.in/live/med14-2/sony_sab/ndashd/sony_sab.mpd
 
