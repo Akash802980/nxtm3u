@@ -619,70 +619,70 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd
  _
 ___________________SONY___________________________
 #EXTINF:-1 tvg-id="sonysethd" tvg-name="SET HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="NXT Sony", SET HD
-https://my-worker.1akiytb4.workers.dev/sethd.m3u8
+https://my-worker.1akiytb4.workers.dev/sethd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="NXT Sony", Sony SAB HD
-https://my-worker.1akiytb4.workers.dev/sonysabhd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysabhd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="NXT Sony", Sony PAL
-https://my-worker.1akiytb4.workers.dev/sonypal.m3u8
+https://my-worker.1akiytb4.workers.dev/sonypal.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="NXT Sony", Sony YAY
-https://my-worker.1akiytb4.workers.dev/sonyyay.m3u8
+https://my-worker.1akiytb4.workers.dev/sonyyay.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="NXT Sony", Sony Marathi
-https://my-worker.1akiytb4.workers.dev/sonymarathi.m3u8
+https://my-worker.1akiytb4.workers.dev/sonymarathi.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="NXT Sony", Sony AATH
-https://my-worker.1akiytb4.workers.dev/sonyaath.m3u8
+https://my-worker.1akiytb4.workers.dev/sonyaath.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="NXT Sony", Sony MAX HD
-https://my-worker.1akiytb4.workers.dev/sonymaxhd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonymaxhd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="NXT Sony", Sony MAX
-https://my-worker.1akiytb4.workers.dev/sonymax.m3u8
+https://my-worker.1akiytb4.workers.dev/sonymax.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="NXT Sony", Sony WAH
-https://my-worker.1akiytb4.workers.dev/sonywah.m3u8
+https://my-worker.1akiytb4.workers.dev/sonywah.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="NXT Sony", Sony MAX 2
-https://my-worker.1akiytb4.workers.dev/sonymax2.m3u8
+https://my-worker.1akiytb4.workers.dev/sonymax2.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="NXT Sony", Sony PIX HD
-https://my-worker.1akiytb4.workers.dev/sonypixhd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonypixhd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="NXT Sony", Sony BBC Earth HD
-https://my-worker.1akiytb4.workers.dev/sonybbcearthhd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonybbcearthhd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 1
-https://my-worker.1akiytb4.workers.dev/sonysportsten1.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten1.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 2
-https://my-worker.1akiytb4.workers.dev/sonysportsten2.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten2.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="NXT Sony", Sony TEN 3
-https://my-worker.1akiytb4.workers.dev/sonysportsten3.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten3.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="NXT Sony", Sony TEN 4
-https://my-worker.1akiytb4.workers.dev/sonysportsten4.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten4.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 5
-https://my-worker.1akiytb4.workers.dev/sonysportsten5.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten5.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 1 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten1hd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten1hd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 2 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten2hd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten2hd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="NXT Sony", Sony TEN 3 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten3hd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten3hd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="NXT Sony", Sony TEN 4 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten4hd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten4hd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 5 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten5hd.m3u8
+https://my-worker.1akiytb4.workers.dev/sonysportsten5hd.m3u8|User-Agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"&Origin="https://www.sonyliv.com"&Referer="https://www.sonyliv.com/"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 
 ======jv  star colors
