@@ -1833,71 +1833,216 @@ https://gtvaki.1akiytb4.workers.dev/77.mpd
 https://gtvaki.1akiytb4.workers.dev/217.mpd
 
 ====sony cat==================
-#EXTINF:-1 tvg-id="sonysethd" tvg-name="SET HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment", SET HD
-https://my-worker.1akiytb4.workers.dev/sethd.m3u8
+#EXTINF:-1 tvg-id="3000" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Six_HD.png",Sony Ten 5 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=233d5f64b5b1547dae38f5a8b0b85efa&key=3b000618435f702db7d9910d8265584a
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3000.mpd
 
-#EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment", Sony SAB HD
-https://my-worker.1akiytb4.workers.dev/sonysabhd.m3u8
+#EXTINF:-1 tvg-id="3001" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png",Sony Ten 1 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=523acf1f55485476817958a62a3f2ed9&key=52b3cea435ed25d445f9eae4883c7001
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3001.mpd
 
-#EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment", Sony PAL
-https://my-worker.1akiytb4.workers.dev/sonypal.m3u8
+#EXTINF:-1 tvg-id="3002" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png",Sony Max SD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=null&key=null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3002.mpd
 
-#EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://my-worker.1akiytb4.workers.dev/sonyyay.m3u8
+#EXTINF:-1 tvg-id="3003" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png",SET HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=f5c58e6bf0a2deb018fe87a934a6a1d0&key=ebd37e936867596a868cc085070e4cd5
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3003.mpd
 
-#EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="Marathi", Sony Marathi
-https://my-worker.1akiytb4.workers.dev/sonymarathi.m3u8
+#EXTINF:-1 tvg-id="3004" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",Sony SAB HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=f223cf2122d7510da9fcec6e523ffba1&key=c55848470f58d3bd934fbfe844522b0e
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3004.mpd
 
-#EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Bengali", Sony AATH
-https://my-worker.1akiytb4.workers.dev/sonyaath.m3u8
+#EXTINF:-1 tvg-id="3005" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png",Sony Pal
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=951fda0637ef58608a0cc62a31c7f594&key=59bcb68bb58d93ae568879b8ef4185a2
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3005.mpd
 
-#EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="Movies", Sony MAX HD
-https://my-worker.1akiytb4.workers.dev/sonymaxhd.m3u8
+#EXTINF:-1 tvg-id="3006" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png",Sony Max HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=9d2bfb4c9aa45ac488bd92ec0e351217&key=c980b395f0be528c4233417ef6305274
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3006.mpd
 
-#EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="Movies", Sony MAX
-https://my-worker.1akiytb4.workers.dev/sonymax.m3u8
+#EXTINF:-1 tvg-id="3007" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png",Sony MAX2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=18e4c354db7c506d996698caeced99d0&key=bba5064a2c162761bb92a15170c88b75
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3007.mpd
 
-#EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies", Sony WAH
-https://my-worker.1akiytb4.workers.dev/sonywah.m3u8
+#EXTINF:-1 tvg-id="3008" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_1.png",Sony Ten 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=3394be91407c5fe99d784d2f2d6d4a12&key=58665e1df41f9f22ed73c56384bb3f51
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3008.mpd
 
-#EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="Movies", Sony MAX 2
-https://my-worker.1akiytb4.workers.dev/sonymax2.m3u8
+#EXTINF:-1 tvg-id="3009" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png",Sony Ten 3 Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=68318f7c97c55ba6ab8d0398a88fed3e&key=d312fb3325b4eb9462b4a0d2b6794adf
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3009.mpd
 
-#EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies", Sony PIX HD
-https://my-worker.1akiytb4.workers.dev/sonypixhd.m3u8
+#EXTINF:-1 tvg-id="3010" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Six_SD.png",Sony Ten 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=d2d8709de11d5955b60c57d3c955733e&key=7655200b24bf82808fb8addf2f02847b
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3010.mpd
 
-#EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="Infotainment", Sony BBC Earth HD
-https://my-worker.1akiytb4.workers.dev/sonybbcearthhd.m3u8
+#EXTINF:-1 tvg-id="3011" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png",Sony aath
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=c00c75edb2a65e2d86f4094249bfbd85&key=9221a2bda61fe219560311c60662ce30
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3011.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="Sports", Sony TEN 1
-https://my-worker.1akiytb4.workers.dev/sonysportsten1.m3u8
+#EXTINF:-1 tvg-id="3012" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",Sony Yay Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=271a8e6c5d9d5696a11c474a5c18371c&key=d6e2ece0c28b900dc6a868991cdf2517
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3012.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="Sports", Sony TEN 2
-https://my-worker.1akiytb4.workers.dev/sonysportsten2.m3u8
+#EXTINF:-1 tvg-id="3013" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Tamil.png",Sony Yay Tamil
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=e28fc2f196045ad5a74c7eee8e4973f3&key=41e9517d0be1f231017a04ad93a866a1
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3013.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="Sports", Sony TEN 3
-https://my-worker.1akiytb4.workers.dev/sonysportsten3.m3u8
+#EXTINF:-1 tvg-id="3014" group-title="Kids" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Telugu.png",Sony Yay Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=af022a63d90353d9974d5cc15ce709e1&key=0db40153e9e2fc30e3949101c87d2ecb
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3014.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="Sports", Sony TEN 4
-https://my-worker.1akiytb4.workers.dev/sonysportsten4.m3u8
+#EXTINF:-1 tvg-id="3015" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png",Sony Ten 2 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=7771cca923225ce08887cbae764e72c6&key=67d80b71f02d2cd1e4e0ee7b9b752841
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3015.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports", Sony TEN 5
-https://my-worker.1akiytb4.workers.dev/sonysportsten5.m3u8
+#EXTINF:-1 tvg-id="3016" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png",Sony Ten 3 HD Hindi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=71719eea0bbb5319a4e854ac52ea7871&key=752ed8f45c43ed858af4c1716c05241a
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3016.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports", Sony TEN 1 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten1hd.m3u8
+#EXTINF:-1 tvg-id="3017" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png",Sony Marathi SD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=null&key=null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3017.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports", Sony TEN 2 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten2hd.m3u8
+#EXTINF:-1 tvg-id="3018" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png",Sony Wah
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=336eb0b114415971a745af85368c8a7c&key=4dc9974ddfec2c6da275acd6d617661b
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3018.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="Sports", Sony TEN 3 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten3hd.m3u8
+#EXTINF:-1 tvg-id="3019" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SD.png",Set SD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=041a2752e99f5c6c8d4835fe221e16de&key=73bc7d13c8beb7aa7f798e717544e005
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3019.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="Sports", Sony TEN 4 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten4hd.m3u8
+#EXTINF:-1 tvg-id="3020" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Tamil.png",Sony Ten 4 HD Tamil
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=1dc6cf8863e958f5a8486c944f0bb04f&key=0d74e2d5ac746450ed827e3f828ee1e4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3020.mpd
 
-#EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", Sony TEN 5 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten5hd.m3u8
+#EXTINF:-1 tvg-id="3021" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_HD_Telugu.png",Sony Ten 4 HD Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=5c99be9d8ed654bf90cab4538ece3a5e&key=ddafcea98ffa2a1840607ab60c467846
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3021.mpd
+
+#EXTINF:-1 tvg-id="3022" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Tamil.png",Sony Ten 4 Tamil
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=null&key=null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3022.mpd
+
+#EXTINF:-1 tvg-id="3023" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_4_Telugu.png",Sony Ten 4 Telugu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=494a8a050ecc5a22adab6dc304ead1b4&key=9b3bbf2ccb71a876a2bbeb9cde00d7bf
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3023.mpd
+
+#EXTINF:-1 tvg-id="3024" group-title="Entertainment" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Rai_Vs_Rai.png",Sony LIV Exclusive
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=null&key=null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3024.mpd
+
+#EXTINF:-1 tvg-id="3025" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_5_HD_Mal.png",Sony Ten 5 HD Malayalam
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=null&key=null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3025.mpd
+
+#EXTINF:-1 tvg-id="3026" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_5_HD_Ben.png",Sony Ten 5 HD Bengali
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=null&key=null
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3026.mpd
+
+#EXTINF:-1 tvg-id="3027" group-title="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyMAX1.png",Sony MAX1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=7d1893ecbbef5872a37dfadbbc304bb9&key=dcbcecbf01a838c3336d732a40296efb
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3027.mpd
+
+#EXTINF:-1 tvg-id="3028" group-title="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",Sony Pix HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=1ff1fe6b2519562ca3a28602592cd547&key=d43132eca3cefc4e29ca8fe548a0638b
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3028.mpd
+
+#EXTINF:-1 tvg-id="3029" group-title="English" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png",Sony BBC Earth HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=f45e69507f0f5aa1a6e82374efb0af25&key=f84348219837769feb5a26a7b1cd31dc
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
+#EXTHTTP:{"cookie": "__hdnea__=st=1771464029~exp=1771550429~acl=/*~hmac=ed4c72d3d0ce76491c2ed440e71eada349e8b803057316b4711b7ee1da4d0374"}
+https://gtvaki1.1akiytb4.workers.dev/3029.mpd
+
 
 ==JTV REAIN+++++++===
 #EXTINF:-1 tvg-id="78" group-title="Others" tvg-logo="https://img.media.jio.com/tvpimages/16/34/302125_1753183367746_l_high.jpg",NBC24 News
