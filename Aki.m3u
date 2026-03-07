@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz" 
+#EXTM3U x-tvg-url="https://epgshare01.store/epgshare01/epg_ripper_IN4.xml.gz" 
 #EXTM3U x-tvg-url="https://mitthu786.github.io/tvepg/tataplay/epg.xml.gz"
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
@@ -619,70 +619,70 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd
 ___________________SONY___________________________
 
 #EXTINF:-1 tvg-id="sonysethd" tvg-name="SET HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="NXT Sony", SET HD
-https://allinonereborn.online/sony-new/playlists/sony_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="NXT Sony", Sony SAB HD
-https://allinonereborn.online/sony-new/playlists/sab_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sab_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="NXT Sony", Sony PAL
-https://allinonereborn.online/sony-new/playlists/sony_pal.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_pal.m3u8
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="NXT Sony", Sony YAY
-https://allinonereborn.online/sony-new/playlists/sony_yay.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_yay.m3u8
 
 #EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="NXT Sony", Sony Marathi
-https://allinonereborn.online/sony-new/playlists/sony_marathi.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_marathi.m3u8
 
 #EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="NXT Sony", Sony AATH
-https://allinonereborn.online/sony-new/playlists/sony_aath.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_aath.m3u8
 
 #EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="NXT Sony", Sony MAX HD
-https://allinonereborn.online/sony-new/playlists/sony_max_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_max_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="NXT Sony", Sony MAX
-https://allinonereborn.online/sony-new/playlists/sony_max.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_max.m3u8
 
 #EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="NXT Sony", Sony WAH
-https://allinonereborn.online/sony-new/playlists/sony_wah.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_wah.m3u8
 
 #EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="NXT Sony", Sony MAX 2
-https://allinonereborn.online/sony-new/playlists/sony_max2.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_max2.m3u8
 
 #EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="NXT Sony", Sony PIX HD
-https://allinonereborn.online/sony-new/playlists/sony_pix_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_pix_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="NXT Sony", Sony BBC Earth HD
-https://allinonereborn.online/sony-new/playlists/bbc_earth.m3u8
+https://allinonereborn.store/sony-new/playlists/bbc_earth.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 1
-https://allinonereborn.online/sony-new/playlists/sony_ten_1.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_1.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 2
-https://allinonereborn.online/sony-new/playlists/sony_ten_2.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_2.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="NXT Sony", Sony TEN 3
-https://allinonereborn.online/sony-new/playlists/sony_ten_3.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_3.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="NXT Sony", Sony TEN 4
-https://allinonereborn.online/sony-new/playlists/sony_ten_4.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_4.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 5
-https://allinonereborn.online/sony-new/playlists/sony_ten_5.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_5.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 1 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_1_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_1_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 2 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_2_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_2_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="NXT Sony", Sony TEN 3 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_3_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_3_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="NXT Sony", Sony TEN 4 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_4_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_4_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="NXT Sony", Sony TEN 5 HD  
-https://allinonereborn.online/sony-new/playlists/sony_ten_5_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_5_hd.m3u8
 
 
 ======jv  star colors
@@ -1835,70 +1835,70 @@ https://gtvaki.1akiytb4.workers.dev/217.mpd
 ====sony cat==================
 
 #EXTINF:-1 tvg-id="sonysethd" tvg-name="SET HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment", SET HD
-https://allinonereborn.online/sony-new/playlists/sony_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment", Sony SAB HD
-https://allinonereborn.online/sony-new/playlists/sab_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sab_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment", Sony PAL
-https://allinonereborn.online/sony-new/playlists/sony_pal.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_pal.m3u8
 
 #EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://allinonereborn.online/sony-new/playlists/sony_yay.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_yay.m3u8
 
 #EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="Marathi", Sony Marathi
-https://allinonereborn.online/sony-new/playlists/sony_marathi.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_marathi.m3u8
 
 #EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Others", Sony AATH
-https://allinonereborn.online/sony-new/playlists/sony_aath.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_aath.m3u8
 
 #EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="Movies", Sony MAX HD
-https://allinonereborn.online/sony-new/playlists/sony_max_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_max_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="Movies", Sony MAX
-https://allinonereborn.online/sony-new/playlists/sony_max.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_max.m3u8
 
 #EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies", Sony WAH
-https://allinonereborn.online/sony-new/playlists/sony_wah.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_wah.m3u8
 
 #EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="Movies", Sony MAX 2
-https://allinonereborn.online/sony-new/playlists/sony_max2.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_max2.m3u8
 
 #EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies", Sony PIX HD
-https://allinonereborn.online/sony-new/playlists/sony_pix_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_pix_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="Movies", Sony BBC Earth HD
-https://allinonereborn.online/sony-new/playlists/bbc_earth.m3u8
+https://allinonereborn.store/sony-new/playlists/bbc_earth.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="Sports", Sony TEN 1
-https://allinonereborn.online/sony-new/playlists/sony_ten_1.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_1.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="Sports", Sony TEN 2
-https://allinonereborn.online/sony-new/playlists/sony_ten_2.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_2.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="Sports", Sony TEN 3
-https://allinonereborn.online/sony-new/playlists/sony_ten_3.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_3.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="Sports", Sony TEN 4
-https://allinonereborn.online/sony-new/playlists/sony_ten_4.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_4.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports", Sony TEN 5
-https://allinonereborn.online/sony-new/playlists/sony_ten_5.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_5.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports", Sony TEN 1 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_1_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_1_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports", Sony TEN 2 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_2_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_2_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="Sports", Sony TEN 3 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_3_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_3_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="Sports", Sony TEN 4 HD
-https://allinonereborn.online/sony-new/playlists/sony_ten_4_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_4_hd.m3u8
 
 #EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", Sony TEN 5 HD  
-https://allinonereborn.online/sony-new/playlists/sony_ten_5_hd.m3u8
+https://allinonereborn.store/sony-new/playlists/sony_ten_5_hd.m3u8
 
 
 ==JTV REAIN+++++++===
