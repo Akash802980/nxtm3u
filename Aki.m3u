@@ -6,11 +6,13 @@
 #EXTINF:-1 tvg-id="2ii9"  group-title="Live Cricket" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/videos/vita/TAgfpKOqH3nnf4Ze_192x108.jpg",IPL Live
 https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/kksbtkclxn/out/v1/75ba74c3fa354297aa9327a31dfeb4d5/cenc.mpd?|drmScheme=clearkey&drmLicense=4a3d50bef26a7b2acebfb719a2d02476:f94f4e94b57e18e48450231b20222c0c
 
-#EXTINF:-1 tvg-id="2ii79"  group-title="Live Cricket" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/videos/vita/TAgfpKOqH3nnf4Ze_192x108.jpg",IND Vs AUS
+#EXTINF:-1 tvg-id="1005" group-title="Live Cricket" tvg-logo="https://img.media.jio.com/tvpimages/13/81/302112_1749665154709_l_high.jpg",Star Sports 1 Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=553a8e7efc48840b17d03797c023d9b6&key=05fa313fa73df33f19e0f2d3d047bbaf
+#KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=8ea9b607549252068e260a5f4d7dd321&key=350c0aaffedf51cc1502e9543c7c885e
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/1jii7mxinw/out/v1/fe9782633a364a6a84c9410f26d9b2c4/cenc
+#EXTHTTP:{"cookie": "__hdnea__=st=1761740999~exp=1761827399~acl=/*~hmac=e62856e588b42ddc9711255664381a9c123d6a55b0559e30de3e3d930392be18"}
+https://gtvaki.1akiytb4.workers.dev/15.mpd
+
 zeetemp===============================
 
 #EXTINF:-1 tvg-id="2000" group-title="Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/And_Pictures_HD.png",And Pictures HD
