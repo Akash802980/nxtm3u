@@ -4,7 +4,7 @@
 #EXTM3U x-tvg-url="https://tsepg.cf/jio.xml.gz"
 
 #EXTINF:-1 tvg-id="2ii9"  group-title="Live Cricket" tvg-logo="https://ssl.gstatic.com/onebox/media/sports/videos/vita/TAgfpKOqH3nnf4Ze_192x108.jpg",IPL Live
-https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/kksbtkclxn/out/v1/75ba74c3fa354297aa9327a31dfeb4d5/cenc.mpd?|drmScheme=clearkey&drmLicense=4a3d50bef26a7b2acebfb719a2d02476:f94f4e94b57e18e48450231b20222c0c
+https://livevideos.cricbuzz.com/hls/live/2123519/WCB-CA-HINDI/9241/149662/master.m3u8|user-agent=Cricbuzz/7.00.01 (Linux;Android 13) AndroidXMedia3/1.5.1&X-Forwarded-For=100.42.240.25&cookie=hdntl=exp=1775134851~acl=%2f*~id=xunivamy%40denipl.com~data=hdntl,flavour%3aCB,matchId%3a149662,debug4xx%3afalse,country%3aAE~hmac=e9d47e6df3653b61458d600a6b397130a79bbd64d7e630335220ce403bd52828
 
 #EXTINF:-1 tvg-id="1005" group-title="Live Cricket" tvg-logo="https://img.media.jio.com/tvpimages/13/81/302112_1749665154709_l_high.jpg",Star Sports 1 Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
