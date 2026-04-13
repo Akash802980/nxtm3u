@@ -1,93 +1,72 @@
-import re
 import requests
+import re
+import json
 
-# --- CONFIG ---
-M3U_FILE = "Aki.m3u"
-HOTSTAR_REMOTE_URL = "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jcinema.m3u"
+# Configuration
+API_URL = "https://host.cloudplay.me/app/icc/hstr.php"
+M3U_FILE_PATH = "Aki.m3u"  # Aapki repo me jo file hai uska naam
 
-# Airtel SONY SAB cookie source
-SONY_SAB_URL = "https://redcdn.online/airtel/live/126/med14-2/sony_sab/ndashd/sony_sab.mpd?uid=1045595420&pass=169ae613"
-SONY_SAB_HEADERS = {
-    "Host": "redcdn.online",
-    "x-user-agent": "TiviMate/4.6.1 (Linux; Android 11)",
-    "user-agent": "tv.accedo.airtel.wynk/1.97.1 (Linux;Android 13) ExoPlayerLib/2.19.1",
-    "accept-encoding": "gzip"
-}
-
-# === GET LATEST HOTSTAR COOKIE ===
-def extract_hotstar_cookie(url):
-    print(f"[+] Fetching Hotstar cookie from: {url}")
-    response = requests.get(url, timeout=10)
-    data = response.text
-
-    match = re.search(r'"cookie"\s*:\s*"([^"]+)"', data)
-    if not match:
-        raise ValueError("❌ No cookie found in Hotstar source file!")
-    
-    cookie_value = match.group(1)
-    print(f"[✓] Hotstar cookie fetched: {cookie_value[:60]}...")
-    return cookie_value
-
-
-# === GET LATEST SONY SAB EDGE-CACHE-COOKIE ===
-def fetch_sony_sab_cookie():
-    print(f"[+] Fetching SONY SAB Edge-Cache-Cookie...")
+def fetch_api_data():
     try:
-        response = requests.get(SONY_SAB_URL, headers=SONY_SAB_HEADERS, timeout=10)
-        set_cookie = response.headers.get("Set-Cookie")
-
-        if set_cookie:
-            match = re.search(r"(Edge-Cache-Cookie=[^;]+;)", set_cookie)
-            if match:
-                cookie_value = match.group(1)
-                print(f"[✓] SONY SAB cookie fetched: {cookie_value}")
-                return cookie_value
-            else:
-                print("⚠️ No Edge-Cache-Cookie found in Set-Cookie header.")
-        else:
-            print("⚠️ No Set-Cookie header found in response.")
+        response = requests.get(API_URL)
+        response.raise_for_status()
+        return response.json()
     except Exception as e:
-        print(f"[!] Error fetching SONY SAB cookie: {e}")
-    return None
+        print(f"Error fetching API: {e}")
+        return None
 
+def update_m3u():
+    api_data = fetch_api_data()
+    if not api_data:
+        return
 
-# === UPDATE M3U FILE ===
-def update_m3u_file(file_path, hotstar_cookie, sony_cookie):
-    print(f"[+] Updating {file_path}...")
+    # API data ko channel name ke hisab se map kar lete hain fast lookup ke liye
+    # Note: Kuch APIs list return karti hain, kuch object. 
+    # Agar list hai to: {item['name']: item for item in api_data}
+    channels_map = {}
+    if isinstance(api_data, list):
+        for item in api_data:
+            channels_map[item['name'].lower()] = item
+    elif isinstance(api_data, dict):
+        # Agar API direct ek list nahi balki nested object hai
+        data_list = api_data.get('data', []) # Adjust based on actual JSON structure
+        for item in data_list:
+            channels_map[item['name'].lower()] = item
 
-    with open(file_path, "r", encoding="utf-8") as f:
+    with open(M3U_FILE_PATH, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    updated_lines = []
+    new_lines = []
     for line in lines:
-        # 🔹 Hotstar update
-        if "hotstar.com" in line and 'Cookie="' in line:
-            line = re.sub(r'Cookie="[^"]+"', f'Cookie="{hotstar_cookie}"', line)
+        # Check if line contains the specific domain
+        if "jcevents.hotstar.com" in line:
+            # Channel name extract karne ki koshish (tvg-name se)
+            name_match = re.search(r'tvg-name="([^"]+)"', line)
+            if not name_match:
+                # Fallback: line ke end se name nikalna
+                name_match = re.search(r',\s*(.*)$', line)
+            
+            if name_match:
+                channel_name = name_match.group(1).lower().strip()
+                
+                if channel_name in channels_map:
+                    target = channels_map[channel_name]
+                    m3u8_url = target.get('m3u8_url')
+                    cookie = target.get('headers', {}).get('Cookie', '')
+                    ua = target.get('user_agent', '')
+                    origin = target.get('headers', {}).get('Origin', 'https://www.hotstar.com')
+                    referer = target.get('headers', {}).get('Referer', 'https://www.hotstar.com/')
 
-        # 🔹 SONY SAB Edge-Cache-Cookie update
-        elif 'Edge-Cache-Cookie=' in line and sony_cookie:
-            line = re.sub(
-                r'Edge-Cache-Cookie=[^"]+',
-                sony_cookie.strip(';'),  # remove trailing ;
-                line
-            )
+                    # Naya format assembly
+                    updated_url_line = f"{m3u8_url}|Cookie=\"{cookie}\"&User-Agent=\"{ua}\"&Origin=\"{origin}\"&Referer=\"{referer}\"\n"
+                    new_lines.append(updated_url_line)
+                    continue
+        
+        new_lines.append(line)
 
-        updated_lines.append(line)
-
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.writelines(updated_lines)
-
-    print(f"[✓] All cookies updated successfully!")
-
+    with open(M3U_FILE_PATH, 'w', encoding='utf-8') as f:
+        f.writelines(new_lines)
+    print("M3U file updated successfully!")
 
 if __name__ == "__main__":
-    try:
-        # Step 1: Fetch both cookies
-        hotstar_cookie = extract_hotstar_cookie(HOTSTAR_REMOTE_URL)
-        sony_cookie = fetch_sony_sab_cookie()
-
-        # Step 2: Update M3U file
-        update_m3u_file(M3U_FILE, hotstar_cookie, sony_cookie)
-        print("\n🎉 M3U updated successfully with both Hotstar + Sony SAB cookies!")
-    except Exception as e:
-        print(f"[!] Error: {e}")
+    update_m3u()
