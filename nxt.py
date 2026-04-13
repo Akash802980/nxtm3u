@@ -1,72 +1,56 @@
 import requests
 import re
-import json
 
-# Configuration
+# Settings
 API_URL = "https://host.cloudplay.me/app/icc/hstr.php"
-M3U_FILE_PATH = "Aki.m3u"  # Aapki repo me jo file hai uska naam
+M3U_FILE = "playlist.m3u"  # Tumhari file ka naam
 
-def fetch_api_data():
+def get_latest_data():
     try:
-        response = requests.get(API_URL)
-        response.raise_for_status()
-        return response.json()
+        r = requests.get(API_URL, timeout=10)
+        data = r.json()
+        # Agar data list mein hai toh usko dict mein convert kar rahe hain for easy lookup
+        # Hum 'm3u8_url' ko key bana rahe hain taaki exact link match ho sake
+        return {item['m3u8_url']: item for item in data}
     except Exception as e:
-        print(f"Error fetching API: {e}")
+        print(f"API Error: {e}")
         return None
 
-def update_m3u():
-    api_data = fetch_api_data()
-    if not api_data:
+def patch_m3u():
+    new_data_map = get_latest_data()
+    if not new_data_map:
         return
 
-    # API data ko channel name ke hisab se map kar lete hain fast lookup ke liye
-    # Note: Kuch APIs list return karti hain, kuch object. 
-    # Agar list hai to: {item['name']: item for item in api_data}
-    channels_map = {}
-    if isinstance(api_data, list):
-        for item in api_data:
-            channels_map[item['name'].lower()] = item
-    elif isinstance(api_data, dict):
-        # Agar API direct ek list nahi balki nested object hai
-        data_list = api_data.get('data', []) # Adjust based on actual JSON structure
-        for item in data_list:
-            channels_map[item['name'].lower()] = item
-
-    with open(M3U_FILE_PATH, 'r', encoding='utf-8') as f:
+    updated_lines = []
+    
+    with open(M3U_FILE, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    new_lines = []
     for line in lines:
-        # Check if line contains the specific domain
+        # Check agar line mein hotstar ka domain hai
         if "jcevents.hotstar.com" in line:
-            # Channel name extract karne ki koshish (tvg-name se)
-            name_match = re.search(r'tvg-name="([^"]+)"', line)
-            if not name_match:
-                # Fallback: line ke end se name nikalna
-                name_match = re.search(r',\s*(.*)$', line)
+            # Line se purana m3u8 link nikalte hain (pipe '|' se pehle wala part)
+            current_url = line.split('|')[0].strip()
             
-            if name_match:
-                channel_name = name_match.group(1).lower().strip()
+            # Agar ye URL hamare API data mein maujood hai
+            if current_url in new_data_map:
+                info = new_data_map[current_url]
+                cookie = info['headers']['Cookie']
+                ua = info['user_agent']
+                origin = info['headers']['Origin']
+                referer = info['headers']['Referer']
                 
-                if channel_name in channels_map:
-                    target = channels_map[channel_name]
-                    m3u8_url = target.get('m3u8_url')
-                    cookie = target.get('headers', {}).get('Cookie', '')
-                    ua = target.get('user_agent', '')
-                    origin = target.get('headers', {}).get('Origin', 'https://www.hotstar.com')
-                    referer = target.get('headers', {}).get('Referer', 'https://www.hotstar.com/')
-
-                    # Naya format assembly
-                    updated_url_line = f"{m3u8_url}|Cookie=\"{cookie}\"&User-Agent=\"{ua}\"&Origin=\"{origin}\"&Referer=\"{referer}\"\n"
-                    new_lines.append(updated_url_line)
-                    continue
+                # Nayi line generate karna formatted way mein
+                new_line = f"{current_url}|Cookie=\"{cookie}\"&User-Agent=\"{ua}\"&Origin=\"{origin}\"&Referer=\"{referer}\"\n"
+                updated_lines.append(new_line)
+                continue
         
-        new_lines.append(line)
+        # Agar domain match nahi hua ya API mein link nahi mila toh purani line rehne do
+        updated_lines.append(line)
 
-    with open(M3U_FILE_PATH, 'w', encoding='utf-8') as f:
-        f.writelines(new_lines)
-    print("M3U file updated successfully!")
+    with open(M3U_FILE, 'w', encoding='utf-8') as f:
+        f.writelines(updated_lines)
+    print("Done! Cookies update ho gayi hain.")
 
 if __name__ == "__main__":
-    update_m3u()
+    patch_m3u()
