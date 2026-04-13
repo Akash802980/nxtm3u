@@ -1,73 +1,81 @@
 import requests
 import re
-import json
 
+# ===== SETTINGS =====
 API_URL = "https://host.cloudplay.me/app/icc/hstr.php"
-M3U_FILE = "Aki.m3u" # Apni file ka naam check kar lena
+M3U_FILE = "Aki.m3u"
+OUTPUT_FILE = "updated_playlist.m3u"
 
-def get_latest_data():
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-    }
-    try:
-        r = requests.get(API_URL, headers=headers, timeout=15)
-        
-        # Check agar status code 200 hai
-        if r.status_code != 200:
-            print(f"Server returned error: {r.status_code}")
-            return None
-            
-        # Debugging: Print first 100 chars of response if it fails
-        try:
-            return {item['m3u8_url']: item for item in r.json()}
-        except json.JSONDecodeError:
-            print("Response was not JSON. Raw response starts with:")
-            print(r.text[:200])
-            return None
-            
-    except Exception as e:
-        print(f"Request failed: {e}")
-        return None
+# ===== FETCH JSON =====
+print("Fetching API data...")
+res = requests.get(API_URL)
+data = res.json()
 
-def patch_m3u():
-    new_data_map = get_latest_data()
-    if not new_data_map:
-        print("API se data nahi mila. Exiting...")
-        return
+# ===== CREATE MAP (name -> headers/url) =====
+channel_map = {}
 
-    try:
-        with open(M3U_FILE, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-    except FileNotFoundError:
-        print(f"Error: {M3U_FILE} nahi mili!")
-        return
+for ch in data:
+    if "jcevents.hotstar.com" in ch.get("m3u8_url", ""):
+        name = ch.get("name").strip().lower()
+        channel_map[name] = ch
 
-    updated_lines = []
-    count = 0
+print(f"Found {len(channel_map)} Hotstar channels")
 
-    for line in lines:
-        if "jcevents.hotstar.com" in line:
-            # Extract URL (split by | if it exists)
-            current_url = line.split('|')[0].strip()
-            
-            if current_url in new_data_map:
-                info = new_data_map[current_url]
-                cookie = info.get('headers', {}).get('Cookie', '')
-                ua = info.get('user_agent', '')
-                origin = info.get('headers', {}).get('Origin', 'https://www.hotstar.com')
-                referer = info.get('headers', {}).get('Referer', 'https://www.hotstar.com/')
-                
-                new_line = f"{current_url}|Cookie=\"{cookie}\"&User-Agent=\"{ua}\"&Origin=\"{origin}\"&Referer=\"{referer}\"\n"
-                updated_lines.append(new_line)
-                count += 1
-                continue
-        
+# ===== READ M3U =====
+with open(M3U_FILE, "r", encoding="utf-8") as f:
+    lines = f.readlines()
+
+updated_lines = []
+i = 0
+
+while i < len(lines):
+    line = lines[i]
+
+    # EXTINF line
+    if line.startswith("#EXTINF"):
+        name_match = re.search(r",\s*(.+)", line)
+        if name_match:
+            name = name_match.group(1).strip().lower()
+        else:
+            updated_lines.append(line)
+            i += 1
+            continue
+
         updated_lines.append(line)
 
-    with open(M3U_FILE, 'w', encoding='utf-8') as f:
-        f.writelines(updated_lines)
-    
-    print(f"Successfully updated {count} channels.")
+        # Next line is URL
+        if i + 1 < len(lines):
+            url_line = lines[i + 1]
 
-if __name__ == "__main__":
-    patch_m3u()
+            # Check if hotstar link
+            if "jcevents.hotstar.com" in url_line and name in channel_map:
+                ch = channel_map[name]
+
+                new_url = ch["m3u8_url"]
+                headers = ch.get("headers", {})
+                ua = ch.get("user_agent", "")
+
+                cookie = headers.get("Cookie", "")
+                origin = headers.get("Origin", "")
+                referer = headers.get("Referer", "")
+
+                # Build new line
+                new_line = f'{new_url}|Cookie="{cookie}"&User-Agent="{ua}"&Origin="{origin}"&Referer="{referer}"\n'
+
+                updated_lines.append(new_line)
+                print(f"Updated: {name}")
+
+            else:
+                updated_lines.append(url_line)
+
+            i += 2
+            continue
+
+    updated_lines.append(line)
+    i += 1
+
+# ===== SAVE FILE =====
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    f.writelines(updated_lines)
+
+print("Done! Updated playlist saved.")
