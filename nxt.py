@@ -6,11 +6,41 @@ API_URL = "https://host.cloudplay.me/app/icc/hstr.php"
 M3U_FILE = "Aki.m3u"
 OUTPUT_FILE = "updated_playlist.m3u"
 
-# ===== FETCH JSON =====
-print("Fetching API data...")
-res = requests.get(API_URL)
-data = res.json()
+import requests
 
+API_URL = "https://host.cloudplay.me/a/jo.php"
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "Accept": "application/json",
+    "Referer": "https://host.cloudplay.me/"
+}
+
+print("Fetching API data...")
+
+res = requests.get(API_URL, headers=headers)
+
+# DEBUG (bahut important)
+print("Status Code:", res.status_code)
+
+if res.status_code != 200:
+    print("API request failed")
+    exit()
+
+# Check response content
+if not res.text.strip():
+    print("Empty response from API")
+    exit()
+
+# Try JSON safely
+try:
+    data = res.json()
+except Exception as e:
+    print("JSON Error:", e)
+    print("Response was:\n", res.text[:500])  # first 500 chars
+    exit()
+
+print("API Loaded Successfully")
 # ===== CREATE MAP (name -> headers/url) =====
 channel_map = {}
 
