@@ -4,56 +4,35 @@ import re
 API_URL = "https://host.cloudplay.me/app/icc/hstr.php"
 M3U_FILE = "Aki.m3u"
 
-def fetch_cookie_data():
-    print("Fetching API data...")
-    res = requests.get(API_URL)
-    data = res.json()
 
-    # kisi bhi ek valid hotstar entry se cookie uthao
-    for ch in data:
-        url = ch.get("m3u8_url", "")
-        if "jcevents.hotstar.com" in url:
-            headers = ch.get("headers", {})
-            ua = ch.get("user_agent", "")
+def fetch_data():
+    print("Fetching API...")
 
-            header_str = f'Cookie="{headers.get("Cookie","")}"'
-            header_str += f'&User-Agent="{ua}"'
-            header_str += f'&Origin="{headers.get("Origin","")}"'
-            header_str += f'&Referer="{headers.get("Referer","")}"'
+    session = requests.Session()
 
-            return header_str
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Origin": "https://host.cloudplay.me",
+        "Referer": "https://host.cloudplay.me/",
+        "Connection": "keep-alive"
+    }
 
-    return None
+    try:
+        res = session.get(API_URL, headers=headers, timeout=15)
 
-def update_all_hotstar_links(header_str):
-    print("Updating all Hotstar links...")
+        print("Status:", res.status_code)
+        print("Preview:", res.text[:150])
 
-    with open(M3U_FILE, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+        # JSON try
+        data = res.json()
+        return data
 
-    new_lines = []
+    except Exception as e:
+        print("FAILED:", e)
+        return None
 
-    for line in lines:
-        if "jcevents.hotstar.com" in line:
-            base_url = line.split("|")[0].strip()
-            new_line = f"{base_url}|{header_str}\n"
-            print(f"Updated: {base_url}")
-            new_lines.append(new_line)
-        else:
-            new_lines.append(line)
-
-    with open(M3U_FILE, "w", encoding="utf-8") as f:
-        f.writelines(new_lines)
-
-def main():
-    header_str = fetch_cookie_data()
-
-    if not header_str:
-        print("No valid cookie found ❌")
-        return
-
-    update_all_hotstar_links(header_str)
-    print("All links updated ✅")
 
 if __name__ == "__main__":
-    main()
+    fetch_data()
