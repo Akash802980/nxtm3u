@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "https://host.cloudplay.me/app/c/jo.php"
+API_URL = "https://host.cloudplay.me/app/icc/jo.php"
 BACKUP_M3U = "https://joker-verse.vercel.app/jokertv/playlist.m3u?uid=1045595420&pass=169ae613&vod=true"
 M3U_FILE = "Aki.m3u"
 
