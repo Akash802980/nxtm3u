@@ -38,27 +38,31 @@ def fetch_from_api():
 
 
 # 🔹 BACKUP
-def fetch_from_backup():
+ef fetch_from_backup():
     print("Trying Backup M3U...")
 
     headers = {
-        "User-Agent": "TiviMate/5.1.0 (Android 13)"
+        "User-Agent": "TiviMate/5.1.0 (Android 13)",
+        "Accept-Encoding": "gzip"
     }
 
     try:
         res = requests.get(BACKUP_M3U, headers=headers, timeout=15)
-        lines = res.text.splitlines()
+        text = res.text
+
+        lines = text.splitlines()
 
         for line in lines:
             if any(d in line for d in HOTSTAR_DOMAINS) and "|" in line:
+                header_part = line.split("|", 1)[1].strip()
+
                 print("Backup cookie found ✅")
-                return line.split("|", 1)[1].strip()
+                return header_part
 
     except Exception as e:
         print("Backup Failed ❌", e)
 
     return None
-
 
 # 🔹 UPDATE FILE
 def update_all_links(header_str):
