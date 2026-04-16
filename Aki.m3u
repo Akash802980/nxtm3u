@@ -111,7 +111,7 @@ https://livetv.hotstar.com/mp2/gec-india-1540057027/39127b380adb405e8de434e10e20
 #EXTINF:-1 tvg-id="67746" tvg-name="Star Gold" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7403/567403-h" group-title="Movies", Star Gold
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=c3c8fd55071348e9992be759ceab0000&key=b894ad9ee2ad483fb2a5b71db0434bfc
-https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd|Cookie="hdntl=exp=1776367443~acl=%2f*~id=7b4fffc87afdad5f9c093378f5db0632~data=hdntl~hmac=bdf57816064e4dea5fc8ed8a74892ca12a43cf76184d984559e34643f042981a"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"&User-Agent="Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
+https://livetv.hotstar.com/mp2/gec-india-1540057030/0bbcb34798fd454a81c3502fb652911e/index.mpd|Cookie="hdntl=exp=1776310100~acl=%2f*~id=9a7c15c3354ff54797ce5baf62bb2ca9~data=hdntl~hmac=aae446facc050db1e4fd4290161acdebeec38487070d49fb3865e724decfeae4"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"&User-Agent="Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
 
 #EXTINF:-1 tvg-id="32701" tvg-name="Asianet Movies" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7400/567400-h" group-title="Movies", Asianet Movies
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
