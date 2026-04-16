@@ -9,7 +9,6 @@ M3U_FILE = "Aki.m3u"
 HOTSTAR_DOMAINS = ["jcevents.hotstar.com", "livetv.hotstar.com"]
 
 
-
 def build_header(headers, ua):
     return (
         f'Cookie="{headers.get("Cookie","")}"'
@@ -19,16 +18,23 @@ def build_header(headers, ua):
     )
 
 
-# 🔹 API
+# 🔹 API SOURCE
 def fetch_from_api():
     print("Trying API...")
     try:
-        res = requests.get(API_URL, timeout=10)
+        headers = {
+            "User-Agent": "Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)",
+            "Referer": "https://www.hotstar.com/",
+            "Origin": "https://www.hotstar.com"
+        }
+
+        res = requests.get(API_URL, headers=headers, timeout=10)
         data = res.json()
 
         for ch in data:
             url = ch.get("m3u8_url", "")
             if any(d in url for d in HOTSTAR_DOMAINS):
+                print("API cookie found ✅")
                 return build_header(ch.get("headers", {}), ch.get("user_agent", ""))
 
     except Exception as e:
@@ -37,32 +43,39 @@ def fetch_from_api():
     return None
 
 
-# 🔹 BACKUP
-ef fetch_from_backup():
+# 🔹 BACKUP SOURCE (IMPROVED 🔥)
+def fetch_from_backup():
     print("Trying Backup M3U...")
 
     headers = {
-        "User-Agent": "TiviMate/5.1.0 (Android 13)",
-        "Accept-Encoding": "gzip"
+        "User-Agent": "TiviMate/5.1.0 (Android 13)"
     }
 
     try:
         res = requests.get(BACKUP_M3U, headers=headers, timeout=15)
-        text = res.text
 
+        if res.status_code != 200:
+            print("Backup HTTP Error:", res.status_code)
+            return None
+
+        text = res.text
         lines = text.splitlines()
 
         for line in lines:
             if any(d in line for d in HOTSTAR_DOMAINS) and "|" in line:
                 header_part = line.split("|", 1)[1].strip()
 
-                print("Backup cookie found ✅")
-                return header_part
+                if "Cookie=" in header_part:
+                    print("Backup cookie found ✅")
+                    return header_part
+
+        print("No valid header in backup ❌")
 
     except Exception as e:
         print("Backup Failed ❌", e)
 
     return None
+
 
 # 🔹 UPDATE FILE
 def update_all_links(header_str):
@@ -87,7 +100,7 @@ def update_all_links(header_str):
         else:
             new_lines.append(line)
 
-    # 🔥 FORCE CHANGE (important)
+    # 🔥 FORCE CHANGE
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     new_lines.insert(0, f"#EXTM3U\n# Updated at {timestamp}\n")
     new_lines.append(f"\n# end update {timestamp}\n")
@@ -102,7 +115,10 @@ def update_all_links(header_str):
 
 # 🔹 GIT PUSH
 def git_push():
-    print("\n🔄 Pushing to GitHub...")
+    print("\n🔄 Syncing GitHub...")
+
+    os.system("git fetch origin")
+    os.system("git reset --hard origin/main")
 
     os.system("git add .")
 
@@ -122,10 +138,6 @@ def git_push():
 
 # 🔹 MAIN
 def main():
-    # 🔥 STEP 1: sync first
-    os.system("git fetch origin")
-    os.system("git reset --hard origin/main")
-
     header_str = fetch_from_api()
 
     if not header_str:
@@ -133,13 +145,10 @@ def main():
         header_str = fetch_from_backup()
 
     if not header_str:
-        print("No valid cookie found ❌")
+        print("❌ No valid cookie found from any source")
         return
 
-    # 🔥 STEP 2: update file
     update_all_links(header_str)
-
-    # 🔥 STEP 3: push
     git_push()
 
     print("\n✅ All done!")
