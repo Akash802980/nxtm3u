@@ -529,71 +529,73 @@ https://allinonereborn.online/sony/sliv/stream.php?id=1000009275&e=.m3u8|User-Ag
 
 ====sony cat==================
 
-#EXTINF:-1 tvg-id="sonysethd" tvg-name="SET HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment", SET HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009246&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_291" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SET HD
+https://local.denver69.fun/Sliv/sliv_291/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment", Sony SAB HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009248&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_471" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",SONY SAB HD
+https://local.denver69.fun/Sliv/sliv_471/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment", Sony PAL
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009273&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_1146" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Marathi",SONY MARATHI
+https://local.denver69.fun/Sliv/sliv_1146/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://allinonereborn.online/sony/sliv/stream.php?id=1000001971&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_697" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH
+https://local.denver69.fun/Sliv/sliv_697/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="Marathi", Sony Marathi
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009248&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_474" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
+https://local.denver69.fun/Sliv/sliv_474/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Others", Sony AATH
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009255&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_1393" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies",SONY WAH
+https://local.denver69.fun/Sliv/sliv_1393/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="Movies", Sony MAX HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009247&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_872" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",Sony Yay Hindi
+https://local.denver69.fun/Sliv/sliv_872/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="Movies", Sony MAX
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009249&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_476" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies",SONY MAX HD
+https://local.denver69.fun/Sliv/sliv_476/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies", Sony WAH
-https://allinonereborn.online/sony/sliv/stream.php?id=1000044878&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_289" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png" group-title="Movies",SONY MAX
+https://local.denver69.fun/Sliv/sliv_289/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="Movies", Sony MAX 2
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009253&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_483" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies",SONY MAX2
+https://local.denver69.fun/Sliv/sliv_483/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies", Sony PIX HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009258&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_762" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Movies",SONY PIX HD
+https://local.denver69.fun/Sliv/sliv_762/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="Movies", Sony BBC Earth HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009248&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_162" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1 HD
+https://local.denver69.fun/Sliv/sliv_162/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="Sports", Sony TEN 1
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009280&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_514" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1
+https://local.denver69.fun/Sliv/sliv_514/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="Sports", Sony TEN 2
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009279&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_891" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",SONY TEN 2 HD
+https://local.denver69.fun/Sliv/sliv_891/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="Sports", Sony TEN 3
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009283&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_892" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",SONY TEN 2
+https://local.denver69.fun/Sliv/sliv_892/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="Sports", Sony TEN 4
-https://allinonereborn.online/sony/sliv/stream.php?id=1000119187&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_892" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",SONY TEN 3 HD
+https://local.denver69.fun/Sliv/sliv_892/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports", Sony TEN 5
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009281&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_524" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",SONY TEN 3
+https://local.denver69.fun/Sliv/sliv_524/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports", Sony TEN 1 HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009276&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_817" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4 HD
+https://local.denver69.fun/Sliv/sliv_817/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports", Sony TEN 2 HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009277&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_817" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4
+https://local.denver69.fun/Sliv/sliv_817/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="Sports", Sony TEN 3 HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009278&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_155" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5 HD
+https://local.denver69.fun/Sliv/sliv_155/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="Sports", Sony TEN 4 HD
-https://allinonereborn.online/sony/sliv/stream.php?id=1000119186&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_525" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5
+https://local.denver69.fun/Sliv/sliv_525/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
 
-#EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", Sony TEN 5 HD  
-https://allinonereborn.online/sony/sliv/stream.php?id=1000009275&e=.m3u8
+#EXTINF:-1 tvg-id="sliv_821" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Sports",SONY BBC EARTH HD
+https://local.denver69.fun/Sliv/sliv_821/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
+
+
 
 
 
