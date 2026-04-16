@@ -1,4 +1,6 @@
 import requests
+import os
+from datetime import datetime
 
 API_URL = "https://host.cloudplay.me/app/icc/jo.php"
 BACKUP_M3U = "https://joker-verse.vercel.app/jokertv/playlist.m3u?uid=1045595420&pass=169ae613&vod=true"
@@ -98,5 +100,26 @@ def main():
     print("All links updated ✅")
 
 
+
+def git_push():
+    print("🔄 Git push start...")
+
+    os.system("git add .")
+
+    # check changes
+    status = os.popen("git status --porcelain").read().strip()
+
+    if not status:
+        print("⚠️ No changes to commit")
+        return
+
+    msg = f"Auto update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    os.system(f'git commit -m "{msg}"')
+
+    os.system("git push")
+
+    print("🚀 GitHub Updated")
+    
 if __name__ == "__main__":
     main()
+    git_push()
