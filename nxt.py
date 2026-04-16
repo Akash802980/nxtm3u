@@ -9,6 +9,7 @@ M3U_FILE = "Aki.m3u"
 HOTSTAR_DOMAINS = ["jcevents.hotstar.com", "livetv.hotstar.com"]
 
 
+
 def build_header(headers, ua):
     return (
         f'Cookie="{headers.get("Cookie","")}"'
@@ -18,7 +19,7 @@ def build_header(headers, ua):
     )
 
 
-# 🔹 PRIMARY SOURCE (API)
+# 🔹 API
 def fetch_from_api():
     print("Trying API...")
     try:
@@ -41,21 +42,17 @@ def fetch_from_backup():
     print("Trying Backup M3U...")
 
     headers = {
-        "User-Agent": "TiviMate/5.1.0 (Android 13)",
-        "Accept-Encoding": "gzip"
+        "User-Agent": "TiviMate/5.1.0 (Android 13)"
     }
 
     try:
         res = requests.get(BACKUP_M3U, headers=headers, timeout=15)
-        text = res.text
-
-        lines = text.splitlines()
+        lines = res.text.splitlines()
 
         for line in lines:
             if any(d in line for d in HOTSTAR_DOMAINS) and "|" in line:
-                header_part = line.split("|", 1)[1].strip()
                 print("Backup cookie found ✅")
-                return header_part
+                return line.split("|", 1)[1].strip()
 
     except Exception as e:
         print("Backup Failed ❌", e)
@@ -63,7 +60,7 @@ def fetch_from_backup():
     return None
 
 
-# 🔹 UPDATE M3U FILE (CLEAN OUTPUT)
+# 🔹 UPDATE FILE
 def update_all_links(header_str):
     print("Updating Hotstar links...")
 
@@ -71,7 +68,6 @@ def update_all_links(header_str):
         lines = f.readlines()
 
     new_lines = []
-
     domain_count = {d: 0 for d in HOTSTAR_DOMAINS}
 
     for line in lines:
@@ -79,7 +75,6 @@ def update_all_links(header_str):
             base_url = line.split("|")[0].strip()
             new_line = f"{base_url}|{header_str}\n"
 
-            # count domain updates
             for d in HOTSTAR_DOMAINS:
                 if d in line:
                     domain_count[d] += 1
@@ -88,16 +83,20 @@ def update_all_links(header_str):
         else:
             new_lines.append(line)
 
+    # 🔥 FORCE CHANGE (important)
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    new_lines.insert(0, f"#EXTM3U\n# Updated at {timestamp}\n")
+    new_lines.append(f"\n# end update {timestamp}\n")
+
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
-    # ✅ CLEAN STATUS OUTPUT
     print("\n📊 Update Summary:")
     for d, count in domain_count.items():
         print(f"{d} → {count} links updated")
 
 
-# 🔹 GIT PUSH FUNCTION
+# 🔹 GIT PUSH
 def git_push():
     print("\n🔄 Pushing to GitHub...")
 
@@ -112,13 +111,17 @@ def git_push():
     msg = f"Auto update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
     os.system(f'git commit -m "{msg}"')
 
-    os.system("git push")
+    os.system("git push origin main")
 
     print("🚀 GitHub Updated Successfully")
 
 
 # 🔹 MAIN
 def main():
+    # 🔥 STEP 1: sync first
+    os.system("git fetch origin")
+    os.system("git reset --hard origin/main")
+
     header_str = fetch_from_api()
 
     if not header_str:
@@ -129,9 +132,10 @@ def main():
         print("No valid cookie found ❌")
         return
 
+    # 🔥 STEP 2: update file
     update_all_links(header_str)
 
-    # ✅ Git push added
+    # 🔥 STEP 3: push
     git_push()
 
     print("\n✅ All done!")
@@ -139,4 +143,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    git_push()
