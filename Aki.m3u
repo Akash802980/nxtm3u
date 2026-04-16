@@ -1,4 +1,6 @@
 #EXTM3U
+# Updated at 2026-04-16 11:46:16
+#EXTM3U
 # Updated at 2026-04-16 09:44:01
 #EXTM3U
 # Updated at 2026-04-16 09:43:35
@@ -27,7 +29,7 @@ https://gtvaki.1akiytb4.workers.dev/15.mpd
 #EXTINF:-1 tvg-id="80686" tvg-name="Star Suvarna" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7429/567429-h" group-title="Entertainment", Star Suvarna
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=786fe347f558460398b9e42e1db50000&key=d630fb6469c3457e9d7c4bb863e1fef1
-https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd|Cookie="hdntl58195~acl=%2f*~id=46da971ca44d93f6383fef0218c6b8a4~data=hdntl~hmac=36e374815ac3371588334d0e53848cdbd3d6d6ab07866b5baab2f16e1ef57653"&User-Agent="Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"
+https://livetv.hotstar.com/mp1/gec-india-1540057075/57ae0b6fa2b64281984574d406f9a696/index.mpd|Cookie="hdntl=exp=1776358195~acl=%2f*~id=46da971ca44d93f6383fef0218c6b8a4~data=hdntl~hmac=36e374815ac3371588334d0e53848cdbd3d6d6ab07866b5baab2f16e1ef57653"&User-Agent="Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"
 
 #EXTINF:-1 tvg-id="30308" tvg-name="Asianet Plus" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7424/567424-h" group-title="Entertainment", Asianet Plus
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
