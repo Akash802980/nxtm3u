@@ -113,25 +113,36 @@ def update_all_links(header_str):
         print(f"{d} → {count} links updated")
 
 
+# 🔹 GIT PUSH (FORCEFULLY UPDATED 🔥)
 def git_push():
-    """GitHub पर बदलावों को अपलोड करना"""
-    print("\n🔄 Syncing GitHub...")
-    
-    os.system("git fetch origin")
-    os.system("git reset --hard origin/main")
+    print("\n🔄 Syncing GitHub Forcefully...")
+
+    # 1. पहले अपनी पहचान सेट करें (अगर सर्वर पर एरर आ रहा हो)
+    os.system('git config user.name "Auto Bot"')
+    os.system('git config user.email "bot@example.com"')
+
+    # 2. पुरानी फाइलों को अपडेट करें
     os.system("git add .")
 
+    # 3. चेक करें कि कुछ बदलने के लिए है या नहीं
     status = os.popen("git status --porcelain").read().strip()
-
     if not status:
-        print("⚠️ No changes to commit")
-        return
-
+        print("⚠️ No changes detected in the file.")
+        # कभी-कभी बिना बदलाव के भी पुश करने के लिए हम आगे बढ़ सकते हैं
+    
+    # 4. कमिट करें
     msg = f"Auto update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
     os.system(f'git commit -m "{msg}"')
-    os.system("git push origin main")
 
-    print("🚀 GitHub Updated Successfully")
+    # 5. FORCE PUSH (यह पुराने इतिहास को ओवरराइट कर देगा और फाइल अपडेट कर देगा)
+    # '-f' का मतलब है Force
+    print("🚀 Pushing changes to GitHub...")
+    result = os.system("git push origin main -f")
+
+    if result == 0:
+        print("✅ GitHub Updated Successfully with Force Push!")
+    else:
+        print("❌ Push failed. Check your GitHub Token or SSH Key.")
 
 
 def main():
