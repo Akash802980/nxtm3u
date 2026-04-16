@@ -9,7 +9,7 @@ HOTSTAR_DOMAINS = ["jcevents.hotstar.com", "livetv.hotstar.com"]
 
 
 def build_header(headers, ua):
-    """API से मिले डेटा को हेडर स्ट्रिंग में बदलना"""
+    """API        """
     return (
         f'Cookie="{headers.get("Cookie","")}"'
         f'&User-Agent="{ua}"'
@@ -19,7 +19,7 @@ def build_header(headers, ua):
 
 
 def fetch_from_api():
-    """API सोर्स से कुकी निकालना"""
+    """API    """
     print("Trying API...")
     try:
         headers = {
@@ -34,17 +34,17 @@ def fetch_from_api():
         for ch in data:
             url = ch.get("m3u8_url", "")
             if any(d in url for d in HOTSTAR_DOMAINS):
-                print("API cookie found ✅")
+                print("API cookie found ")
                 return build_header(ch.get("headers", {}), ch.get("user_agent", ""))
 
     except Exception as e:
-        print("API Failed ❌", e)
+        print("API Failed ", e)
 
     return None
 
 
 def fetch_from_backup():
-    """बैकअप M3U से कुकी निकालना"""
+    """ M3U   """
     print("Trying Backup M3U...")
     headers = {"User-Agent": "TiviMate/5.1.0 (Android 13)"}
 
@@ -63,19 +63,19 @@ def fetch_from_backup():
                 header_part = line.split("|", 1)[1].strip()
 
                 if "Cookie=" in header_part:
-                    print("Backup cookie found ✅")
+                    print("Backup cookie found ")
                     return header_part
 
-        print("No valid header in backup ❌")
+        print("No valid header in backup ")
 
     except Exception as e:
-        print("Backup Failed ❌", e)
+        print("Backup Failed ", e)
 
     return None
 
 
 def update_all_links(header_str):
-    """M3U फ़ाइल के अंदर लिंक्स को अपडेट करना"""
+    """M3U       """
     print("Updating Hotstar links...")
 
     if not os.path.exists(M3U_FILE):
@@ -90,7 +90,7 @@ def update_all_links(header_str):
 
     for line in lines:
         if any(d in line for d in HOTSTAR_DOMAINS):
-            # पुराने हेडर को हटाकर नया जोड़ना
+            #      
             base_url = line.split("|")[0].strip()
             new_line = f"{base_url}|{header_str}\n"
 
@@ -101,52 +101,52 @@ def update_all_links(header_str):
         else:
             new_lines.append(line)
 
-    # फ़ाइल की शुरुआत में अपडेट का समय डालना
+    #        
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     new_lines.insert(0, f"#EXTM3U\n# Updated at {timestamp}\n")
 
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
 
-    print("\n📊 Update Summary:")
+    print("\n Update Summary:")
     for d, count in domain_count.items():
-        print(f"{d} → {count} links updated")
+        print(f"{d}  {count} links updated")
 
 
-# 🔹 GIT PUSH (FORCEFULLY UPDATED 🔥)
+#  GIT PUSH (FORCEFULLY UPDATED )
 def git_push():
-    print("\n🔄 Syncing GitHub Forcefully...")
+    print("\n Syncing GitHub Forcefully...")
 
-    # 1. पहले अपनी पहचान सेट करें (अगर सर्वर पर एरर आ रहा हो)
+    # 1.      (      )
     os.system('git config user.name "Auto Bot"')
     os.system('git config user.email "bot@example.com"')
 
-    # 2. पुरानी फाइलों को अपडेट करें
+    # 2.     
     os.system("git add .")
 
-    # 3. चेक करें कि कुछ बदलने के लिए है या नहीं
+    # 3.          
     status = os.popen("git status --porcelain").read().strip()
     if not status:
-        print("⚠️ No changes detected in the file.")
-        # कभी-कभी बिना बदलाव के भी पुश करने के लिए हम आगे बढ़ सकते हैं
+        print(" No changes detected in the file.")
+        # -             
     
-    # 4. कमिट करें
+    # 4.  
     msg = f"Auto update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
     os.system(f'git commit -m "{msg}"')
 
-    # 5. FORCE PUSH (यह पुराने इतिहास को ओवरराइट कर देगा और फाइल अपडेट कर देगा)
-    # '-f' का मतलब है Force
-    print("🚀 Pushing changes to GitHub...")
+    # 5. FORCE PUSH (           )
+    # '-f'    Force
+    print(" Pushing changes to GitHub...")
     result = os.system("git push origin main -f")
 
     if result == 0:
-        print("✅ GitHub Updated Successfully with Force Push!")
+        print(" GitHub Updated Successfully with Force Push!")
     else:
-        print("❌ Push failed. Check your GitHub Token or SSH Key.")
+        print(" Push failed. Check your GitHub Token or SSH Key.")
 
 
 def main():
-    """पूरा प्रोसेस शुरू करना"""
+    """   """
     header_str = fetch_from_api()
 
     if not header_str:
@@ -154,13 +154,13 @@ def main():
         header_str = fetch_from_backup()
 
     if not header_str:
-        print("❌ No valid cookie found from any source")
+        print(" No valid cookie found from any source")
         return
 
     update_all_links(header_str)
     git_push()
 
-    print("\n✅ All done!")
+    print("\n All done!")
 
 
 if __name__ == "__main__":
