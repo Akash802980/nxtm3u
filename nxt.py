@@ -1,38 +1,102 @@
 import requests
-import re
 
-API_URL = "https://host.cloudplay.me/app/icc/hstr.php"
+API_URL = "https://host.cloudplay.me/app/c/jo.php"
+BACKUP_M3U = "https://joker-verse.vercel.app/jokertv/playlist.m3u?uid=1045595420&pass=169ae613&vod=true"
 M3U_FILE = "Aki.m3u"
 
+HOTSTAR_DOMAINS = ["jcevents.hotstar.com", "livetv.hotstar.com"]
 
-def fetch_data():
-    print("Fetching API...")
 
-    session = requests.Session()
+def build_header(headers, ua):
+    return (
+        f'Cookie="{headers.get("Cookie","")}"'
+        f'&User-Agent="{ua}"'
+        f'&Origin="{headers.get("Origin","")}"'
+        f'&Referer="{headers.get("Referer","")}"'
+    )
+
+
+# 🔹 PRIMARY SOURCE (API)
+def fetch_from_api():
+    print("Trying API...")
+    try:
+        res = requests.get(API_URL, timeout=10)
+        data = res.json()
+
+        for ch in data:
+            url = ch.get("m3u8_url", "")
+            if any(d in url for d in HOTSTAR_DOMAINS):
+                return build_header(ch.get("headers", {}), ch.get("user_agent", ""))
+
+    except Exception as e:
+        print("API Failed ❌", e)
+
+    return None
+
+
+def fetch_from_backup():
+    print("Trying Backup M3U...")
 
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Origin": "https://host.cloudplay.me",
-        "Referer": "https://host.cloudplay.me/",
-        "Connection": "keep-alive"
+        "User-Agent": "TiviMate/5.1.0 (Android 13)",
+        "Accept-Encoding": "gzip"
     }
 
     try:
-        res = session.get(API_URL, headers=headers, timeout=15)
+        res = requests.get(BACKUP_M3U, headers=headers, timeout=15)
+        text = res.text
 
-        print("Status:", res.status_code)
-        print("Preview:", res.text[:150])
+        lines = text.splitlines()
 
-        # JSON try
-        data = res.json()
-        return data
+        for line in lines:
+            if any(d in line for d in HOTSTAR_DOMAINS) and "|" in line:
+                header_part = line.split("|", 1)[1].strip()
+
+                print("Backup cookie found ✅")
+                return header_part
 
     except Exception as e:
-        print("FAILED:", e)
-        return None
+        print("Backup Failed ❌", e)
+
+    return None
+
+# 🔹 UPDATE M3U FILE
+def update_all_links(header_str):
+    print("Updating all Hotstar links...")
+
+    with open(M3U_FILE, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    new_lines = []
+
+    for line in lines:
+        if any(d in line for d in HOTSTAR_DOMAINS):
+            base_url = line.split("|")[0].strip()
+            new_line = f"{base_url}|{header_str}\n"
+            print(f"Updated: {base_url}")
+            new_lines.append(new_line)
+        else:
+            new_lines.append(line)
+
+    with open(M3U_FILE, "w", encoding="utf-8") as f:
+        f.writelines(new_lines)
+
+
+# 🔹 MAIN
+def main():
+    header_str = fetch_from_api()
+
+    if not header_str:
+        print("Switching to backup...")
+        header_str = fetch_from_backup()
+
+    if not header_str:
+        print("No valid cookie found ❌")
+        return
+
+    update_all_links(header_str)
+    print("All links updated ✅")
 
 
 if __name__ == "__main__":
-    fetch_data()
+    main()
