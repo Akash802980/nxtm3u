@@ -1,102 +1,166 @@
 import requests
+import re
+import time
+import shutil
+from pathlib import Path
 
-API_URL = "https://host.cloudplay.me/app/c/jo.php"
-BACKUP_M3U = "https://joker-verse.vercel.app/jokertv/playlist.m3u?uid=1045595420&pass=169ae613&vod=true"
-M3U_FILE = "Aki.m3u"
+# ---------------- CONFIG ----------------
+API_URL = "https://host.cloudplay.me/app/icc/jo.php"
+BACKUP_URL = "https://joker-verse.vercel.app/jokertv/playlist.m3u?uid=1045595420&pass=169ae613&vod=true"
 
-HOTSTAR_DOMAINS = ["jcevents.hotstar.com", "livetv.hotstar.com"]
+AK_FILE = "ak.m3u"
+BACKUP_SUFFIX = ".bak"
+
+HEADERS = {
+    "User-Agent": "TiviMate/5.1.0 (Android 13)",
+    "Accept-Encoding": "gzip",
+    "Connection": "keep-alive"
+}
+
+RETRIES = 5
+TIMEOUT = 30
+# ---------------------------------------
 
 
-def build_header(headers, ua):
-    return (
-        f'Cookie="{headers.get("Cookie","")}"'
-        f'&User-Agent="{ua}"'
-        f'&Origin="{headers.get("Origin","")}"'
-        f'&Referer="{headers.get("Referer","")}"'
-    )
+# 🔹 DOWNLOAD WITH RETRY
+def download_source(url, headers, retries=RETRIES, timeout=TIMEOUT):
+    for attempt in range(1, retries + 1):
+        try:
+            print(f"[Download] Attempt {attempt} → {url}")
+            r = requests.get(url, headers=headers, timeout=timeout)
+            r.raise_for_status()
+            return r.text
+        except Exception as e:
+            print(f"[Error] {e}, retrying...")
+            time.sleep(3)
+
+    raise RuntimeError(f"Failed to download: {url}")
 
 
-# 🔹 PRIMARY SOURCE (API)
+# 🔹 FETCH FROM API (PRIMARY)
 def fetch_from_api():
-    print("Trying API...")
+    print("[API] Trying primary source...")
     try:
-        res = requests.get(API_URL, timeout=10)
-        data = res.json()
+        r = requests.get(API_URL, timeout=10)
+        data = r.json()
 
         for ch in data:
             url = ch.get("m3u8_url", "")
-            if any(d in url for d in HOTSTAR_DOMAINS):
-                return build_header(ch.get("headers", {}), ch.get("user_agent", ""))
+            if "hotstar.com" in url:
+                headers = ch.get("headers", {})
+                ua = ch.get("user_agent", "")
+
+                header_str = (
+                    f'Cookie="{headers.get("Cookie","")}"'
+                    f'&User-Agent="{ua}"'
+                    f'&Origin="{headers.get("Origin","")}"'
+                    f'&Referer="{headers.get("Referer","")}"'
+                )
+
+                print("[API] Cookie fetched ✅")
+                return header_str
 
     except Exception as e:
-        print("API Failed ❌", e)
+        print("[API] Failed ❌", e)
 
     return None
 
 
-def fetch_from_backup():
-    print("Trying Backup M3U...")
+# 🔹 EXTRACT TOKEN (hdntl)
+def extract_token(source_text, base_url=None):
+    if base_url:
+        for m in re.finditer(re.escape(base_url), source_text):
+            start = max(0, m.start() - 300)
+            end = m.end() + 1500
+            snippet = source_text[start:end]
 
-    headers = {
-        "User-Agent": "TiviMate/5.1.0 (Android 13)",
-        "Accept-Encoding": "gzip"
-    }
+            tok = re.search(r'hdntl=[^"&\s\|]+', snippet)
+            if tok:
+                return tok.group(0)
 
-    try:
-        res = requests.get(BACKUP_M3U, headers=headers, timeout=15)
-        text = res.text
-
-        lines = text.splitlines()
-
-        for line in lines:
-            if any(d in line for d in HOTSTAR_DOMAINS) and "|" in line:
-                header_part = line.split("|", 1)[1].strip()
-
-                print("Backup cookie found ✅")
-                return header_part
-
-    except Exception as e:
-        print("Backup Failed ❌", e)
+    # fallback
+    tok = re.search(r'hdntl=[^"&\s\|]+', source_text)
+    if tok:
+        return tok.group(0)
 
     return None
+
 
 # 🔹 UPDATE M3U FILE
-def update_all_links(header_str):
-    print("Updating all Hotstar links...")
+def update_ak_m3u(ak_file, header_str=None, source_text=None):
+    p = Path(ak_file)
 
-    with open(M3U_FILE, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    if not p.exists():
+        raise FileNotFoundError(f"{ak_file} not found")
 
-    new_lines = []
+    # backup
+    backup_path = p.with_suffix(p.suffix + BACKUP_SUFFIX)
+    shutil.copy2(p, backup_path)
+    print(f"[Backup] Saved: {backup_path}")
+
+    lines = p.read_text(encoding="utf-8").splitlines(keepends=True)
+
+    updated_lines = []
+    total = 0
+    updated = 0
 
     for line in lines:
-        if any(d in line for d in HOTSTAR_DOMAINS):
-            base_url = line.split("|")[0].strip()
-            new_line = f"{base_url}|{header_str}\n"
-            print(f"Updated: {base_url}")
-            new_lines.append(new_line)
-        else:
-            new_lines.append(line)
+        stripped = line.strip()
 
-    with open(M3U_FILE, "w", encoding="utf-8") as f:
-        f.writelines(new_lines)
+        if stripped.lower().startswith("http"):
+            total += 1
+
+            # base URL extract
+            q_idx = len(stripped)
+            for d in ['?', '|']:
+                i = stripped.find(d)
+                if i != -1:
+                    q_idx = min(q_idx, i)
+
+            base = stripped[:q_idx]
+
+            # 🔹 METHOD 1: header replace (API)
+            if header_str and "hotstar.com" in base:
+                new_line = f"{base}|{header_str}\n"
+                updated_lines.append(new_line)
+                updated += 1
+                continue
+
+            # 🔹 METHOD 2: token replace (backup)
+            if source_text and "hotstar.com" in base:
+                token = extract_token(source_text, base)
+                if token:
+                    new_line = f"{base}?{token}\n"
+                    updated_lines.append(new_line)
+                    updated += 1
+                    continue
+
+        updated_lines.append(line)
+
+    p.write_text("".join(updated_lines), encoding="utf-8")
+
+    print(f"[Done] Total: {total}, Updated: {updated}")
 
 
 # 🔹 MAIN
-def main():
+if __name__ == "__main__":
+
+    print("==== START ====")
+
+    # 1️⃣ Try API
     header_str = fetch_from_api()
 
-    if not header_str:
-        print("Switching to backup...")
-        header_str = fetch_from_backup()
+    if header_str:
+        print("[Mode] Using API headers")
+        update_ak_m3u(AK_FILE, header_str=header_str)
 
-    if not header_str:
-        print("No valid cookie found ❌")
-        return
+    else:
+        print("[Mode] API failed → using Backup")
 
-    update_all_links(header_str)
-    print("All links updated ✅")
+        # 2️⃣ Backup download
+        src_text = download_source(BACKUP_URL, HEADERS)
 
+        # 3️⃣ Update using tokens
+        update_ak_m3u(AK_FILE, source_text=src_text)
 
-if __name__ == "__main__":
-    main()
+    print("✅ Finished")
