@@ -36,6 +36,7 @@ def fetch_from_api():
     return None
 
 
+# 🔹 BACKUP
 def fetch_from_backup():
     print("Trying Backup M3U...")
 
@@ -53,7 +54,6 @@ def fetch_from_backup():
         for line in lines:
             if any(d in line for d in HOTSTAR_DOMAINS) and "|" in line:
                 header_part = line.split("|", 1)[1].strip()
-
                 print("Backup cookie found ✅")
                 return header_part
 
@@ -62,26 +62,59 @@ def fetch_from_backup():
 
     return None
 
-# 🔹 UPDATE M3U FILE
+
+# 🔹 UPDATE M3U FILE (CLEAN OUTPUT)
 def update_all_links(header_str):
-    print("Updating all Hotstar links...")
+    print("Updating Hotstar links...")
 
     with open(M3U_FILE, "r", encoding="utf-8") as f:
         lines = f.readlines()
 
     new_lines = []
 
+    domain_count = {d: 0 for d in HOTSTAR_DOMAINS}
+
     for line in lines:
         if any(d in line for d in HOTSTAR_DOMAINS):
             base_url = line.split("|")[0].strip()
             new_line = f"{base_url}|{header_str}\n"
-            print(f"Updated: {base_url}")
+
+            # count domain updates
+            for d in HOTSTAR_DOMAINS:
+                if d in line:
+                    domain_count[d] += 1
+
             new_lines.append(new_line)
         else:
             new_lines.append(line)
 
     with open(M3U_FILE, "w", encoding="utf-8") as f:
         f.writelines(new_lines)
+
+    # ✅ CLEAN STATUS OUTPUT
+    print("\n📊 Update Summary:")
+    for d, count in domain_count.items():
+        print(f"{d} → {count} links updated")
+
+
+# 🔹 GIT PUSH FUNCTION
+def git_push():
+    print("\n🔄 Pushing to GitHub...")
+
+    os.system("git add .")
+
+    status = os.popen("git status --porcelain").read().strip()
+
+    if not status:
+        print("⚠️ No changes to commit")
+        return
+
+    msg = f"Auto update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    os.system(f'git commit -m "{msg}"')
+
+    os.system("git push")
+
+    print("🚀 GitHub Updated Successfully")
 
 
 # 🔹 MAIN
@@ -97,29 +130,13 @@ def main():
         return
 
     update_all_links(header_str)
-    print("All links updated ✅")
+
+    # ✅ Git push added
+    git_push()
+
+    print("\n✅ All done!")
 
 
-
-def git_push():
-    print("🔄 Git push start...")
-
-    os.system("git add .")
-
-    # check changes
-    status = os.popen("git status --porcelain").read().strip()
-
-    if not status:
-        print("⚠️ No changes to commit")
-        return
-
-    msg = f"Auto update {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    os.system(f'git commit -m "{msg}"')
-
-    os.system("git push")
-
-    print("🚀 GitHub Updated")
-    
 if __name__ == "__main__":
     main()
     git_push()
