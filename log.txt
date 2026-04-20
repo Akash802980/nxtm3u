@@ -1,0 +1,38 @@
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not in a git directory
+fatal: not in a git directory
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Trying API...
+API cookie found 
+Updating Aki.m3u...
+ Update Summary:
+jcevents.hotstar.com  0 links updated
+livetv.hotstar.com  0 links updated
+
+ Syncing with GitHub (Force Mode)...
+ No changes to commit.
+
+ All tasks completed!
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not in a git directory
+fatal: not in a git directory
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+Trying API...
+API cookie found 
+Updating Aki.m3u...
+ Update Summary:
+jcevents.hotstar.com  0 links updated
+livetv.hotstar.com  0 links updated
+
+ Syncing with GitHub (Force Mode)...
+ No changes to commit.
+
+ All tasks completed!
