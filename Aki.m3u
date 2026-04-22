@@ -31,6 +31,32 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9csh3lm5hi/out/v1
 
 
 
+#EXTINF:-1 tvg-id="30247" tvg-name="Star Sports 2 HD" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h" group-title="IPL", Star Sports 2 HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=9dacc80134404c34ba184022c28d0000&key=982183fb4d9449c995859b7cff512092
+https://livetv.hotstar.com/mp2/gec-india-1540065785/a00717b1324f45eb814eec9e48a12db8/index.mpd|Cookie="hdntl=exp=1776895980~acl=%2f*~id=f76762769ac77d440fdd28d8695b7f09~data=hdntl~hmac=8f7257a642e09de9c9e047385959e037bba7656b1fcfcd747551a037a7b0a90c"&User-Agent="Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"
+
+#EXTINF:-1 tvg-id="37864" tvg-name="Star Sports Select 1 HD" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7435/567435-h" group-title="IPL", Star Sports Select 1 HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=1f64a24b3950468497390155c4880000&key=68f788aced6c4ecb89108f22fe9ee087
+https://livetv.hotstar.com/mp2/gec-india-1540065791/8bb5cd7a8e274186977473a6771d9352/index.mpd|Cookie="hdntl=exp=1776895980~acl=%2f*~id=f76762769ac77d440fdd28d8695b7f09~data=hdntl~hmac=8f7257a642e09de9c9e047385959e037bba7656b1fcfcd747551a037a7b0a90c"&User-Agent="Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"
+
+#EXTINF:-1 tvg-id="88327" tvg-name="Star Sports 1 HD" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7430/567430-h" group-title="IPL", Star Sports 1 HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=b7cdde012ce04e90a08b90622e020000&key=13603245acab444faef6cab5198de55f
+https://livetv.hotstar.com/mp1/gec-india-1540065782/fce958099ca84fc3b980e651a4a668a8/index.mpd|Cookie="hdntl=exp=1776895980~acl=%2f*~id=f76762769ac77d440fdd28d8695b7f09~data=hdntl~hmac=8f7257a642e09de9c9e047385959e037bba7656b1fcfcd747551a037a7b0a90c"&User-Agent="Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"
+
+#EXTINF:-1 tvg-id="92916" tvg-name="Star Sports Select 2 HD" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h" group-title="IPL", Star Sports Select 2 HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=fe7718fbb3fb4ba78c07cc0f578744e6&key=624e24b1843b459fab0a949609416f0d
+https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd|Cookie="hdntl=exp=1776367443~acl=%2f*~id=7b4fffc87afdad5f9c093378f5db0632~data=hdntl~hmac=bdf57816064e4dea5fc8ed8a74892ca12a43cf76184d984559e34643f042981a"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"&User-Agent="Hotstar;in.startv.hotstar/25.01.27.5.3788 (Android/13)"&X-User-Agent="TiviMate/5.1.0 (Android 13)"
+
+#EXTINF:-1 tvg-id="13315" tvg-name="Star Sports 1 Hindi HD" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7433/567433-h" group-title="IPL", Star Sports 1 Hindi HD
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=81872faa1d6b45fa9045cdeb2e310000&key=9b88168e61274587a471962c46b94675
+https://livetv.hotstar.com/mp1/gec-india-1540065788/fa6a4f0005ef4f90ab24484d165b0aaf/index.mpd|Cookie="hdntl=exp=1776895980~acl=%2f*~id=f76762769ac77d440fdd28d8695b7f09~data=hdntl~hmac=8f7257a642e09de9c9e047385959e037bba7656b1fcfcd747551a037a7b0a90c"&User-Agent="Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)"&Origin="https://www.hotstar.com"&Referer="https://www.hotstar.com/"
+
+
 #EXTINF:-1 tvg-id="1005" group-title="Live Cricket" tvg-logo="https://img.media.jio.com/tvpimages/13/81/302112_1749665154709_l_high.jpg",Star Sports 1 Hindi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://clkey.vercel.app/api/results.php?keyid=8ea9b607549252068e260a5f4d7dd321&key=350c0aaffedf51cc1502e9543c7c885e
