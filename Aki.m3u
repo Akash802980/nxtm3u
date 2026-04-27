@@ -1,27 +1,4 @@
 
-# Last Updated: 2026-04-27 09:25:10
-# Last Updated: 2026-04-25 07:31:08
-# Last Updated: 2026-04-25 05:20:22
-# Last Updated: 2026-04-24 21:46:40
-# Last Updated: 2026-04-24 21:46:24
-# Last Updated: 2026-04-23 21:23:04
-# Last Updated: 2026-04-23 08:08:29
-# Last Updated: 2026-04-22 09:11:27
-# Last Updated: 2026-04-22 09:11:24
-# Last Updated: 2026-04-22 08:03:42
-# Last Updated: 2026-04-21 07:50:04
-# Last Updated: 2026-04-20 13:01:00
-# Last Updated: 2026-04-20 13:00:39
-# Last Updated: 2026-04-20 12:51:39
-# Last Updated: 2026-04-20 12:48:18
-# Last Updated: 2026-04-20 12:46:46
-# Last Updated: 2026-04-20 11:39:47
-# Last Updated: 2026-04-20 11:26:37
-# Last Updated: 2026-04-19 09:02:15
-# Last Updated: 2026-04-18 00:29:34
-# Last Updated: 2026-04-18 00:29:20
-# Last Updated: 2026-04-17 07:02:32
-# Last Updated: 2026-04-16 11:58:19
 # Last Updated: 2026-04-16 11:57:49
 # Last Updated: 2026-04-16 11:56:53
 #EXTM3U
@@ -509,142 +486,204 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zoom2/default/manifest.mpd
 ====sony cat==================
 
 ====sony cat==================
-#EXTINF:-1 tvg-id="sonysethd" tvg-name="SET HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" group-title="Entertainment", SET HD
-https://my-worker.1akiytb4.workers.dev/sethd.m3u8
 
-#EXTINF:-1 tvg-id="sonysabhd" tvg-name="Sony SAB HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" group-title="Entertainment", Sony SAB HD
-https://my-worker.1akiytb4.workers.dev/sonysabhd.m3u8
+#EXTINF:-1 tvg-id="sliv_291" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment", SET HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_291/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonypal" tvg-name="Sony PAL" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment", Sony PAL
-https://my-worker.1akiytb4.workers.dev/sonypal.m3u8
+#EXTINF:-1 tvg-id="sliv_471" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment", SONY SAB HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_471/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonyyay" tvg-name="Sony YAY" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids", Sony YAY
-https://my-worker.1akiytb4.workers.dev/sonyyay.m3u8
+#EXTINF:-1 tvg-id="sliv_1146" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Marathi", SONY MARATHI
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_1146/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonymarathi" tvg-name="Sony Marathi" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" group-title="Marathi", Sony Marathi
-https://my-worker.1akiytb4.workers.dev/sonymarathi.m3u8
+#EXTINF:-1 tvg-id="sliv_697" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment", SONY AATH
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_697/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonyaath" tvg-name="Sony AATH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Bengali", Sony AATH
-https://my-worker.1akiytb4.workers.dev/sonyaath.m3u8
+#EXTINF:-1 tvg-id="sliv_474" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment", SONY PAL
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_474/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonymaxhd" tvg-name="Sony MAX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" group-title="Movies", Sony MAX HD
-https://my-worker.1akiytb4.workers.dev/sonymaxhd.m3u8
+#EXTINF:-1 tvg-id="sliv_1393" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies", SONY WAH
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_1393/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonymax" tvg-name="Sony MAX" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" group-title="Movies", Sony MAX
-https://my-worker.1akiytb4.workers.dev/sonymax.m3u8
+#EXTINF:-1 tvg-id="sliv_872" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids", Sony Yay Hindi
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_872/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonywah" tvg-name="Sony WAH" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies", Sony WAH
-https://my-worker.1akiytb4.workers.dev/sonywah.m3u8
+#EXTINF:-1 tvg-id="sliv_476" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies", SONY MAX HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_476/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonymax2" tvg-name="Sony MAX2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" group-title="Movies", Sony MAX 2
-https://my-worker.1akiytb4.workers.dev/sonymax2.m3u8
+#EXTINF:-1 tvg-id="sliv_289" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png" group-title="Movies", SONY MAX
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_289/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonypixhd" tvg-name="Sony PIX HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies", Sony PIX HD
-https://my-worker.1akiytb4.workers.dev/sonypixhd.m3u8
+#EXTINF:-1 tvg-id="sliv_483" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies", SONY MAX2
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_483/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonybbcearthhd" tvg-name="Sony BBC Earth HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" group-title="Infotainment", Sony BBC Earth HD
-https://my-worker.1akiytb4.workers.dev/sonybbcearthhd.m3u8
+#EXTINF:-1 tvg-id="sliv_762" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Movies", SONY PIX HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_762/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten1" tvg-name="Sony TEN 1" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" group-title="Sports", Sony TEN 1
-https://my-worker.1akiytb4.workers.dev/sonysportsten1.m3u8
+#EXTINF:-1 tvg-id="sliv_162" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports", SONY TEN 1 HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_162/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten2" tvg-name="Sony TEN 2" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" group-title="Sports", Sony TEN 2
-https://my-worker.1akiytb4.workers.dev/sonysportsten2.m3u8
+#EXTINF:-1 tvg-id="sliv_514" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports", SONY TEN 1
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_514/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten3" tvg-name="Sony TEN 3" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" group-title="Sports", Sony TEN 3
-https://my-worker.1akiytb4.workers.dev/sonysportsten3.m3u8
+#EXTINF:-1 tvg-id="sliv_891" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports", SONY TEN 2 HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_891/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten4" tvg-name="Sony TEN 4" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" group-title="Sports", Sony TEN 4
-https://my-worker.1akiytb4.workers.dev/sonysportsten4.m3u8
+#EXTINF:-1 tvg-id="sliv_892" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports", SONY TEN 2
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_892/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten5" tvg-name="Sony TEN 5" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" group-title="Sports", Sony TEN 5
-https://my-worker.1akiytb4.workers.dev/sonysportsten5.m3u8
+#EXTINF:-1 tvg-id="sliv_892" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports", SONY TEN 3 HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_892/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten1hd" tvg-name="Sony TEN 1 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" group-title="Sports", Sony TEN 1 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten1hd.m3u8
+#EXTINF:-1 tvg-id="sliv_524" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports", SONY TEN 3
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_524/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten2hd" tvg-name="Sony TEN 2 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" group-title="Sports", Sony TEN 2 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten2hd.m3u8
+#EXTINF:-1 tvg-id="sliv_817" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports", SONY TEN 4 HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_817/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten3hd" tvg-name="Sony TEN 3 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" group-title="Sports", Sony TEN 3 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten3hd.m3u8
+#EXTINF:-1 tvg-id="sliv_817" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports", SONY TEN 4
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_817/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten4hd" tvg-name="Sony TEN 4 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" group-title="Sports", Sony TEN 4 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten4hd.m3u8
+#EXTINF:-1 tvg-id="sliv_155" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", SONY TEN 5 HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_155/index.m3u8|domain=https://www.sonyliv.com
 
-#EXTINF:-1 tvg-id="sonysportsten5hd" tvg-name="Sony TEN 5 HD" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", Sony TEN 5 HD
-https://my-worker.1akiytb4.workers.dev/sonysportsten5hd.m3u8
+#EXTINF:-1 tvg-id="sliv_525" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports", SONY TEN 5
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_525/index.m3u8|domain=https://www.sonyliv.com
 
-
-
-====sony cat==================
-
-#EXTINF:-1 tvg-id="sliv_291" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Entertainment",SET HD
-https://local.denver69.fun/Sliv/sliv_291/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_471" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_SAB_HD.png" group-title="Entertainment",SONY SAB HD
-https://local.denver69.fun/Sliv/sliv_471/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_1146" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png" group-title="Marathi",SONY MARATHI
-https://local.denver69.fun/Sliv/sliv_1146/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_697" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_aath.png" group-title="Entertainment",SONY AATH
-https://local.denver69.fun/Sliv/sliv_697/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_474" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pal.png" group-title="Entertainment",SONY PAL
-https://local.denver69.fun/Sliv/sliv_474/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_1393" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Wah.png" group-title="Movies",SONY WAH
-https://local.denver69.fun/Sliv/sliv_1393/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_872" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" group-title="Kids",Sony Yay Hindi
-https://local.denver69.fun/Sliv/sliv_872/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_476" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_HD.png" group-title="Movies",SONY MAX HD
-https://local.denver69.fun/Sliv/sliv_476/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_289" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Max_SD.png" group-title="Movies",SONY MAX
-https://local.denver69.fun/Sliv/sliv_289/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_483" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_MAX2.png" group-title="Movies",SONY MAX2
-https://local.denver69.fun/Sliv/sliv_483/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_762" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Pix_HD.png" group-title="Movies",SONY PIX HD
-https://local.denver69.fun/Sliv/sliv_762/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_162" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1 HD
-https://local.denver69.fun/Sliv/sliv_162/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_514" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_HD.png" group-title="Sports",SONY TEN 1
-https://local.denver69.fun/Sliv/sliv_514/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_891" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten2_HD.png" group-title="Sports",SONY TEN 2 HD
-https://local.denver69.fun/Sliv/sliv_891/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_892" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_2.png" group-title="Sports",SONY TEN 2
-https://local.denver69.fun/Sliv/sliv_892/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_892" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten3_HD.png" group-title="Sports",SONY TEN 3 HD
-https://local.denver69.fun/Sliv/sliv_892/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_524" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Ten_3.png" group-title="Sports",SONY TEN 3
-https://local.denver69.fun/Sliv/sliv_524/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_817" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4 HD
-https://local.denver69.fun/Sliv/sliv_817/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_817" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen4_HD_Logo_CLR.png" group-title="Sports",SONY TEN 4
-https://local.denver69.fun/Sliv/sliv_817/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_155" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5 HD
-https://local.denver69.fun/Sliv/sliv_155/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_525" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" group-title="Sports",SONY TEN 5
-https://local.denver69.fun/Sliv/sliv_525/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
-#EXTINF:-1 tvg-id="sliv_821" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Sports",SONY BBC EARTH HD
-https://local.denver69.fun/Sliv/sliv_821/index.m3u8|User-Agent=Mozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F129.0.0.0%20Safari%2F537.36&domain=https://www.sonyliv.com&Referer=https://www.sonyliv.com/
-
+#EXTINF:-1 tvg-id="sliv_821" tvg-logo="http://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_BBC_Earth_HD.png" group-title="Sports", SONY BBC EARTH HD
+#KODIPROP:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#KODIPROP:http-domain=https://www.sonyliv.com
+#KODIPROP:http-referer=https://www.sonyliv.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+#KODIPROP:http-domain=https://www.sonyliv.com
+https://local.denver69.fun/Sliv/sliv_821/index.m3u8|domain=https://www.sonyliv.com
 
 
 
