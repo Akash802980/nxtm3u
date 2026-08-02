@@ -1,28 +1,29 @@
 import requests
 
-# Files and URL
-local_file = "Aki.m3u"
-source_url = "https://raw.githubusercontent.com/alex4528y/m3u/refs/heads/main/jtv.m3u"
+url = "https://sonyliv.joker-verse.workers.dev/master.m3u8?id=1000009248&uid=1045595420&pass=169ae613"
 
-# Line number where replacement should start
-start_line = 1027
+headers = {
+    "Origin": "https://www.sonyliv.com",
+    "Referer": "https://www.sonyliv.com/",
+    "User-Agent": "TiviMate/5.1.0"
+}
 
-# Read existing local file
-with open(local_file, "r", encoding="utf-8") as f:
-    local_lines = f.readlines()
+try:
+    # Don't follow redirect
+    response = requests.get(
+        url,
+        headers=headers,
+        allow_redirects=False,
+        timeout=10
+    )
 
-# Keep everything before line 1027
-keep_lines = local_lines[:start_line - 1]
+    print("Status Code:", response.status_code)
 
-# Fetch remote content
-response = requests.get(source_url)
-response.raise_for_status()
+    if response.status_code in (301, 302, 303, 307, 308):
+        print("\nRedirect URL:")
+        print(response.headers.get("Location"))
+    else:
+        print(response.text)
 
-remote_content = response.text.splitlines(keepends=True)
-
-# Write updated content back
-with open(local_file, "w", encoding="utf-8") as f:
-    f.writelines(keep_lines)
-    f.writelines(remote_content)
-
-print(f"{local_file} updated successfully from line {start_line}")
+except Exception as e:
+    print("Error:", e)
