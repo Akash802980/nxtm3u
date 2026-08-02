@@ -13,8 +13,12 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9csh3lm5hi/out/v1
 
 
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sethd_23oct_landscape_thumb_rev.jpg" group-title="SlivTV",Sony SET HD
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=st=1785688309~exp=1785688609~acl=*~id=79fb7a36-776c-45dc-80ee-58b2141ee9d8~hmac=8e61bcb3276cf0a0ec514e41205028a06e1b3648f9af7caf083c60814eaead03%7CUser-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Origin=https://www.sonyliv.com&Referer=https://www.sonyliv.com/&X-User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sethd_23oct_landscape_thumb_rev.jpg" group-title="SlivTV",Sony SET HDc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+#EXTVLCOPT:http-origin=https://www.sonyliv.com
+#EXTVLCOPT:http-referrer=https://www.sonyliv.com/
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=st=1785688683~exp=1785688983~acl=*~id=56153c40-a5eb-4fc8-9ede-af8155c89146~hmac=019fb89ec5606967c4ff30dae68188b8c6bb1f7f2766ad7e7ab0b30d9487fe4b
+
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_sabhd_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony SAB HD
 https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=st=1785688309~exp=1785688609~acl=*~id=79fb7a36-776c-45dc-80ee-58b2141ee9d8~hmac=8e61bcb3276cf0a0ec514e41205028a06e1b3648f9af7caf083c60814eaead03%7CUser-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36&Origin=https://www.sonyliv.com&Referer=https://www.sonyliv.com/&X-User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_pal_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Pal
