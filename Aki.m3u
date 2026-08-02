@@ -12,7 +12,51 @@
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9csh3lm5hi/out/v1/115c36157e1243bba41d120bd298dbf5/cenc.mpd
 
 
-
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sethd_23oct_landscape_thumb_rev.jpg" group-title="SlivTV",Sony SET HD
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_sabhd_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony SAB HD
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_pal_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Pal
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_yay_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Yay
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_marathi_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Marathi
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_aath_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Aath
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_maxhd_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony MAX HD
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_max_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony MAX
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_max2_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony MAX 2
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_wah_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony WAH
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_pixhd_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony PIX HD
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/sony_bbchd_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony BBC Earth HD
+https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN1_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 1
+https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN2_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 2
+https://dishmt.slivcdn.com/hls/live/2020590/TEN2SD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN3_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 3
+https://dishmt.slivcdn.com/hls/live/2020592/TEN3SD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN4_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 4
+https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN5_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 5
+https://dishmt.slivcdn.com/hls/live/2020594/SONYSIXSD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN1HD_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 1 HD
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN2HD_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 2 HD
+https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN3HD_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 3 HD
+https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN4HD_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 4 HD
+https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/landscape_thumb/Sony_TEN5HD_23oct_landscape_thumb.jpg" group-title="SlivTV",Sony Sports Ten 5 HD
+https://dishmt.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8?hdnea=exp=1772044768~acl=/*~id=72343923548703839303749428847133~hmac=6b713c264810e3308479c24999a8d80ea89826afd41f66c12bbca849373702ca 
 #EXTINF:-1 tvg-id="30247" tvg-name="Star Sports 2 HD" tvg-language="Hindi" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7432/567432-h" group-title="IPL", Star Sports 2 HD
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://sony-token.vercel.app/api/results.php?keyid=9dacc80134404c34ba184022c28d0000&key=982183fb4d9449c995859b7cff512092
