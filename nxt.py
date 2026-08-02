@@ -6,8 +6,7 @@ import requests
 
 WORKER_URL = "https://sonyliv.joker-verse.workers.dev/master.m3u8?id=1000009248&uid=1045595420&pass=169ae613"
 
-INPUT_FILE = "Aki.m3u"
-OUTPUT_FILE = "Aki_updated.m3u"
+M3U_FILE = "Aki.m3u"
 
 headers = {
     "Origin": "https://www.sonyliv.com",
@@ -28,7 +27,7 @@ response = requests.get(
     timeout=15
 )
 
-if response.status_code not in [301, 302]:
+if response.status_code not in (301, 302):
     print("Worker did not return redirect!")
     print(response.status_code)
     exit()
@@ -42,42 +41,35 @@ if not redirect_url:
 print("Redirect URL:")
 print(redirect_url)
 
-# extract token
+# Extract latest token
 token = redirect_url.split("?", 1)[1]
 
 print("\nLatest Token:")
 print(token)
 
 # ==========================
-# Replace all tokens
+# Read playlist
 # ==========================
 
-with open(INPUT_FILE, "r", encoding="utf-8") as f:
+with open(M3U_FILE, "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 updated = []
-
 count = 0
 
 for line in lines:
-
     if line.startswith("https://dishmt.slivcdn.com"):
-
         base = line.strip().split("?", 1)[0]
-
-        newline = base + "?" + token + "\n"
-
-        updated.append(newline)
-
+        updated.append(base + "?" + token + "\n")
         count += 1
-
     else:
-
         updated.append(line)
 
-with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+# ==========================
+# Overwrite same file
+# ==========================
+
+with open(M3U_FILE, "w", encoding="utf-8") as f:
     f.writelines(updated)
 
-print("\nDone.")
-print("Updated links :", count)
-print("Saved as :", OUTPUT_FILE)
+print(f"\nDone! {count} links updated in {M3U_FILE}")
